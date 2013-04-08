@@ -99,7 +99,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
 		'Orchestra\Facile\FacileServiceProvider',
+		'Orchestra\Widget\WidgetServiceProvider',
 	),
 
 	/*
@@ -166,6 +168,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		'Orchestra\Widget' => 'Orchestra\Widget\Facade',
 	),
 
 );
