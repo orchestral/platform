@@ -102,6 +102,7 @@ return array(
 
 		'Orchestra\Facile\FacileServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
+		'Basset\BassetServiceProvider',
 	),
 
 	/*
@@ -169,6 +170,7 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 		'Orchestra\Widget' => 'Orchestra\Widget\Facade',
+		'Basset'           => 'Basset\Facades\Basset',
 	),
 
 );
