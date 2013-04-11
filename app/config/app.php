@@ -169,6 +169,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		'Orchestra\Acl'    => 'Orchestra\Auth\Facades\Acl',
 		'Orchestra\Widget' => 'Orchestra\Widget\Facade',
 		'Basset'           => 'Basset\Facades\Basset',
 	),
