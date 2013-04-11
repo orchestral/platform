@@ -68,7 +68,6 @@ return array(
 	'providers' => array(
 
 		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
-		'Illuminate\Auth\AuthServiceProvider',
 		'Illuminate\Cache\CacheServiceProvider',
 		'Illuminate\Foundation\Providers\CommandCreatorServiceProvider',
 		'Illuminate\Session\CommandsServiceProvider',
@@ -100,6 +99,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 		'Basset\BassetServiceProvider',
