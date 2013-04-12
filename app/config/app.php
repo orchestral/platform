@@ -173,7 +173,9 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 		'Orchestra\Acl'    => 'Orchestra\Auth\Facades\Acl',
+		'Orchestra\Form'   => 'Orchestra\Html\Facades\Form',
 		'Orchestra\Memory' => 'Orchestra\Memory\Facade',
+		'Orchestra\Table'  => 'Orchestra\Html\Facades\Table',
 		'Orchestra\Widget' => 'Orchestra\Widget\Facade',
 		
 		'Basset'           => 'Basset\Facades\Basset',
