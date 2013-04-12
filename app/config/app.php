@@ -101,8 +101,10 @@ return array(
 
 		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
+		'Orchestra\Foundation\FoundationServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
+
 		'Basset\BassetServiceProvider',
 	),
 
@@ -173,6 +175,7 @@ return array(
 		'Orchestra\Acl'    => 'Orchestra\Auth\Facades\Acl',
 		'Orchestra\Memory' => 'Orchestra\Memory\Facade',
 		'Orchestra\Widget' => 'Orchestra\Widget\Facade',
+		
 		'Basset'           => 'Basset\Facades\Basset',
 	),
 
