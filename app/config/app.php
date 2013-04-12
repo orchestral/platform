@@ -78,7 +78,6 @@ return array(
 		'Illuminate\Encryption\EncryptionServiceProvider',
 		'Illuminate\Filesystem\FilesystemServiceProvider',
 		'Illuminate\Hashing\HashServiceProvider',
-		'Illuminate\Html\HtmlServiceProvider',
 		'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
 		'Illuminate\Log\LogServiceProvider',
 		'Illuminate\Mail\MailServiceProvider',
@@ -102,6 +101,7 @@ return array(
 		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
+		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
