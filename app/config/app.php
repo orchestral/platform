@@ -103,6 +103,7 @@ return array(
 		'Orchestra\Foundation\FoundationServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
+		'Orchestra\Support\SupportServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
 		'Basset\BassetServiceProvider',
@@ -172,13 +173,14 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
-		'Orchestra\Acl'    => 'Orchestra\Auth\Facades\Acl',
-		'Orchestra\Form'   => 'Orchestra\Html\Facades\Form',
-		'Orchestra\Memory' => 'Orchestra\Memory\Facade',
-		'Orchestra\Table'  => 'Orchestra\Html\Facades\Table',
-		'Orchestra\Widget' => 'Orchestra\Widget\Facade',
+		'Orchestra\Acl'      => 'Orchestra\Auth\Facades\Acl',
+		'Orchestra\Form'     => 'Orchestra\Html\Facades\Form',
+		'Orchestra\Memory'   => 'Orchestra\Memory\Facade',
+		'Orchestra\Messages' => 'Orchestra\Support\Facades\Messages',
+		'Orchestra\Table'    => 'Orchestra\Html\Facades\Table',
+		'Orchestra\Widget'   => 'Orchestra\Widget\Facade',
 		
-		'Basset'           => 'Basset\Facades\Basset',
+		'Basset'             => 'Basset\Facades\Basset',
 	),
 
 );
