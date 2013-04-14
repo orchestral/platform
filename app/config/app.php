@@ -162,7 +162,7 @@ return array(
 		'DB'              => 'Illuminate\Support\Facades\DB',
 		'Eloquent'        => 'Illuminate\Database\Eloquent\Model',
 		'Event'           => 'Illuminate\Support\Facades\Event',
-		'Facile'          => 'Orchestra\Facile\Facade',
+		'Facile'          => 'Orchestra\Support\Facades\Facile',
 		'File'            => 'Illuminate\Support\Facades\File',
 		'Form'            => 'Illuminate\Support\Facades\Form',
 		'Hash'            => 'Illuminate\Support\Facades\Hash',
@@ -187,14 +187,16 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
-		'Orchestra\Acl'      => 'Orchestra\Auth\Facades\Acl',
-		'Orchestra\Form'     => 'Orchestra\Html\Facades\Form',
-		'Orchestra\Memory'   => 'Orchestra\Memory\Facade',
-		'Orchestra\Messages' => 'Orchestra\Support\Facades\Messages',
-		'Orchestra\Table'    => 'Orchestra\Html\Facades\Table',
-		'Orchestra\Widget'   => 'Orchestra\Widget\Facade',
+		'Orchestra\Acl'       => 'Orchestra\Support\Facades\Acl',
+		'Orchestra\Config'    => 'Orchestra\Support\Facades\Config',
+		'Orchestra\Extension' => 'Orchestra\Support\Facades\Extension',
+		'Orchestra\Form'      => 'Orchestra\Support\Facades\Form',
+		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
+		'Orchestra\Messages'  => 'Orchestra\Support\Facades\Messages',
+		'Orchestra\Table'     => 'Orchestra\Support\Facades\Table',
+		'Orchestra\Widget'    => 'Orchestra\Support\Facades\Widget',
 		
-		'Basset'             => 'Basset\Facades\Basset',
+		'Basset'              => 'Basset\Facades\Basset',
 	),
 
 );
