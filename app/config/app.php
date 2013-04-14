@@ -99,6 +99,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Orchestra\Auth\AuthServiceProvider',
+		'Orchestra\Extension\ExtensionServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',

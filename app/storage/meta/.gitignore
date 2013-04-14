@@ -1,2 +1,4 @@
 *
+!orchestra/
+!orchestra/.gitignore
 !.gitignore
