@@ -189,6 +189,7 @@ return array(
 
 		'Orchestra\Acl'       => 'Orchestra\Support\Facades\Acl',
 		'Orchestra\Config'    => 'Orchestra\Support\Facades\Config',
+		'Orchestra\Decorator' => 'Orchestra\Support\Facades\Decorator',
 		'Orchestra\Extension' => 'Orchestra\Support\Facades\Extension',
 		'Orchestra\Form'      => 'Orchestra\Support\Facades\Form',
 		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
