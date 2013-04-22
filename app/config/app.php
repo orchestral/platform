@@ -117,6 +117,7 @@ return array(
 		'Orchestra\Foundation\FoundationServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
+		'Orchestra\Foundation\PublisherServiceProvider',
 		'Orchestra\Support\SupportServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
