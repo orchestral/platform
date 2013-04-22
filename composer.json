@@ -1,7 +1,7 @@
 {
 	"require": {
 		"laravel/framework": "4.0.*",
-		"orchestra/foundation": "dev-master"
+		"orchestra/foundation": "2.0.*"
 	},
 	"autoload": {
 		"classmap": [
