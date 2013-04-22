@@ -186,7 +186,10 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		
+		'Basset'          => 'Basset\Facade',
 
+		'Orchestra\App'       => 'Orchestra\Support\Facades\App',
 		'Orchestra\Acl'       => 'Orchestra\Support\Facades\Acl',
 		'Orchestra\Config'    => 'Orchestra\Support\Facades\Config',
 		'Orchestra\Decorator' => 'Orchestra\Support\Facades\Decorator',
@@ -194,10 +197,9 @@ return array(
 		'Orchestra\Form'      => 'Orchestra\Support\Facades\Form',
 		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
 		'Orchestra\Messages'  => 'Orchestra\Support\Facades\Messages',
+		'Orchestra\Site'      => 'Orchestra\Support\Facades\Site',
 		'Orchestra\Table'     => 'Orchestra\Support\Facades\Table',
 		'Orchestra\Widget'    => 'Orchestra\Support\Facades\Widget',
-		
-		'Basset'              => 'Basset\Facades\Basset',
 	),
 
 );
