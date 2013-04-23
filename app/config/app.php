@@ -117,7 +117,7 @@ return array(
 		'Orchestra\Foundation\FoundationServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
-		'Orchestra\Foundation\PublisherServiceProvider',
+		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Support\SupportServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
@@ -198,6 +198,7 @@ return array(
 		'Orchestra\Form'      => 'Orchestra\Support\Facades\Form',
 		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
 		'Orchestra\Messages'  => 'Orchestra\Support\Facades\Messages',
+		'Orchestra\Resources' => 'Orchestra\Support\Facades\Resources',
 		'Orchestra\Site'      => 'Orchestra\Support\Facades\Site',
 		'Orchestra\Table'     => 'Orchestra\Support\Facades\Table',
 		'Orchestra\Widget'    => 'Orchestra\Support\Facades\Widget',
