@@ -111,6 +111,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		'Orchestra\Auth\AclServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\Extension\ExtensionServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
