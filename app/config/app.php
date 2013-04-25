@@ -115,7 +115,6 @@ return array(
 		'Orchestra\Support\DecoratorServiceProvider',
 		'Orchestra\Extension\ExtensionServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
-		'Orchestra\Foundation\FoundationServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
 		'Orchestra\Support\MessagesServiceProvider',
@@ -125,6 +124,8 @@ return array(
 		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
+		
+		'Orchestra\Foundation\FoundationServiceProvider',
 
 		'Basset\BassetServiceProvider',
 	),
