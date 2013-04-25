@@ -123,6 +123,7 @@ return array(
 		'Orchestra\Html\PackageServiceProvider',
 		'Orchestra\Widget\PackageServiceProvider',
 		'Orchestra\Extension\PublisherServiceProvider',
+		'Orchestra\Resources\ResourcesServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
 		'Basset\BassetServiceProvider',
