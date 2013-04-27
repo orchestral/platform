@@ -123,6 +123,7 @@ return array(
 		'Orchestra\Widget\PackageServiceProvider',
 		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
+		'Orchestra\Foundation\SiteServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 		
 		'Orchestra\Foundation\FoundationServiceProvider',
@@ -202,6 +203,7 @@ return array(
 		'Orchestra\Decorator' => 'Orchestra\Support\Facades\Decorator',
 		'Orchestra\Extension' => 'Orchestra\Support\Facades\Extension',
 		'Orchestra\Form'      => 'Orchestra\Support\Facades\Form',
+		'Orchestra\Mail'      => 'Orchestra\Support\Facades\Mail',
 		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
 		'Orchestra\Messages'  => 'Orchestra\Support\Facades\Messages',
 		'Orchestra\Resources' => 'Orchestra\Support\Facades\Resources',
