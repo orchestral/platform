@@ -206,6 +206,7 @@ return array(
 		'Orchestra\Mail'      => 'Orchestra\Support\Facades\Mail',
 		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
 		'Orchestra\Messages'  => 'Orchestra\Support\Facades\Messages',
+		'Orchestra\Publisher' => 'Orchestra\Support\Facades\Publisher',
 		'Orchestra\Resources' => 'Orchestra\Support\Facades\Resources',
 		'Orchestra\Site'      => 'Orchestra\Support\Facades\Site',
 		'Orchestra\Table'     => 'Orchestra\Support\Facades\Table',
