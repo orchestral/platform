@@ -1,5 +1,4 @@
 * text=auto
 
 # Ignore following folder/file.
-/CONTRIBUTING.md    export-ignore
 /readme.md          export-ignore
