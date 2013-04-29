@@ -14,7 +14,7 @@
 		]
 	},
 	"scripts": {
-		"post-update-cmd": "php artisan optimize"
+		"post-update-cmd": "php artisan optimize && php artisan asset:publish orchestra/foundation"
 	},
 	"config": {
 		"preferred-install": "dist"
