@@ -1,6 +1,5 @@
 {
 	"require": {
-		"laravel/framework": "4.0.*",
 		"orchestra/foundation": "2.0.*"
 	},
 	"autoload": {
