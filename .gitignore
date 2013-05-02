@@ -1,5 +1,6 @@
 # Laravel 
 /bootstrap/compiled.php
+/public/packages/orchestra/foundation/*
 
 # Composer 
 composer.lock

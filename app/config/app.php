@@ -124,6 +124,7 @@ return array(
 		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
 		'Orchestra\Foundation\SiteServiceProvider',
+		'Orchestra\View\ViewServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 		
 		'Orchestra\Foundation\FoundationServiceProvider',
