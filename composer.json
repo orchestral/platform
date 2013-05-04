@@ -13,8 +13,16 @@
 		]
 	},
 	"scripts": {
-		"post-install-cmd": "php artisan asset:publish orchestra/foundation",
-		"post-update-cmd": "php artisan optimize && php artisan asset:publish orchestra/foundation"
+		"post-install-cmd": [
+			"php artisan asset:publish orchestra/foundation"
+		],
+		"pre-update-cmd": [
+			"php artisan clear-compiled"
+		],
+		"post-update-cmd": [
+			"php artisan optimize",
+			"php artisan asset:publish orchestra/foundation"
+		]
 	},
 	"config": {
 		"preferred-install": "dist"
