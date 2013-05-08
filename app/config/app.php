@@ -113,7 +113,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Orchestra\Auth\AuthServiceProvider',
-		'Orchestra\Support\DecoratorServiceProvider',
+		'Orchestra\View\DecoratorServiceProvider',
 		'Orchestra\Extension\ExtensionServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',
