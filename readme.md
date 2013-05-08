@@ -4,6 +4,7 @@
 
 * [Official Documentation](http://docs.orchestraplatform.com) (Under Active Development)
 * [Bug Tracker](https://github.com/orchestral/platform/issues)
+* [Change Logs](https://github.com/orchestral/platform/wiki/Change-Logs)
 
 ### Contributing To Orchestra Platform
 
@@ -17,6 +18,7 @@ Contribution can be made to Orchestra Platform respective component repositories
 * [Orchestra\Memory](https://github.com/orchestral/memory)
 * [Orchestra\Resources](https://github.com/orchestral/resources)
 * [Orchestra\Support](https://github.com/orchestral/support)
+* [Orchestra\View](https://github.com/orchestral/view)
 * [Orchestra\Widget](https://github.com/orchestral/widget)
 
 ### License
