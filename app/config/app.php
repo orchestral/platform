@@ -209,6 +209,7 @@ return array(
 		'Orchestra\Resources' => 'Orchestra\Support\Facades\Resources',
 		'Orchestra\Site'      => 'Orchestra\Support\Facades\Site',
 		'Orchestra\Table'     => 'Orchestra\Support\Facades\Table',
+		'Orchestra\Theme'     => 'Orchestra\Support\Facades\Theme',
 		'Orchestra\Widget'    => 'Orchestra\Support\Facades\Widget',
 	),
 
