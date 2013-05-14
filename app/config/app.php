@@ -112,7 +112,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
-		'Orchestra\Html\AssetServiceProvider',
+		'Orchestra\Asset\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\View\DecoratorServiceProvider',
 		'Orchestra\Extension\ExtensionServiceProvider',
@@ -195,8 +195,9 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
-		'Orchestra\App'       => 'Orchestra\Support\Facades\App',
 		'Orchestra\Acl'       => 'Orchestra\Support\Facades\Acl',
+		'Orchestra\App'       => 'Orchestra\Support\Facades\App',
+		'Orchestra\Asset'     => 'Orchestra\Support\Facades\Asset',
 		'Orchestra\Config'    => 'Orchestra\Support\Facades\Config',
 		'Orchestra\Decorator' => 'Orchestra\Support\Facades\Decorator',
 		'Orchestra\Extension' => 'Orchestra\Support\Facades\Extension',
