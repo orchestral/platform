@@ -112,6 +112,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		'Orchestra\Html\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\View\DecoratorServiceProvider',
 		'Orchestra\Extension\ExtensionServiceProvider',
@@ -126,8 +127,6 @@ return array(
 		'Orchestra\Widget\WidgetServiceProvider',
 		
 		'Orchestra\Foundation\FoundationServiceProvider',
-
-		'Basset\BassetServiceProvider',
 	),
 
 	/*
@@ -158,6 +157,7 @@ return array(
 
 		'App'             => 'Illuminate\Support\Facades\App',
 		'Artisan'         => 'Illuminate\Support\Facades\Artisan',
+		'Asset'           => 'Orchestra\Support\Facades\Asset',
 		'Auth'            => 'Illuminate\Support\Facades\Auth',
 		'Blade'           => 'Illuminate\Support\Facades\Blade',
 		'Cache'           => 'Illuminate\Support\Facades\Cache',
@@ -194,8 +194,6 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-		
-		'Basset'          => 'Basset\Facade',
 
 		'Orchestra\App'       => 'Orchestra\Support\Facades\App',
 		'Orchestra\Acl'       => 'Orchestra\Support\Facades\Acl',
