@@ -194,23 +194,6 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
-		'Orchestra\Acl'       => 'Orchestra\Support\Facades\Acl',
-		'Orchestra\App'       => 'Orchestra\Support\Facades\App',
-		'Orchestra\Asset'     => 'Orchestra\Support\Facades\Asset',
-		'Orchestra\Config'    => 'Orchestra\Support\Facades\Config',
-		'Orchestra\Decorator' => 'Orchestra\Support\Facades\Decorator',
-		'Orchestra\Extension' => 'Orchestra\Support\Facades\Extension',
-		'Orchestra\Form'      => 'Orchestra\Support\Facades\Form',
-		'Orchestra\Mail'      => 'Orchestra\Support\Facades\Mail',
-		'Orchestra\Memory'    => 'Orchestra\Support\Facades\Memory',
-		'Orchestra\Messages'  => 'Orchestra\Support\Facades\Messages',
-		'Orchestra\Publisher' => 'Orchestra\Support\Facades\Publisher',
-		'Orchestra\Resources' => 'Orchestra\Support\Facades\Resources',
-		'Orchestra\Site'      => 'Orchestra\Support\Facades\Site',
-		'Orchestra\Table'     => 'Orchestra\Support\Facades\Table',
-		'Orchestra\Theme'     => 'Orchestra\Support\Facades\Theme',
-		'Orchestra\Widget'    => 'Orchestra\Support\Facades\Widget',
 	),
 
 );
