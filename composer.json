@@ -1,7 +1,7 @@
 {
-    "name": "orchestra/platform",
-    "description": "The Orchestra Platform.",
-    "keywords": ["framework", "laravel", "orchestra-platform"],
+	"name": "orchestra/platform",
+	"description": "The Orchestra Platform.",
+	"keywords": ["framework", "laravel", "orchestra-platform"],
 	"require": {
 		"orchestra/foundation": "2.0.*"
 	},
