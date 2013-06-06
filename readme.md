@@ -1,12 +1,12 @@
-## Orchestra Platform 2
+# Orchestra Platform 2
 
-### Resources
+## Resources
 
 * [Official Documentation](http://orchestraplatform.com/docs/2.0/) (Under Active Development)
 * [Bug Tracker](https://github.com/orchestral/platform/issues)
 * [Change Logs](https://github.com/orchestral/platform/wiki/Change-Logs)
 
-### Contributing To Orchestra Platform
+## Contributing To Orchestra Platform
 
 Contribution can be made to Orchestra Platform respective component repositories:
 
@@ -23,7 +23,7 @@ Contribution can be made to Orchestra Platform respective component repositories
 * [Orchestra\Widget](https://github.com/orchestral/widget)
 * [Documentation](https://github.com/orchestral/docs)
 
-### License
+## License
 
 * The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 * The Orchestra Platform is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
