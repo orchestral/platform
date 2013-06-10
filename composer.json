@@ -26,6 +26,9 @@
 		"post-update-cmd": [
 			"php artisan optimize",
 			"php artisan asset:publish orchestra/foundation"
+		],
+		"post-create-project-cmd": [
+			"php artisan key:generate"
 		]
 	},
 	"config": {
