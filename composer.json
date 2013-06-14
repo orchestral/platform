@@ -3,7 +3,7 @@
 	"description": "The Orchestra Platform.",
 	"keywords": ["framework", "laravel", "orchestra-platform"],
 	"require": {
-		"orchestra/foundation": "2.0.*"
+		"orchestra/foundation": "2.1.*"
 	},
 	"autoload": {
 		"classmap": [
