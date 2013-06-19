@@ -1,7 +1,7 @@
 {
 	"name": "orchestra/platform",
 	"description": "The Orchestra Platform.",
-	"keywords": ["framework", "laravel", "orchestra-platform"],
+	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"require": {
 		"orchestra/foundation": "2.1.*"
 	},
@@ -33,6 +33,5 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	},
-	"minimum-stability": "dev"
+	}
 }
