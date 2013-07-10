@@ -1,5 +1,11 @@
 # Orchestra Platform 2
 
+## Quick Installation
+
+```bash
+composer create-project orchestra/platform your-project-name --prefer-dist
+```
+
 ## Resources
 
 * [Official Documentation](http://orchestraplatform.com/docs/2.0/)
