@@ -1,5 +1,8 @@
 # Orchestra Platform 2
 
+[![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable.png)](https://packagist.org/packages/orchestra/platform) 
+[![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads.png)](https://packagist.org/packages/orchestra/platform)
+
 ## Quick Installation
 
 ```bash
