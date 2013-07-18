@@ -2,9 +2,10 @@
 /bootstrap/compiled.php
 /public/packages/orchestra/foundation/*
 
-# Composer 
-composer.lock
+# Composer
 vendor/*
+composer.phar
+composer.lock
 
 # Code Coverage
 build/coverage/*
