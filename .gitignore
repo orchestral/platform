@@ -1,6 +1,6 @@
 # Laravel 
 /bootstrap/compiled.php
-/public/packages/orchestra/foundation/*
+/public/packages/*
 
 # Composer
 vendor/*
