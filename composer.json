@@ -1,6 +1,7 @@
 {
 	"name": "orchestra/platform",
 	"description": "Orchestra Platform",
+	"homepage": "http://orchestraplatform.com/docs/2.0/",
 	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"require": {
 		"orchestra/foundation": "2.0.*",
