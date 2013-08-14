@@ -5,7 +5,8 @@
 	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"require": {
 		"orchestra/foundation": "2.0.*",
-		"orchestra/control": "2.0.*"
+		"orchestra/control": "2.0.*",
+		"orchestra/story": "2.0.*"
 	},
 	"autoload": {
 		"classmap": [
