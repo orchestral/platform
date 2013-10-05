@@ -9,12 +9,6 @@
 		"orchestra/control": "2.1.*",
 		"orchestra/story": "2.1.*"
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/laravel/boris"
-		}
-	],
 	"autoload": {
 		"classmap": [
 			"app/commands",
