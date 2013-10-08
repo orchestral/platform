@@ -38,5 +38,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "RC"
+	"minimum-stability": "stable"
 }
