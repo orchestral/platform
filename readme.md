@@ -26,6 +26,7 @@ Contribution can be made to Orchestra Platform respective component repositories
 * [Orchestra\Foundation](https://github.com/orchestral/foundation)
 * [Orchestra\Html](https://github.com/orchestral/html)
 * [Orchestra\Memory](https://github.com/orchestral/memory)
+* [Orchestra\Model](https://github.com/orchestral/model)
 * [Orchestra\Resources](https://github.com/orchestral/resources)
 * [Orchestra\Support](https://github.com/orchestral/support)
 * [Orchestra\View](https://github.com/orchestral/view)
