@@ -125,6 +125,10 @@ return array(
 		'Orchestra\Translation\TranslationServiceProvider',
 		'Orchestra\View\ViewServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
+
+		'Orchestra\Auth\CommandServiceProvider',
+		'Orchestra\Extension\CommandServiceProvider',
+		'Orchestra\Memory\CommandServiceProvider',
 		
 		'Orchestra\Foundation\FoundationServiceProvider',
 	),
