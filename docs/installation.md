@@ -25,7 +25,7 @@ php composer.phar install
 You can install Orchestra Platform using Composer:
 
 ```bash
-php composer.phar create-project orchestra/platform website --prefer-dist
+php composer.phar create-project orchestra/platform website 2.0.x-dev --prefer-dist
 ```
 
 ### Installation using GIT
@@ -33,7 +33,7 @@ php composer.phar create-project orchestra/platform website --prefer-dist
 You can also choose to install Orchestra Platform using GIT:
 
 ```bash
-git clone -o orchestra git@github.com:orchestral/platform.git website
+git clone -o orchestra -b 2.0 git@github.com:orchestral/platform.git website
 cd website
 ```
 
@@ -41,7 +41,7 @@ This allow you to grab the latest update of Orchestra Platform app skeleton via 
 
 ```bash
 git fetch orchestra
-git merge --squash -m "Update Orchestra Platform" orchestra/master
+git merge --squash -m "Update Orchestra Platform" orchestra/2.0
 ```
 
 </article>
