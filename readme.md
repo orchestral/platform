@@ -34,7 +34,7 @@ Contribution can be made to Orchestra Platform respective component repositories
 
 Contribution for website content and documentation can also be made on:
 
-* [Website](https://github.com/orchestral/orchestraplatform.com)
+* [Website](http:///orchestraplatform.com)
 * [Documentation](https://github.com/orchestral/docs)
 
 ## License
