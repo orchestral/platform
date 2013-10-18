@@ -11,6 +11,7 @@ composer create-project orchestra/platform your-project-name --prefer-dist
 
 ## Resources
 
+* [Website](http:///orchestraplatform.com)
 * [Official Documentation](http://orchestraplatform.com/docs/2.0/)
 * [Bug Tracker](https://github.com/orchestral/platform/issues)
 * [Change Logs](http://orchestraplatform.com/docs/2.0/changes/)
