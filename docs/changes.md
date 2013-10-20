@@ -10,6 +10,8 @@ Change Log
 * Use `Orchestra\Translation\TranslationServiceProvider` instead of `Illuminate\Translation\TranslationServiceProvider`.
 * Add `Illuminate\Exception\LiveServiceProvider` and `Illuminate\Remote\RemoteServiceProvider`.
 * Update changes to Laravel Routing.
+* Move to single file log setup for simplicity.
+* Add root option to remote config.
 
 ## Version 2.0
 
