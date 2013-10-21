@@ -3,6 +3,11 @@ Change Log
 
 ## Version 2.0
 
+### v2.0.6
+
+* Added `Orchestra\Auth\CommandServiceProvider`, `Orchestra\Extension\CommandServiceProvider` and `Orchestra\Memory\CommandServiceProvider`.
+* Move pre-update-cmd to post-update-cmd, solves inconveniences.
+
 ### v2.0.5
 
 * Declare `TestCase` as an abstract class.
