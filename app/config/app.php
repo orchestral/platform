@@ -113,6 +113,7 @@ return array(
 
 		'Orchestra\Asset\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
+		'Orchestra\Debug\DebugServiceProvider',
 		'Orchestra\View\DecoratorServiceProvider',
 		'Orchestra\Extension\ExtensionServiceProvider',
 		'Orchestra\Facile\FacileServiceProvider',
@@ -128,6 +129,7 @@ return array(
 		'Orchestra\Widget\WidgetServiceProvider',
 
 		'Orchestra\Auth\CommandServiceProvider',
+		'Orchestra\Debug\CommandServiceProvider',
 		'Orchestra\Extension\CommandServiceProvider',
 		'Orchestra\Memory\CommandServiceProvider',
 
