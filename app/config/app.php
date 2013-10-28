@@ -120,6 +120,7 @@ return array(
 		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
 		'Orchestra\Support\MessagesServiceProvider',
+		'Orchestra\Optimize\OptimizeServiceProvider',
 		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Foundation\Reminders\ReminderServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
