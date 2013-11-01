@@ -11,7 +11,7 @@ Change Log
 * Update changes to Laravel Routing.
 * Move to single file log setup for simplicity.
 * Revert use of `Orchestra\Translation\TranslationServiceProvider` back to `Illuminate\Translation\TranslationServiceProvider`.
-* Consolidate console support tools into one service provider. 
+* Consolidate all console support tools to `Illuminate\Foundation\Providers\ConsoleSupportServiceProvider` and `Orchestra\Foundation\ConsoleSupportServiceProvider`.
 
 ## Version 2.0
 

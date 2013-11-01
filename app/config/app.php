@@ -122,11 +122,7 @@ return array(
 		'Orchestra\View\ViewServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
-		'Orchestra\Auth\CommandServiceProvider',
-		'Orchestra\Debug\CommandServiceProvider',
-		'Orchestra\Extension\CommandServiceProvider',
-		'Orchestra\Memory\CommandServiceProvider',
-
+		'Orchestra\Foundation\ConsoleSupportServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
 	),
 
