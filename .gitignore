@@ -1,4 +1,4 @@
-# Laravel 
+# Laravel
 /bootstrap/compiled.php
 /public/packages/*
 
@@ -6,9 +6,6 @@
 vendor/*
 composer.phar
 composer.lock
-
-# Code Coverage
-build/coverage/*
 
 # always-ignore extensionsalways-ignore extensions
 *.diff
