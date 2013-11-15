@@ -13,4 +13,3 @@ Upgrading Guide
   - in aliases change `'Controller' => 'Illuminate\Routing\Controllers\Controller'`, to use `Illuminate\Routing\Controller`.
 * Edit `app/controllers/BaseController.php` change `use Illuminate\Routing\Controllers\Controller;` to `use Illuminate\Routing\Controller;`.
 * If you are overriding `missingMethod()` in your controllers, add `$method` as the first parameter.
-* If you are registering model observers in a "start" file, move them to the `App::booted` handler.
