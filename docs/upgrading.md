@@ -11,8 +11,8 @@ Upgrading Guide
 * Remove call to `$app->redirectIfTrailingSlash()` in `bootstrap/start.php` file.
 * Edit `app/config/app.php`:
   - in `aliases` change `'Controller' => 'Illuminate\Routing\Controllers\Controller'`, to use `Illuminate\Routing\Controller`.
-  - in `providers` add `'Illuminate\Remote\RemoteServiceProvider',`.
   - in `aliases` add `'SSH' => 'Illuminate\Support\Facades\SSH'`,
+  - in `providers` add `'Illuminate\Remote\RemoteServiceProvider',`.
 * Edit `app/controllers/BaseController.php` change `use Illuminate\Routing\Controllers\Controller;` to `use Illuminate\Routing\Controller;`.
 * If you are overriding `missingMethod()` in your controllers, add `$method` as the first parameter.
 * Update `reminders.php` language file.
