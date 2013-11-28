@@ -3,7 +3,7 @@ Upgrading Guide
 
 ## Upgrading from v2.0 to v2.1
 
-* Change require orchestra/foundation version to `"2.1.*"` in `composer.json`.
+* Change require `"orchestra/foundation"` version to `"2.1.*"` in `composer.json`.
   - You may need to change `"minimum-stability"` option to `"dev"` until a stable release is tagged.
 * Run `composer update`.
 * Replace `public/index.php`, `artisan`.
@@ -16,3 +16,5 @@ Upgrading Guide
 * Edit `app/controllers/BaseController.php` change `use Illuminate\Routing\Controllers\Controller;` to `use Illuminate\Routing\Controller;`.
 * If you are overriding `missingMethod()` in your controllers, add `$method` as the first parameter.
 * Update `reminders.php` language file.
+* If you are using http hosts to set the `$env` variable in `bootstrap/start.php`, these should be changed to machine names (as returned by PHP's `gethostname()` function).
+
