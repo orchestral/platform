@@ -16,9 +16,9 @@ composer create-project orchestra/platform your-project-name --prefer-dist
 * [Bug Tracker](https://github.com/orchestral/platform/issues)
 * [Change Logs](http://orchestraplatform.com/docs/2.0/changes/)
 
-## Contributing To Orchestra Platform
+## Contributing to the Orchestra Platform
 
-Contribution can be made to Orchestra Platform respective component repositories:
+Contributions can be made to the Orchestra Platform's respective component repositories:
 
 * [Orchestra\Asset](https://github.com/orchestral/asset)
 * [Orchestra\Auth](https://github.com/orchestral/auth)
@@ -34,7 +34,7 @@ Contribution can be made to Orchestra Platform respective component repositories
 * [Orchestra\View](https://github.com/orchestral/view)
 * [Orchestra\Widget](https://github.com/orchestral/widget)
 
-Contribution for website and documentation content can also be made on:
+Contributions for the website and documentation can be made here:
 
 * [Website](https://github.com/orchestral/orchestraplatform.com)
 * [Documentation](https://github.com/orchestral/docs)
