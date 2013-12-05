@@ -6,7 +6,12 @@ Upgrading Guide
 * Change require `"orchestra/foundation"` version to `"2.1.*"` in `composer.json`.
   - You may need to change `"minimum-stability"` option to `"dev"` until a stable release is tagged.
 * Remove call to `$app->redirectIfTrailingSlash()` in `bootstrap/start.php` file.
-* Edit `app/config/app.php` add `'Illuminate\Translation\TranslationServiceProvider',` and remove `'Orchestra\Translation\TranslationServiceProvider',`
+* Edit `app/config/app.php`:
+  - in `aliases` change `'Controller' => 'Illuminate\Routing\Controllers\Controller'`, to use `Illuminate\Routing\Controller`
+  - in `aliases` add `'SSH' => 'Illuminate\Support\Facades\SSH'`,
+  - in `providers` add `'Illuminate\Remote\RemoteServiceProvider',`
+  - in `providers` add `'Illuminate\Translation\TranslationServiceProvider',`
+  - in `providers`remove 'Orchestra\Translation\TranslationServiceProvider',`
 * Run `composer update`.
 * Replace `public/index.php`, `artisan`.
 * Add new `app/config/remote.php` configuration file.
@@ -14,10 +19,6 @@ Upgrading Guide
 * Edit `app/config/queue.php` and add new `failed` queue job option.
 * Edit `app/config/session.php` and add new `expire_on_close` and `secure` option.
 * Edit `app/config/view.php` and update `pagination` option to use bootstrap 3 as default pagination view.
-* Edit `app/config/app.php`:
-  - in `aliases` change `'Controller' => 'Illuminate\Routing\Controllers\Controller'`, to use `Illuminate\Routing\Controller`.
-  - in `aliases` add `'SSH' => 'Illuminate\Support\Facades\SSH'`,
-  - in `providers` add `'Illuminate\Remote\RemoteServiceProvider',`.
 * Edit `app/controllers/BaseController.php` change `use Illuminate\Routing\Controllers\Controller;` to `use Illuminate\Routing\Controller;`.
 * If you are overriding `missingMethod()` in your controllers, add `$method` as the first parameter.
 * Update `lang/en/reminders.php` language file.
