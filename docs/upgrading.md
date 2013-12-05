@@ -6,6 +6,7 @@ Upgrading Guide
 * Change require `"orchestra/foundation"` version to `"2.1.*"` in `composer.json`.
   - You may need to change `"minimum-stability"` option to `"dev"` until a stable release is tagged.
 * Remove call to `$app->redirectIfTrailingSlash()` in `bootstrap/start.php` file.
+* Edit `app/config/app.php` add `'Illuminate\Translation\TranslationServiceProvider',` and remove `'Orchestra\Translation\TranslationServiceProvider',`
 * Run `composer update`.
 * Replace `public/index.php`, `artisan`.
 * Add new `app/config/remote.php` configuration file.
