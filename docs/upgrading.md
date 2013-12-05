@@ -5,9 +5,9 @@ Upgrading Guide
 
 * Change require `"orchestra/foundation"` version to `"2.1.*"` in `composer.json`.
   - You may need to change `"minimum-stability"` option to `"dev"` until a stable release is tagged.
+* Remove call to `$app->redirectIfTrailingSlash()` in `bootstrap/start.php` file.
 * Run `composer update`.
 * Replace `public/index.php`, `artisan`.
-* Remove call to `$app->redirectIfTrailingSlash()` in `bootstrap/start.php` file.
 * Add new `app/config/remote.php` configuration file.
 * Edit `app/config/database.php` and update `redis.cluster` option to `false` to turn Redis clustering off by default.
 * Edit `app/config/queue.php` and add new `failed` queue job option.
