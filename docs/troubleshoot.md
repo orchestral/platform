@@ -1,5 +1,6 @@
-Troubleshooting
-==============
+---
+title: Troubleshooting
+---
 
 ## Using safe mode
 

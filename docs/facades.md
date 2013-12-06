@@ -1,7 +1,8 @@
-Facades
-==============
+---
+title: Facades
+---
 
-Alias                 | Facade                                | Root Accessor 
+Alias                 | Facade                                | Root Accessor
 :---------------------|:--------------------------------------|:---------------------------------------
 Orchestra\Acl         | Orchestra\Support\Facades\Acl         | Orchestra\Auth\Acl\Environment
 Orchestra\App         | Orchestra\Support\Facades\App         | Orchestra\Foundation\Application

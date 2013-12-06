@@ -1,5 +1,6 @@
-Installation
-==============
+---
+title: Installation
+---
 
 * [Install Composer](#install-composer)
 * [Install Orchestra Platform](#install-orchestra-platform)
@@ -49,7 +50,7 @@ git merge --squash -m "Update Orchestra Platform" orchestra/2.0
 <article id="setup-orchestra">
 ## Setup Orchestra Platform
 
-Once Laravel 4 and Orchestra Platform is properly downloaded and installed, we need to setup the database and create the application basic schema (including administrator user). 
+Once Laravel 4 and Orchestra Platform is properly downloaded and installed, we need to setup the database and create the application basic schema (including administrator user).
 
 1. Open `app/config/database.php` and configure your database connection.
 2. Browse to the installation page, for example `http://yoursite.com/admin` and follow the installation process.
