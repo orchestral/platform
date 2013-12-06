@@ -1,5 +1,6 @@
-Change Log
-==============
+---
+title: Change Log
+---
 
 ## Version 2.1
 
