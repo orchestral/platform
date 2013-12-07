@@ -1,5 +1,6 @@
-Contributing To Orchestra Platform
-==============
+---
+title: Contributing To Orchestra Platform
+---
 
 * [Introduction](#introduction)
 * [Pull Requests](#pull-requests)
