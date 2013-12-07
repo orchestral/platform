@@ -6,7 +6,7 @@ title: Change Log
 
 ### v2.1.0@dev {#v2-1-0}
 
-* Add [Control Extension](https://github.com/orchestra/control) for Orchestra Platform 2.
+* Add [Control Extension](https://github.com/orchestral/control) for Orchestra Platform 2.
 * Add [Story CMS Extension](https://github.com/orchestral/story) for Orchestra Platform 2.
 * Add `Illuminate\Remote\RemoteServiceProvider`.
 * Update changes to Laravel Routing.
@@ -44,7 +44,7 @@ title: Change Log
 
 ### v2.0.1 {#v2-0-1}
 
-* Add [Control Extension](https://github.com/orchestra/control) for Orchestra Platform 2.
+* Add [Control Extension](https://github.com/orchestral/control) for Orchestra Platform 2.
 
 ### v2.0.0 {#v2-0-0}
 
