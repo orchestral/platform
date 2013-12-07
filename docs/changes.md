@@ -32,7 +32,7 @@ title: Change Log
 
 ### v2.0.1 {#v2-0-1}
 
-* Add [Control Extension](https://github.com/orchestra/control) for Orchestra Platform 2.
+* Add [Control Extension](https://github.com/orchestral/control) for Orchestra Platform 2.
 
 ### v2.0.0 {#v2-0-0}
 
