@@ -9,45 +9,38 @@ Orchestra Platform includes a set of helpers function to help solves some of the
 * [resources()](#resources)
 * [memorize()](#memorize)
 
-## orchestra()
+## orchestra() ## {#orchestra}
 
 Return `orchestra.app` instance.
 
-```php
-echo orchestra()->memory()->get('site.name');
-```
+	echo orchestra()->memory()->get('site.name');
 
-## handles()
+## handles() ## {#handles}
 
 Return handles configuration for a package to generate a full URL.
 
-```php
-echo handles('orchestra/foundation::users');
+	echo handles('orchestra/foundation::users');
 
-// you can also use `orchestra` as an alias to `orchestra/foundation`.
-echo handles('orchestra::users');
-```
+	// you can also use `orchestra` as an alias to `orchestra/foundation`.
+	echo handles('orchestra::users');
+
 
 Above code would return `http://yoursite.com/orchestra/users`, however if your Orchestra Platform configuration is set to use admin as the bundle handles, the same code would then return `http:://yoursite.com/admin/users`.
 
 > During boot process, Orchestra Platform will automatically set handle for each packages, if specified in `orchestra.json` to `orchestra/extension::handles.vendor/package`, this can be modified from the extension configuration page.
 
-## resources()
+## resources() ## {#resources}
 
 Return handles configuration for a resources to generate a full URL.
 
-```php
-// To route for a resources you would normally write
-echo handles('orchestra/foundation::resources/foo/create');
+	// To route for a resources you would normally write
+	echo handles('orchestra/foundation::resources/foo/create');
 
-// this can be shortern to
-echo resources('foo/create');
-```
+	// this can be shortern to
+	echo resources('foo/create');
 
-## memorize()
+## memorize() ## {#memorize}
 
 Return memory configuration associated to the request, helper alias to `Orchestra\Memory::get()`.
 
-```php
-echo memorize('site.name');
-```
+	echo memorize('site.name');
