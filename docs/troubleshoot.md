@@ -2,7 +2,7 @@
 title: Troubleshooting
 ---
 
-## Using safe mode ## {#safe-mode}
+## Using safe mode {#safe-mode}
 
 There would be time when you might face problem with Orchestra Platform where an extension might cause a bug and your application stop working. In such event, you can use the safe mode to stop any extension from being loaded during bootstrap.
 

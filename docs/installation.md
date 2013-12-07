@@ -7,11 +7,11 @@ title: Installation
 * [Setup Orchestra Platform](#setup-orchestra-platform)
 * [Server Requirements](#server-requirement)
 
-## Install Composer ## {#install-composer}
+## Install Composer {#install-composer}
 
 Orchestra Platform utilizes [Composer](http://getcomposer.org/) to manage its dependencies. First, download a copy of the `composer.phar`. Once you have the PHAR archive, you can either keep it in your local project directory or move to `usr/local/bin` to use it globally on your system. On Windows, you can use the Composer [Windows installer](https://getcomposer.org/Composer-Setup.exe).
 
-## Install Orchestra Platform ## {#install-orchestra-platform}
+## Install Orchestra Platform {#install-orchestra-platform}
 
 Once Composer is installed, download the [latest version](https://github.com/orchestral/platform/archive/master.zip) of the Orchestra Platform and extract its contents into a directory on your server. Next, in the root of your Orchestra Platform application, run the `php composer.phar install` command to install all dependencies. This process requires Git to be installed on the server to successfully complete the installation.
 
@@ -40,7 +40,7 @@ This allow you to grab the latest update of Orchestra Platform app skeleton via 
 	git merge --squash -m "Update Orchestra Platform" orchestra/2.0
 
 
-## Setup Orchestra Platform ## {#setup-orchestra-platform}
+## Setup Orchestra Platform {#setup-orchestra-platform}
 
 Once Laravel 4 and Orchestra Platform is properly downloaded and installed, we need to setup the database and create the application basic schema (including administrator user).
 
@@ -50,7 +50,7 @@ Once Laravel 4 and Orchestra Platform is properly downloaded and installed, we n
 
 > Application configuration are 99% identical to Laravel so that integration is stream-less.
 
-## Server Requirements ## {#server-requirement}
+## Server Requirements {#server-requirement}
 
 Orchestra Plaftorm has a few system requirements:
 

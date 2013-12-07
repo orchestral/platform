@@ -9,13 +9,13 @@ Orchestra Platform includes a set of helpers function to help solves some of the
 * [resources()](#resources)
 * [memorize()](#memorize)
 
-## orchestra() ## {#orchestra}
+## orchestra() {#orchestra}
 
 Return `orchestra.app` instance.
 
 	echo orchestra()->memory()->get('site.name');
 
-## handles() ## {#handles}
+## handles() {#handles}
 
 Return handles configuration for a package to generate a full URL.
 
@@ -29,7 +29,7 @@ Above code would return `http://yoursite.com/orchestra/users`, however if your O
 
 > During boot process, Orchestra Platform will automatically set handle for each packages, if specified in `orchestra.json` to `orchestra/extension::handles.vendor/package`, this can be modified from the extension configuration page.
 
-## resources() ## {#resources}
+## resources() {#resources}
 
 Return handles configuration for a resources to generate a full URL.
 
@@ -39,7 +39,7 @@ Return handles configuration for a resources to generate a full URL.
 	// this can be shortern to
 	echo resources('foo/create');
 
-## memorize() ## {#memorize}
+## memorize() {#memorize}
 
 Return memory configuration associated to the request, helper alias to `Orchestra\Memory::get()`.
 
