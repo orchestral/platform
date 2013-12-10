@@ -117,8 +117,8 @@ return array(
 		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Foundation\Reminders\ReminderServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
-        'Orchestra\Foundation\SiteServiceProvider',
-        'Orchestra\Translation\TranslationServiceProvider',
+		'Orchestra\Foundation\SiteServiceProvider',
+		'Orchestra\Translation\TranslationServiceProvider',
 		'Orchestra\View\ViewServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
