@@ -100,7 +100,6 @@ return array(
 		'Illuminate\Remote\RemoteServiceProvider',
 		'Illuminate\Database\SeedServiceProvider',
 		'Illuminate\Session\SessionServiceProvider',
-		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
@@ -118,7 +117,8 @@ return array(
 		'Orchestra\Extension\PublisherServiceProvider',
 		'Orchestra\Foundation\Reminders\ReminderServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
-		'Orchestra\Foundation\SiteServiceProvider',
+        'Orchestra\Foundation\SiteServiceProvider',
+        'Orchestra\Translation\TranslationServiceProvider',
 		'Orchestra\View\ViewServiceProvider',
 		'Orchestra\Widget\WidgetServiceProvider',
 
