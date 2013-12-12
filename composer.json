@@ -1,13 +1,13 @@
 {
 	"name": "orchestra/platform",
 	"description": "Orchestra Platform 2",
-	"homepage": "http://orchestraplatform.com/docs/2.0/",
+	"homepage": "http://orchestraplatform.com/docs/latest/",
 	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"license": "MIT",
 	"require": {
 		"orchestra/foundation": "2.1.*",
-		"orchestra/control": "2.1.*",
-		"orchestra/story": "2.1.*"
+		"orchestra/control": "2.1.*@dev",
+		"orchestra/story": "2.1.*@dev"
 	},
 	"autoload": {
 		"classmap": [
@@ -36,5 +36,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "beta"
 }
