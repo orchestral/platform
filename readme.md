@@ -22,6 +22,7 @@ Contributions can be made to the Orchestra Platform's respective component repos
 
 * [Orchestra\Asset](https://github.com/orchestral/asset)
 * [Orchestra\Auth](https://github.com/orchestral/auth)
+* [Orchestra\Debug](https://github.com/orchestral/debug)
 * [Orchestra\Extension](https://github.com/orchestral/extension)
 * [Orchestra\Facile](https://github.com/orchestral/facile)
 * [Orchestra\Foundation](https://github.com/orchestral/foundation)
