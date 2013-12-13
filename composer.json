@@ -6,8 +6,8 @@
 	"license": "MIT",
 	"require": {
 		"orchestra/foundation": "2.1.*",
-		"orchestra/control": "2.1.*@dev",
-		"orchestra/story": "2.1.*@dev"
+		"orchestra/control": "2.1.*",
+		"orchestra/story": "2.1.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -36,5 +36,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "beta"
+	"minimum-stability": "dev"
 }
