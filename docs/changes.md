@@ -12,7 +12,6 @@ title: Change Log
 * Add `Illuminate\Remote\RemoteServiceProvider`.
 * Update changes to Laravel Routing.
 * Move to single file log setup for simplicity.
-* Revert use of `Orchestra\Translation\TranslationServiceProvider` back to `Illuminate\Translation\TranslationServiceProvider`.
 * Consolidate all console support tools to `Illuminate\Foundation\Providers\ConsoleSupportServiceProvider` and `Orchestra\Foundation\ConsoleSupportServiceProvider`.
 
 ## Version 2.0 {#v2-0}
