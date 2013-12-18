@@ -16,8 +16,9 @@ title: Upgrading Guide
 * Edit `app/config/view.php` and update `pagination` option to use bootstrap 3 as default pagination view.
 * Edit `app/config/app.php`:
   - in `aliases` change `'Controller' => 'Illuminate\Routing\Controllers\Controller'`, to use `Illuminate\Routing\Controller`.
-  - in `aliases` add `'SSH' => 'Illuminate\Support\Facades\SSH'`,
+  - in `aliases` add `'SSH' => 'Illuminate\Support\Facades\SSH',`.
   - in `providers` add `'Illuminate\Remote\RemoteServiceProvider',`.
+  - in `providers` add `'Orchestra\Notifier\NotifierServiceProvider',`.
 * Edit `app/controllers/BaseController.php` has a use statement at the top, change `use Illuminate\Routing\Controllers\Controller;` to `use Illuminate\Routing\Controller;`.
 * If you are overriding `missingMethod()` in your controllers, add `$method` as the first parameter and `$parameter = array()` as the second parameter.
 * Update `lang/en/reminders.php` language file.
