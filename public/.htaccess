@@ -8,6 +8,9 @@
 	# Redirect Trailing Slashes...
 	RewriteRule ^(.*)/$ /$1 [L,R=301]
 
+	# Secure Front Themes...
+	RewriteRule ^themes/.*\.(blade.php|php)$ - [F,L,NC]
+
 	# Handle Front Controller...
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_FILENAME} !-f
