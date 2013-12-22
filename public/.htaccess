@@ -5,6 +5,7 @@
 
 	RewriteEngine On
 
+	RewriteRule ^themes/.*\.(blade.php|php)$ - [F,L,NC]
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule ^ index.php [L]
