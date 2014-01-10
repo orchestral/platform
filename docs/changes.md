@@ -15,6 +15,7 @@ title: Change Log
 * Update changes to Laravel Routing.
 * Move to single file log setup for simplicity.
 * Consolidate all console support tools to `Illuminate\Foundation\Providers\ConsoleSupportServiceProvider` and `Orchestra\Foundation\ConsoleSupportServiceProvider`.
+* Move user registration email template to `app/views/emails/auth/register.blade.php`.
 
 ## Version 2.0 {#v2-0}
 
