@@ -6,8 +6,8 @@
 	<body>
 		<h2>Password Reset</h2>
 
-		<div>
+		<p>
 			To reset your password, complete this form: {{ URL::to(handles("orchestra/foundation::forgot/reset/{$token}")) }}.
-		</div>
+		</p>
 	</body>
 </html>

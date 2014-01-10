@@ -12,9 +12,9 @@ composer create-project orchestra/platform your-project-name --prefer-dist
 ## Resources
 
 * [Website](http://orchestraplatform.com)
-* [Official Documentation](http://orchestraplatform.com/docs/2.0/)
+* [Official Documentation](http://orchestraplatform.com/docs/latest/)
 * [Bug Tracker](https://github.com/orchestral/platform/issues)
-* [Change Logs](http://orchestraplatform.com/docs/2.0/changes/)
+* [Change Log](http://orchestraplatform.com/docs/latest/changes/)
 
 ## Contributing to the Orchestra Platform
 
@@ -29,7 +29,9 @@ Contributions can be made to the Orchestra Platform's respective component repos
 * [Orchestra\Html](https://github.com/orchestral/html)
 * [Orchestra\Memory](https://github.com/orchestral/memory)
 * [Orchestra\Model](https://github.com/orchestral/model)
+* [Orchestra\Notifier](https://github.com/orchestral/notifier)
 * [Orchestra\Resources](https://github.com/orchestral/resources)
+* [Orchestra\Testbench](https://github.com/orchestral/testbench)
 * [Orchestra\Translation](https://github.com/orchestral/translation)
 * [Orchestra\Support](https://github.com/orchestral/support)
 * [Orchestra\View](https://github.com/orchestral/view)

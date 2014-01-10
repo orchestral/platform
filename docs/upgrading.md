@@ -10,6 +10,7 @@ title: Upgrading Guide
 * Remove call to `$app->redirectIfTrailingSlash()` in `bootstrap/start.php` file.
 * Replace `public/index.php` and `artisan` files.
 * Add new `app/config/remote.php` configuration file.
+* Add new `app/views/emails/auth/register.blade.php` file.
 * Edit `app/config/database.php` and update `redis.cluster` option to `false` to turn Redis clustering off by default.
 * Edit `app/config/queue.php` and add new `failed` queue job option.
 * Edit `app/config/session.php` and add new `expire_on_close` and `secure` option.
