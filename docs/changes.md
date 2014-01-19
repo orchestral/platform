@@ -5,6 +5,8 @@ title: Change Log
 
 ## Version 2.1 {#v2-1}
 
+* Remove redundant implementation in default `User` model.
+
 ### v2.1.0@dev {#v2-1-0}
 
 * Add [Control Extension](https://github.com/orchestral/control) for Orchestra Platform 2.
