@@ -1,6 +1,8 @@
 # Laravel
 /bootstrap/compiled.php
 /public/packages/*
+.env.local.php
+.env.php
 
 # Composer
 vendor/*
