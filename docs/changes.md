@@ -8,6 +8,7 @@ title: Change Log
 ### v2.1.1 {#v2-1-1}
 
 * Ignore environment files.
+* Remove redundant implementation in default `User` model.
 
 ### v2.1.0 {#v2-1-0}
 
