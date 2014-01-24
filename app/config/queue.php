@@ -52,8 +52,9 @@ return array(
 			'driver'  => 'iron',
 			'project' => 'your-project-id',
 			'token'   => 'your-token',
-			'queue'   => 'your-queue-name',
-		),
+            'queue'   => 'your-queue-name',
+            'encrypt' => true,
+        ),
 
 		'redis' => array(
 			'driver' => 'redis',

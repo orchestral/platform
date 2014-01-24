@@ -7,7 +7,9 @@ title: Change Log
 
 ### v2.2.0@dev {#v2-2-0}
 
+* Bump minimum version to PHP v5.4.0.
 * Remove redundant implementation in default `User` model.
+* Add encrypt option to iron queue config.
 
 ## Version 2.1 {#v2-1}
 
