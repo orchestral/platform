@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 2.1 {#v2-1}
 
+### v2.1.2 {#v2-1-2}
+
+* Add `require_without_all` validation string.
+
 ### v2.1.1 {#v2-1-1}
 
 * Ignore environment files.
