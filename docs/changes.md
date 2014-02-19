@@ -13,6 +13,10 @@ title: Change Log
 
 ## Version 2.1 {#v2-1}
 
+### v2.1.3@dev {#v2-1-3}
+
+* Improvement of validation traduction for "email" rule.
+
 ### v2.1.2 {#v2-1-2}
 
 * Add `require_without_all` validation string.
