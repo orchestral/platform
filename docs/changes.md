@@ -13,9 +13,13 @@ title: Change Log
 
 ## Version 2.1 {#v2-1}
 
-### v2.1.3@dev {#v2-1-3}
+### v2.1.3 {#v2-1-3}
 
 * Improvement of validation traduction for "email" rule.
+* Added "required_with_all" validation traduction.
+* Add sample custom error message for validation.
+* Update default iron.io host to `'mq-aws-us-east-1.iron.io'` for performance boost.
+* Add `ttr` option to beanstalkd config.
 
 ### v2.1.2 {#v2-1-2}
 
