@@ -67,6 +67,8 @@ return array(
 
 	'key' => 'YourSecretKey!!!',
 
+	'cipher' => MCRYPT_RIJNDAEL_256,
+
 	/*
 	|--------------------------------------------------------------------------
 	| Autoloaded Service Providers
