@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 2.1 {#v2-1}
 
+## v2.1.4 {#v2-1-4}
+
+* Set `app.debug` config to false by default to avoid bad setup on production environment.
+* Add default `app/config/local/app.php`.
+* Add `app.cipher` config, allowing future compatibility when upgrading from 2.1 to 2.2.
+
 ### v2.1.3 {#v2-1-3}
 
 * Improvement of validation traduction for "email" rule.
