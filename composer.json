@@ -5,9 +5,9 @@
 	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"license": "MIT",
 	"require": {
-		"orchestra/foundation": "2.2.*",
-		"orchestra/control": "2.2.*",
-		"orchestra/story": "2.2.*"
+		"orchestra/foundation": "2.3.*",
+		"orchestra/control": "2.3.*",
+		"orchestra/story": "2.3.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -37,5 +37,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "beta"
+	"minimum-stability": "dev"
 }
