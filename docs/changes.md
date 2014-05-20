@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 2.1 {#v2-1}
 
+### v2.1.5 {#v2-1-5}
+
+* Add native support for Laravel Forge and Homestead.
+
 ## v2.1.4 {#v2-1-4}
 
 * Set `app.debug` config to false by default to avoid bad setup on production environment.
