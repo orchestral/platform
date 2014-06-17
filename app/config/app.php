@@ -130,7 +130,7 @@ return array(
 		'Orchestra\Support\MessagesServiceProvider',
 		'Orchestra\Notifier\NotifierServiceProvider',
 		'Orchestra\Optimize\OptimizeServiceProvider',
-		'Orchestra\Extension\PublisherServiceProvider',
+		'Orchestra\Publisher\PublisherServiceProvider',
 		'Orchestra\Foundation\Reminders\ReminderServiceProvider',
 		'Orchestra\Resources\ResourcesServiceProvider',
 		'Orchestra\Foundation\SiteServiceProvider',
