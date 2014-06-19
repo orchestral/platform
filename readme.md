@@ -30,12 +30,19 @@ Contributions can be made to the Orchestra Platform's respective component repos
 * [Orchestra\Memory](https://github.com/orchestral/memory)
 * [Orchestra\Model](https://github.com/orchestral/model)
 * [Orchestra\Notifier](https://github.com/orchestral/notifier)
+* [Orchestra\Optimize](https://github.com/orchestral/optimize)
+* [Orchestra\Publisher](https://github.com/orchestral/publisher)
 * [Orchestra\Resources](https://github.com/orchestral/resources)
-* [Orchestra\Testbench](https://github.com/orchestral/testbench)
 * [Orchestra\Translation](https://github.com/orchestral/translation)
 * [Orchestra\Support](https://github.com/orchestral/support)
 * [Orchestra\View](https://github.com/orchestral/view)
 * [Orchestra\Widget](https://github.com/orchestral/widget)
+
+We also have some independence packages that would work well with Orchestra Platform, including:
+
+* [Orchestra\Imagine](https://github.com/orchestral/imagine)
+* [Orchestra\Parser](https://github.com/orchestral/parser)
+* [Orchestra\Testbench](https://github.com/orchestral/testbench)
 
 Contributions for the website and documentation can be made here:
 
