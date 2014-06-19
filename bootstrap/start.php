@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('homestead'),
+    'local' => array('homestead'),
 
 ));
 
@@ -48,13 +48,14 @@ $app->bindInstallPaths(require __DIR__.'/paths.php');
 | Load The Application
 |--------------------------------------------------------------------------
 |
-| Here we will load the Illuminate application. We will keep this in a
+| Here we will load this Illuminate application. We will keep this in a
 | separate location so we can isolate the creation of an application
 | from the actual running of the application with a given request.
 |
 */
 
-$framework = $app['path.base'].'/vendor/laravel/framework/src';
+$framework = $app['path.base'].
+                 '/vendor/laravel/framework/src';
 
 require $framework.'/Illuminate/Foundation/start.php';
 
