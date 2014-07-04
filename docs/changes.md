@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 2.2 {#v2-2}
 
+### v2.2.2 {#v2-2-2}
+
+* Fixes email views.
+
 ### v2.2.1 {#v2-2-1}
 
 * Remove `SoftDeletingTrait` from `User` class to avoid exception to be thrown on certain setup.
