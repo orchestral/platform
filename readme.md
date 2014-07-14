@@ -40,8 +40,10 @@ Contributions can be made to the Orchestra Platform's respective component repos
 
 We also have some independence packages that would work well with Orchestra Platform, including:
 
+* [Orchestra\Avatar](https://github.com/orchestral/avatar)
 * [Orchestra\Imagine](https://github.com/orchestral/imagine)
 * [Orchestra\Parser](https://github.com/orchestral/parser)
+* [Orchestra\Tenanti](https://github.com/orchestral/tenanti)
 * [Orchestra\Testbench](https://github.com/orchestral/testbench)
 
 Contributions for the website and documentation can be made here:
