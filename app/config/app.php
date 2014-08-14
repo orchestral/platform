@@ -127,7 +127,7 @@ return array(
 		'Orchestra\Facile\FacileServiceProvider',
 		'Orchestra\Html\HtmlServiceProvider',
 		'Orchestra\Memory\MemoryServiceProvider',
-		'Orchestra\Support\MessagesServiceProvider',
+		'Orchestra\Messages\MessagesServiceProvider',
 		'Orchestra\Notifier\NotifierServiceProvider',
 		'Orchestra\Optimize\OptimizeServiceProvider',
 		'Orchestra\Publisher\PublisherServiceProvider',
