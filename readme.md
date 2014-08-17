@@ -1,6 +1,6 @@
 # Orchestra Platform 2
 
-[![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable.png)](https://packagist.org/packages/orchestra/platform) 
+[![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable.png)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads.png)](https://packagist.org/packages/orchestra/platform)
 
 ## Quick Installation
@@ -28,6 +28,7 @@ Contributions can be made to the Orchestra Platform's respective component repos
 * [Orchestra\Foundation](https://github.com/orchestral/foundation)
 * [Orchestra\Html](https://github.com/orchestral/html)
 * [Orchestra\Memory](https://github.com/orchestral/memory)
+* [Orchestra\Messages](https://github.com/orchestral/messages)
 * [Orchestra\Model](https://github.com/orchestral/model)
 * [Orchestra\Notifier](https://github.com/orchestral/notifier)
 * [Orchestra\Optimize](https://github.com/orchestral/optimize)
