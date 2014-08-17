@@ -1,4 +1,4 @@
-<?php
+<?php namespace App;
 
 use Orchestra\Model\User as Eloquent;
 

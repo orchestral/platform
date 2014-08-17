@@ -95,15 +95,28 @@ return array(
 
 	'providers' => array(
 
+		/*
+		 * Application Service Providers...
+		 */
+		'Providers\AppServiceProvider',
+		'Providers\ArtisanServiceProvider',
+		'Providers\ErrorServiceProvider',
+		'Providers\EventServiceProvider',
+		'Providers\FilterServiceProvider',
+		'Providers\LogServiceProvider',
+		'Providers\RouteServiceProvider',
+
+		/*
+		 * Laravel Framework Service Providers...
+		 */
 		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
 		'Illuminate\Cache\CacheServiceProvider',
-		'Illuminate\Session\CommandsServiceProvider',
 		'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
-		'Illuminate\Routing\ControllerServiceProvider',
 		'Illuminate\Cookie\CookieServiceProvider',
 		'Illuminate\Database\DatabaseServiceProvider',
 		'Illuminate\Encryption\EncryptionServiceProvider',
 		'Illuminate\Filesystem\FilesystemServiceProvider',
+		'Illuminate\Foundation\Providers\FormRequestServiceProvider',
 		'Illuminate\Hashing\HashServiceProvider',
 		'Illuminate\Log\LogServiceProvider',
 		'Illuminate\Mail\MailServiceProvider',
@@ -117,7 +130,6 @@ return array(
 		'Illuminate\Session\SessionServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Orchestra\Asset\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
@@ -174,7 +186,6 @@ return array(
 		'Auth'              => 'Illuminate\Support\Facades\Auth',
 		'Blade'             => 'Illuminate\Support\Facades\Blade',
 		'Cache'             => 'Illuminate\Support\Facades\Cache',
-		'ClassLoader'       => 'Illuminate\Support\ClassLoader',
 		'Config'            => 'Illuminate\Support\Facades\Config',
 		'Controller'        => 'Illuminate\Routing\Controller',
 		'Cookie'            => 'Illuminate\Support\Facades\Cookie',
@@ -185,6 +196,7 @@ return array(
 		'Facile'            => 'Orchestra\Support\Facades\Facile',
 		'File'              => 'Illuminate\Support\Facades\File',
 		'Form'              => 'Illuminate\Support\Facades\Form',
+		'FormRequest'       => 'Illuminate\Foundation\Http\FormRequest',
 		'Hash'              => 'Illuminate\Support\Facades\Hash',
 		'HTML'              => 'Illuminate\Support\Facades\HTML',
 		'Input'             => 'Illuminate\Support\Facades\Input',
