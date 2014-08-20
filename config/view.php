@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'paths' => array(app_path('Http/views')),
+	'paths' => array(app_path('Http/Views')),
 
 	/*
 	|--------------------------------------------------------------------------
