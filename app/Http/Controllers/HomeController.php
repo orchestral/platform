@@ -1,7 +1,10 @@
-<?php
+<?php namespace App\Http\Controllers;
 
-class HomeController extends Controller {
+use Controller;
+use View;
 
+class HomeController extends Controller
+{
     /*
     |--------------------------------------------------------------------------
     | Default Home Controller
@@ -19,5 +22,4 @@ class HomeController extends Controller {
     {
         return View::make('hello');
     }
-
 }

@@ -1,4 +1,7 @@
-<?php
+<?php namespace App\Http\Filters;
+
+use App;
+use Response;
 
 class MaintenanceFilter {
 

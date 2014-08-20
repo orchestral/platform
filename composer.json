@@ -7,18 +7,16 @@
 	"require": {
 		"orchestra/foundation": "2.3.*",
 		"orchestra/control": "2.3.*",
-		"orchestra/story": "2.3.*"
+		"orchestra/story": "2.3.*",
+		"phpunit/phpunit": "~4.0"
 	},
 	"autoload": {
 		"classmap": [
-			"app/console",
-			"app/database",
-			"app/http",
-			"app/tests/TestCase.php"
+			"database",
+			"tests/TestCase.php"
 		],
 		"psr-4": {
-			"App\\": "app/core/",
-			"Providers\\": "app/providers/"
+			"App\\": "app/",
 		}
 	},
 	"scripts": {

@@ -1,12 +1,12 @@
-<?php
+<?php namespace App\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
-class InspireCommand extends Command {
-
+class InspireCommand extends Command
+{
     /**
      * The console command name.
      *
@@ -23,8 +23,6 @@ class InspireCommand extends Command {
 
     /**
      * Create a new command instance.
-     *
-     * @return void
      */
     public function __construct()
     {

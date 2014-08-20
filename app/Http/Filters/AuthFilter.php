@@ -1,9 +1,12 @@
-<?php
+<?php namespace App\Http\Filters;
 
+use Auth;
+use Redirect;
+use Response;
 use Illuminate\Http\Request;
 
-class AuthFilter {
-
+class AuthFilter
+{
     /**
      * Run the request filter.
      *
