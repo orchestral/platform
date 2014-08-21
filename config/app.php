@@ -125,12 +125,14 @@ return array(
 		'Illuminate\Foundation\Providers\PublisherServiceProvider',
 		'Illuminate\Queue\QueueServiceProvider',
 		'Illuminate\Redis\RedisServiceProvider',
-		'Illuminate\Remote\RemoteServiceProvider',
 		'Illuminate\Database\SeedServiceProvider',
 		'Illuminate\Session\SessionServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 
+		/*
+		 * Orchestra Platform Service Providers...
+		 */
 		'Orchestra\Asset\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
 		'Orchestra\Debug\DebugServiceProvider',
@@ -165,7 +167,7 @@ return array(
 	|
 	*/
 
-	'manifest' => storage_path().'/meta',
+	'manifest' => storage_path('meta'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -216,7 +218,6 @@ return array(
 		'Session'           => 'Illuminate\Support\Facades\Session',
 		'Str'               => 'Orchestra\Support\Str',
 		'SoftDeletingTrait' => 'Illuminate\Database\Eloquent\SoftDeletingTrait',
-		'SSH'               => 'Illuminate\Support\Facades\SSH',
 		'Theme'             => 'Orchestra\Support\Facades\Theme',
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
