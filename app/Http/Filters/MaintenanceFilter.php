@@ -3,8 +3,8 @@
 use App;
 use Response;
 
-class MaintenanceFilter {
-
+class MaintenanceFilter
+{
     /**
      * Run the request filter.
      *

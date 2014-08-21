@@ -15,14 +15,10 @@ class AuthFilter
      */
     public function filter(Request $request)
     {
-        if (Auth::guest())
-        {
-            if ($request->ajax())
-            {
+        if (Auth::guest()) {
+            if ($request->ajax()) {
                 return Response::make('Unauthorized', 401);
-            }
-            else
-            {
+            } else {
                 return Redirect::guest('login');
             }
         }

@@ -5,8 +5,8 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
 use Illuminate\Session\TokenMismatchException;
 
-class CsrfFilter {
-
+class CsrfFilter
+{
     /**
      * Run the request filter.
      *
@@ -17,8 +17,7 @@ class CsrfFilter {
      */
     public function filter(Route $route, Request $request)
     {
-        if (Session::token() != $request->input('_token'))
-        {
+        if (Session::token() != $request->input('_token')) {
             throw new TokenMismatchException;
         }
     }

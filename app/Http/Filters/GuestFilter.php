@@ -3,8 +3,8 @@
 use Auth;
 use Redirect;
 
-class GuestFilter {
-
+class GuestFilter
+{
     /**
      * Run the request filter.
      *
@@ -12,8 +12,7 @@ class GuestFilter {
      */
     public function filter()
     {
-        if (Auth::check())
-        {
+        if (Auth::check()) {
             return Redirect::to('/');
         }
     }
