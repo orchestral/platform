@@ -2,8 +2,8 @@
 
 use Illuminate\Foundation\Providers\EventServiceProvider as ServiceProvider;
 
-class EventServiceProvider extends ServiceProvider {
-
+class EventServiceProvider extends ServiceProvider
+{
     /**
      * Bootstrap the application events.
      *
@@ -22,7 +22,7 @@ class EventServiceProvider extends ServiceProvider {
     public function scan()
     {
         return [
-            app_path().'/src',
+            app_path(),
         ];
     }
 

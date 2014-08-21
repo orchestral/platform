@@ -2,8 +2,8 @@
 
 use Illuminate\Routing\FilterServiceProvider as ServiceProvider;
 
-class FilterServiceProvider extends ServiceProvider {
-
+class FilterServiceProvider extends ServiceProvider
+{
     /**
      * The filters that should run before all requests.
      *
@@ -33,5 +33,4 @@ class FilterServiceProvider extends ServiceProvider {
         'csrf' => 'App\Http\Filters\CsrfFilter',
         'guest' => 'App\Http\Filters\GuestFilter',
     ];
-
 }

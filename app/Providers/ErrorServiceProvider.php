@@ -1,9 +1,12 @@
 <?php namespace App\Providers;
 
+use App;
+use Exception;
+use Log;
 use Illuminate\Support\ServiceProvider;
 
-class ErrorServiceProvider extends ServiceProvider {
-
+class ErrorServiceProvider extends ServiceProvider
+{
     /**
      * Register any error handlers.
      *
@@ -17,9 +20,8 @@ class ErrorServiceProvider extends ServiceProvider {
         // exceptions. If nothing is returned, the default error view is
         // shown, which includes a detailed stack trace during debug.
 
-        $this->app->error(function(\Exception $exception, $code)
-        {
-            $this->app['log']->error($exception);
+        App::error(function (Exception $exception, $code) {
+            Log::error($exception);
         });
     }
 
@@ -32,5 +34,4 @@ class ErrorServiceProvider extends ServiceProvider {
     {
         //
     }
-
 }

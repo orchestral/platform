@@ -2,8 +2,8 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider {
-
+class AppServiceProvider extends ServiceProvider
+{
     /**
      * Bootstrap any necessary services.
      *
@@ -27,5 +27,4 @@ class AppServiceProvider extends ServiceProvider {
 
         //
     }
-
 }

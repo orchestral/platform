@@ -1,5 +1,6 @@
 <?php namespace App\Providers;
 
+use App;
 use Illuminate\Routing\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider {
@@ -23,9 +24,8 @@ class RouteServiceProvider extends ServiceProvider {
      */
     public function map()
     {
-        $this->app->booted(function()
-        {
-            require app('path').'/Http/routes.php';
+        App::booted(function () {
+            require app_path('Http/routes.php');
         });
     }
 

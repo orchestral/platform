@@ -1,9 +1,10 @@
 <?php namespace App\Providers;
 
+use Log;
 use Illuminate\Support\ServiceProvider;
 
-class LogServiceProvider extends ServiceProvider {
-
+class LogServiceProvider extends ServiceProvider
+{
     /**
      * Configure the application's logging facilities.
      *
@@ -15,9 +16,7 @@ class LogServiceProvider extends ServiceProvider {
         // is built on top of the wonderful Monolog library. By default we will
         // build a basic log file setup which creates a single file for logs.
 
-        $this->app['log']->useFiles(
-            storage_path().'/logs/laravel.log'
-        );
+        Log::useFiles(storage_path('logs/laravel.log'));
     }
 
     /**
