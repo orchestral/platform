@@ -154,6 +154,8 @@ return array(
 
 		'Orchestra\Foundation\ConsoleSupportServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
+
+		'App\Providers\Orchestra\ExtensionServiceProvider',
 	),
 
 	/*
