@@ -4,6 +4,7 @@
 	"homepage": "http://orchestraplatform.com/docs/latest/",
 	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
 	"license": "MIT",
+	"type": "project",
 	"require": {
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
