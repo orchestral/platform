@@ -105,6 +105,7 @@ return array(
 		'App\Providers\FilterServiceProvider',
 		'App\Providers\LogServiceProvider',
 		'App\Providers\RouteServiceProvider',
+		'App\Providers\ExtensionServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
@@ -154,6 +155,7 @@ return array(
 
 		'Orchestra\Foundation\ConsoleSupportServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
+		
 	),
 
 	/*
