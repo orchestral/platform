@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use View;
+use Illuminate\Routing\Controller;
 
 class HomeController extends Controller
 {

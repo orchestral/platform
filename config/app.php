@@ -223,8 +223,6 @@ return array(
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
 
-		'App\Http\Controllers\Controller' => 'Illuminate\Routing\Controller',
-
 	),
 
 );

@@ -1,9 +1,8 @@
 # Laravel
 /public/packages/*
-.env.*.php
-.env.php
+/.env.*
 
 # Composer
-vendor/*
-composer.phar
-composer.lock
+/vendor/*
+/composer.phar
+/composer.lock

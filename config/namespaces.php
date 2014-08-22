@@ -26,14 +26,14 @@ return array(
 	|
 	*/
 
-	'console'     => 'App\\Console\\',
+	'console'     => 'App\Console\\',
 
-	'controllers' => 'App\\Http\\Controllers\\',
+	'controllers' => 'App\Http\Controllers\\',
 
-	'filters'     => 'App\\Http\\Filters\\',
+	'filters'     => 'App\Http\Filters\\',
 
-	'providers'   => 'App\\Providers\\',
+	'providers'   => 'App\Providers\\',
 
-	'requests'    => 'App\\Http\\Requests\\',
+	'requests'    => 'App\Http\Requests\\',
 
 );
