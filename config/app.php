@@ -102,10 +102,10 @@ return array(
 		'App\Providers\ArtisanServiceProvider',
 		'App\Providers\ErrorServiceProvider',
 		'App\Providers\EventServiceProvider',
+		'App\Providers\ExtensionServiceProvider',
 		'App\Providers\FilterServiceProvider',
 		'App\Providers\LogServiceProvider',
 		'App\Providers\RouteServiceProvider',
-		'App\Providers\ExtensionServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
@@ -155,7 +155,7 @@ return array(
 
 		'Orchestra\Foundation\ConsoleSupportServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
-		
+
 	),
 
 	/*
