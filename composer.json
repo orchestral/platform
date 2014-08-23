@@ -25,12 +25,12 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
-			"php artisan asset:publish orchestra/foundation",
+			"php artisan publish:assets orchestra/foundation",
 			"php artisan orchestra:optimize"
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
-			"php artisan asset:publish orchestra/foundation",
+			"php artisan publish:assets orchestra/foundation",
 			"php artisan orchestra:optimize"
 		],
 		"post-create-project-cmd": [
