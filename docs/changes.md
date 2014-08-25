@@ -5,6 +5,11 @@ title: Change Log
 
 ## Version 2.2 {#v2-2}
 
+### v2.2.3 {#v2-2-3}
+
+* Replace `Orchestra\Support\MessagesServiceProvider` to `Orchestra\Messages\MessagesServiceProvider`.
+* Update language replacement string.
+
 ### v2.2.2 {#v2-2-2}
 
 * Fixes email views.
