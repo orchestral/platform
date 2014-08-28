@@ -20,8 +20,8 @@ class ErrorServiceProvider extends ServiceProvider
         // exceptions. If nothing is returned, the default error view is
         // shown, which includes a detailed stack trace during debug.
 
-        App::error(function (Exception $exception, $code) {
-            Log::error($exception);
+        App::error(function (Exception $e) {
+            Log::error($e);
         });
     }
 

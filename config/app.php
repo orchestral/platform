@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'providers' => array(
+	'providers' => [
 
 		/*
 		 * Application Service Providers...
@@ -101,7 +101,6 @@ return array(
 		'App\Providers\AppServiceProvider',
 		'App\Providers\ArtisanServiceProvider',
 		'App\Providers\ErrorServiceProvider',
-		'App\Providers\EventServiceProvider',
 		'App\Providers\ExtensionServiceProvider',
 		'App\Providers\FilterServiceProvider',
 		'App\Providers\LogServiceProvider',
@@ -156,7 +155,7 @@ return array(
 		'Orchestra\Foundation\ConsoleSupportServiceProvider',
 		'Orchestra\Foundation\FoundationServiceProvider',
 
-	),
+	],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -182,7 +181,7 @@ return array(
 	|
 	*/
 
-	'aliases' => array(
+	'aliases' => [
 
 		'App'               => 'Illuminate\Support\Facades\App',
 		'Artisan'           => 'Illuminate\Support\Facades\Artisan',
@@ -225,6 +224,6 @@ return array(
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
 
-	),
+	],
 
-);
+];

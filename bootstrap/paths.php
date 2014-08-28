@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
 	/*
 	|--------------------------------------------------------------------------
@@ -73,4 +73,4 @@ return array(
 	'lang'        => __DIR__.'/../resources/lang',
 	'requests'    => __DIR__.'/../app/Http/Requests',
 
-);
+];

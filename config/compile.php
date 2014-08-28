@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
 	/*
 	|--------------------------------------------------------------------------
@@ -13,19 +13,18 @@ return array(
 	|
 	*/
 
-	'files' => array(
+	'files' => [
 
 				__DIR__.'/../app/Providers/AppServiceProvider.php',
 				__DIR__.'/../app/Providers/ArtisanServiceProvider.php',
 				__DIR__.'/../app/Providers/DebugServiceProvider.php',
 				__DIR__.'/../app/Providers/ErrorServiceProvider.php',
-				__DIR__.'/../app/Providers/EventServiceProvider.php',
 				__DIR__.'/../app/Providers/ExtensionServiceProvider.php',
 				__DIR__.'/../app/Providers/FilterServiceProvider.php',
 				__DIR__.'/../app/Providers/LogServiceProvider.php',
 				__DIR__.'/../app/Providers/RouteServiceProvider.php',
 
-	),
+	],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -38,8 +37,8 @@ return array(
 	|
 	*/
 
-	'providers' => array(
+	'providers' => [
 		//
-	),
+	],
 
-);
+];
