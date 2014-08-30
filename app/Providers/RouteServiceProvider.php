@@ -1,6 +1,7 @@
 <?php namespace App\Providers;
 
 use App;
+use URL;
 use Illuminate\Routing\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider {
@@ -14,7 +15,9 @@ class RouteServiceProvider extends ServiceProvider {
      */
     public function before()
     {
-        //
+        URL::setRootControllerNamespace(
+            trim(config('namespaces.controller'), '\\')
+        );
     }
 
     /**
