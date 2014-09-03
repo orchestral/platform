@@ -1,6 +1,5 @@
 <?php namespace App\Http\Controllers;
 
-use View;
 use Illuminate\Routing\Controller;
 
 class HomeController extends Controller
@@ -20,6 +19,6 @@ class HomeController extends Controller
 
     public function index()
     {
-        return View::make('hello');
+        return view('hello');
     }
 }
