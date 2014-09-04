@@ -17,5 +17,4 @@ class MaintenanceFilter
             return Response::make('Be right back!');
         }
     }
-
 }
