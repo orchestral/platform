@@ -4,16 +4,18 @@ use Auth;
 use Redirect;
 use Response;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Route;
 
 class AuthFilter
 {
     /**
      * Run the request filter.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Routing\Route    $route
+     * @param  \Illuminate\Http\Request     $request
      * @return mixed
      */
-    public function filter(Request $request)
+    public function filter(Route $route, Request $request)
     {
         if (Auth::guest()) {
             if ($request->ajax()) {
