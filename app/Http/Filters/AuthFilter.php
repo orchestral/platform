@@ -21,7 +21,7 @@ class AuthFilter
             if ($request->ajax()) {
                 return Response::make('Unauthorized', 401);
             } else {
-                return Redirect::guest('login');
+                return Redirect::guest(handles('orchestra::login'));
             }
         }
     }
