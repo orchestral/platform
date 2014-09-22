@@ -5,10 +5,10 @@ use Illuminate\Support\ServiceProvider;
 class ArtisanServiceProvider extends ServiceProvider
 {
     /**
-    * Indicates if loading of the provider is deferred.
-    *
-    * @var bool
-    */
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
     protected $defer = true;
 
     /**
