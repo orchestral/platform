@@ -2,75 +2,95 @@
 
 return [
 
-	/*
-	|--------------------------------------------------------------------------
-	| Application Path
-	|--------------------------------------------------------------------------
-	|
-	| Here we just defined the path to the application directory. Most likely
-	| you will never need to change this value as the default setup should
-	| work perfectly fine for the vast majority of all our applications.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Application Path
+    |--------------------------------------------------------------------------
+    |
+    | Here we just defined the path to the application directory. Most likely
+    | you will never need to change this value as the default setup should
+    | work perfectly fine for the vast majority of all our applications.
+    |
+    */
 
-	'app' => __DIR__.'/../app',
+    'app' => __DIR__.'/../app',
 
-	/*
-	|--------------------------------------------------------------------------
-	| Public Path
-	|--------------------------------------------------------------------------
-	|
-	| The public path contains the assets for your web application, such as
-	| your JavaScript and CSS files, and also contains the primary entry
-	| point for web requests into these applications from the outside.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Base Path
+    |--------------------------------------------------------------------------
+    |
+    | The base path is the root of the Laravel installation. Most likely you
+    | will not need to change this value. But, if for some wild reason it
+    | is necessary you will do so here, just proceed with some caution.
+    |
+    */
 
-	'public' => __DIR__.'/../public',
+    'base' => __DIR__.'/..',
 
-	/*
-	|--------------------------------------------------------------------------
-	| Base Path
-	|--------------------------------------------------------------------------
-	|
-	| The base path is the root of the Laravel installation. Most likely you
-	| will not need to change this value. But, if for some wild reason it
-	| is necessary you will do so here, just proceed with some caution.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Configuration Path
+    |--------------------------------------------------------------------------
+    |
+    | This path is used by the configuration loader to load the application
+    | configuration files. In general, you should'nt need to change this
+    | value; however, you can theoretically change the path from here.
+    |
+    */
 
-	'base' => __DIR__.'/..',
+    'config' => __DIR__.'/../config',
 
-	/*
-	|--------------------------------------------------------------------------
-	| Storage Path
-	|--------------------------------------------------------------------------
-	|
-	| The storage path is used by Laravel to store cached Blade views, logs
-	| and other pieces of information. You may modify the path here when
-	| you want to change the location of this directory for your apps.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Database Path
+    |--------------------------------------------------------------------------
+    |
+    | This path is used by the migration generator and migration runner to
+    | know where to place your fresh database migration classes. You're
+    | free to modify the path but you probably will not ever need to.
+    |
+    */
 
-	'storage' => __DIR__.'/../storage',
+    'database' => __DIR__.'/../database',
 
-	/*
-	|--------------------------------------------------------------------------
-	| Generator Paths
-	|--------------------------------------------------------------------------
-	|
-	| These paths are used by the various class generators and other pieces
-	| of the framework that need to determine where to store these types
-	| of classes. Of course, they may be changed to any path you wish.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Language Path
+    |--------------------------------------------------------------------------
+    |
+    | This path is used by the language file loader to load your application
+    | language files. The purpose of these files is to store your strings
+    | that are translated into other languages for views, e-mails, etc.
+    |
+    */
 
-	'console'     => __DIR__.'/../app/Console',
-	'config'      => __DIR__.'/../config',
-	'controllers' => __DIR__.'/../app/Http/Controllers',
-	'database'    => __DIR__.'/../database',
-	'filters'     => __DIR__.'/../app/Http/Filters',
-	'lang'        => __DIR__.'/../resources/lang',
-	'requests'    => __DIR__.'/../app/Http/Requests',
+    'lang' => __DIR__.'/../resources/lang',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Public Path
+    |--------------------------------------------------------------------------
+    |
+    | The public path contains the assets for your web application, such as
+    | your JavaScript and CSS files, and also contains the primary entry
+    | point for web requests into these applications from the outside.
+    |
+    */
+
+    'public' => __DIR__.'/../public',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Storage Path
+    |--------------------------------------------------------------------------
+    |
+    | The storage path is used by Laravel to store cached Blade views, logs
+    | and other pieces of information. You may modify the path here when
+    | you want to change the location of this directory for your apps.
+    |
+    */
+
+    'storage' => __DIR__.'/../storage',
 
 ];

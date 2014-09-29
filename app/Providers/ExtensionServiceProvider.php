@@ -2,8 +2,8 @@
 
 use Orchestra\Foundation\Providers\ExtensionServiceProvider as ServiceProvider;
 
-class ExtensionServiceProvider extends ServiceProvider{
-
+class ExtensionServiceProvider extends ServiceProvider
+{
     /**
      * Available extensions.
      *
@@ -12,5 +12,4 @@ class ExtensionServiceProvider extends ServiceProvider{
     protected $extensions = [
         'app::Extensions/*/*'
     ];
-
 }
