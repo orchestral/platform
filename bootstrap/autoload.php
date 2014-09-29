@@ -29,9 +29,8 @@ require __DIR__.'/../vendor/autoload.php';
 
 $compiledPath = __DIR__.'/../storage/meta/compiled.php';
 
-if (file_exists($compiledPath))
-{
-	require $compiledPath;
+if (file_exists($compiledPath)) {
+    require $compiledPath;
 }
 
 /*
@@ -45,7 +44,6 @@ if (file_exists($compiledPath))
 |
 */
 
-if (is_dir($workbench = __DIR__.'/../workbench'))
-{
-	Illuminate\Workbench\Starter::start($workbench);
+if (is_dir($workbench = __DIR__.'/../workbench')) {
+    Illuminate\Workbench\Starter::start($workbench);
 }

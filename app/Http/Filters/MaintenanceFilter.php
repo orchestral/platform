@@ -8,15 +8,14 @@ class MaintenanceFilter
     /**
      * The application implementation.
      *
-     * @var Application
+     * @var \Illuminate\Contracts\Foundation\Application
      */
     protected $app;
 
     /**
      * Create a new filter instance.
      *
-     * @param  Application  $app
-     * @return void
+     * @param  \Illuminate\Contracts\Foundation\Application $app
      */
     public function __construct(Application $app)
     {
