@@ -17,7 +17,7 @@ class LogServiceProvider extends ServiceProvider
         // is built on top of the wonderful Monolog library. By default we will
         // build a basic log file setup which creates a single file for logs.
 
-        $log->useFiles(storage_path('logs/laravel.log'));
+        $log->useFiles(storage_path('laravel.log'));
     }
 
     /**
