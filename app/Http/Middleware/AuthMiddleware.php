@@ -1,31 +1,31 @@
-<?php namespace App\Http\Filters;
+<?php namespace App\Http\Middleware;
 
+use Closure;
 use Illuminate\Contracts\Auth\Authenticator;
+use Illuminate\Contracts\Routing\Middleware;
 use Illuminate\Contracts\Routing\ResponseFactory;
-use Illuminate\Http\Request;
-use Illuminate\Routing\Route;
 
-class AuthFilter
+class AuthMiddleware implements Middleware
 {
     /**
      * The authenticator implementation.
      *
-     * @var \Illuminate\Contracts\Auth\Authenticator
+     * @var Authenticator
      */
     protected $auth;
 
     /**
      * The response factory implementation.
      *
-     * @var \Illuminate\Contracts\Routing\ResponseFactory
+     * @var ResponseFactory
      */
     protected $response;
 
     /**
      * Create a new filter instance.
      *
-     * @param  \Illuminate\Contracts\Auth\Authenticator         $auth
-     * @param  \Illuminate\Contracts\Routing\ResponseFactory    $response
+     * @param  Authenticator  $auth
+     * @param  ResponseFactory  $response
      */
     public function __construct(Authenticator $auth, ResponseFactory $response)
     {
@@ -34,20 +34,22 @@ class AuthFilter
     }
 
     /**
-     * Run the request filter.
+     * Handle an incoming request.
      *
-     * @param  \Illuminate\Routing\Route    $route
-     * @param  \Illuminate\Http\Request     $request
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
      * @return mixed
      */
-    public function filter(Route $route, Request $request)
+    public function handle($request, Closure $next)
     {
         if ($this->auth->guest()) {
             if ($request->ajax()) {
                 return $this->response->make('Unauthorized', 401);
             } else {
-                return $this->response->redirectGuest(handles('orchestra::login'));
+                return $this->response->redirectGuest('auth/login');
             }
         }
+
+        return $next($request);
     }
 }

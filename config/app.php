@@ -103,7 +103,6 @@ return [
         'App\Providers\ErrorServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
-        'App\Providers\FilterServiceProvider',
         'App\Providers\LogServiceProvider',
         'App\Providers\RouteServiceProvider',
 
