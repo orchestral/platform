@@ -112,6 +112,7 @@ return [
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
+        'Illuminate\Routing\ControllerServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
         'Illuminate\Database\DatabaseServiceProvider',
         'Illuminate\Encryption\EncryptionServiceProvider',
@@ -151,6 +152,7 @@ return [
         'Orchestra\Widget\WidgetServiceProvider',
 
         'Orchestra\Foundation\ConsoleSupportServiceProvider',
+        'Orchestra\Foundation\FilterServiceProvider',
         'Orchestra\Foundation\FoundationServiceProvider',
 
     ],
