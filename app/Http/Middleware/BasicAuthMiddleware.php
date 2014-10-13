@@ -1,25 +1,24 @@
 <?php namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Routing\Middleware;
-use Illuminate\Contracts\Auth\Authenticator;
 
 class BasicAuthMiddleware implements Middleware {
 
 	/**
 	 * The authenticator implementation.
 	 *
-	 * @var Authenticator
+	 * @var \Illuminate\Contracts\Auth\Guard
 	 */
 	protected $auth;
 
 	/**
 	 * Create a new filter instance.
 	 *
-	 * @param  Authenticator  $auth
-	 * @return void
+	 * @param  \Illuminate\Contracts\Auth\Guard  $auth
 	 */
-	public function __construct(Authenticator $auth)
+	public function __construct(Guard $auth)
 	{
 		$this->auth = $auth;
 	}

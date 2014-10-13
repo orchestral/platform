@@ -1,9 +1,9 @@
 <?php namespace App\Providers;
 
 use Exception;
-use Illuminate\Contracts\Exception\Handler;
 use Illuminate\Contracts\Logging\Log;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Contracts\Exception\Handler;
 
 class ErrorServiceProvider extends ServiceProvider
 {
