@@ -6,3 +6,6 @@
 /vendor/*
 /composer.phar
 /composer.lock
+
+# Node/NPM
+/node_modules/*
