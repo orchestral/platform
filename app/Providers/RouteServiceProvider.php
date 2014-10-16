@@ -1,39 +1,47 @@
 <?php namespace App\Providers;
 
 use Illuminate\Routing\Router;
-use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
 {
     /**
+     * The root namespace to assume when generating URLs to actions.
+     *
+     * @var string
+     */
+    protected $rootUrlNamespace = 'App\Http\Controllers';
+
+/**
+     * The controllers to scan for route annotations.
+     *
+     * @var array
+     */
+    protected $scan = [
+        'App\Http\Controllers\HomeController',
+    ];
+
+    /**
      * Called before routes are registered.
      *
      * Register any model bindings or pattern based filters.
      *
-     * @param  \Illuminate\Routing\Router                  $router
-     * @param  \Illuminate\Contracts\Routing\UrlGenerator  $url
+     * @param  \Illuminate\Routing\Router  $router
      * @return void
      */
-    public function before(Router $router, UrlGenerator $url)
+    public function before(Router $router)
     {
-        $url->setRootControllerNamespace('App\Http\Controllers');
+        //
     }
 
     /**
      * Define the routes for the application.
      *
+     * @param  \Illuminate\Routing\Router  $router
      * @return void
      */
-    public function map()
+    public function map(Router $router)
     {
-        // Once the application has booted, we will include the default routes
-        // file. This "namespace" helper will load the routes file within a
-        // route group which automatically sets the controller namespace.
-        $this->app->booted(function () {
-            $this->namespaced('App\Http\Controllers', function (Router $router) {
-                require app_path('Http/routes.php');
-            });
-        });
+        // require app_path('Http/routes.php');
     }
 }

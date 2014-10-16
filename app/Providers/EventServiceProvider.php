@@ -14,4 +14,13 @@ class EventServiceProvider extends ServiceProvider
             'EventListener',
         ],
     ];
+
+    /**
+     * The classes to scan for event annotations.
+     *
+     * @var array
+     */
+    protected $scan = [
+        //
+    ];
 }
