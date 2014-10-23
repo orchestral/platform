@@ -1,27 +1,28 @@
 <?php namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Http\Response;
+use Illuminate\Contracts\Auth\Guard;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Contracts\Routing\Middleware;
-use Illuminate\Contracts\Foundation\Application;
 
-class MaintenanceMiddleware implements Middleware
+class IsGuest implements Middleware
 {
     /**
-     * The application implementation.
+     * The Guard implementation.
      *
-     * @var Application
+     * @var Guard
      */
-    protected $app;
+    protected $auth;
 
     /**
      * Create a new filter instance.
      *
-     * @param  Application  $app
+     * @param  Guard  $auth
+     * @return void
      */
-    public function __construct(Application $app)
+    public function __construct(Guard $auth)
     {
-        $this->app = $app;
+        $this->auth = $auth;
     }
 
     /**
@@ -33,8 +34,8 @@ class MaintenanceMiddleware implements Middleware
      */
     public function handle($request, Closure $next)
     {
-        if ($this->app->isDownForMaintenance()) {
-            return new Response('Be right back!', 503);
+        if ($this->auth->check()) {
+            return new RedirectResponse(handles('app::/'));
         }
 
         return $next($request);

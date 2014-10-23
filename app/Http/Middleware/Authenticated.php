@@ -5,7 +5,7 @@ use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Routing\Middleware;
 use Illuminate\Contracts\Routing\ResponseFactory;
 
-class AuthMiddleware implements Middleware
+class Authenticated implements Middleware
 {
     /**
      * The authenticator implementation.
@@ -46,7 +46,7 @@ class AuthMiddleware implements Middleware
             if ($request->ajax()) {
                 return $this->response->make('Unauthorized', 401);
             } else {
-                return $this->response->redirectGuest('auth/login');
+                return $this->response->redirectGuest(handles('orchestra::login'));
             }
         }
 

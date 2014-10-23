@@ -6,19 +6,24 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 class RouteServiceProvider extends ServiceProvider
 {
     /**
-     * The root namespace to assume when generating URLs to actions.
-     *
-     * @var string
-     */
-    protected $rootUrlNamespace = 'App\Http\Controllers';
-
-/**
      * The controllers to scan for route annotations.
      *
      * @var array
      */
     protected $scan = [
         'App\Http\Controllers\HomeController',
+    ];
+
+    /**
+     * All of the application's route middleware keys.
+     *
+     * @var array
+     */
+    protected $middleware = [
+        'auth' => 'App\Http\Middleware\Authenticated',
+        'auth.basic' => 'App\Http\Middleware\AuthenticatedWithBasicAuth',
+        'csrf' => 'App\Http\Middleware\CsrfTokenIsValid',
+        'guest' => 'App\Http\Middleware\IsGuest',
     ];
 
     /**
