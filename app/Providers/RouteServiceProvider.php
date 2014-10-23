@@ -22,7 +22,7 @@ class RouteServiceProvider extends ServiceProvider
     protected $middleware = [
         'auth' => 'App\Http\Middleware\Authenticated',
         'auth.basic' => 'App\Http\Middleware\AuthenticatedWithBasicAuth',
-        'csrf' => 'App\Http\Middleware\CsrfTokenIsValid',
+        'csrf' => 'App\Http\Middleware\VerifyCsrfToken',
         'guest' => 'App\Http\Middleware\IsGuest',
     ];
 
