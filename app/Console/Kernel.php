@@ -1,7 +1,7 @@
 <?php namespace App\Console;
 
 use Exception;
-use Orchestra\Kernel\Console\Kernel as ConsoleKernel;
+use Orchestra\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {

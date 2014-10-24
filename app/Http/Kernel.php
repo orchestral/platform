@@ -1,7 +1,7 @@
 <?php namespace App\Http;
 
 use Exception;
-use Orchestra\Kernel\Http\Kernel as HttpKernel;
+use Orchestra\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
 {

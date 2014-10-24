@@ -11,7 +11,7 @@
 |
 */
 
-$app = new Orchestra\Kernel\Application(
+$app = new Orchestra\Foundation\Application(
     realpath(__DIR__.'/..')
 );
 
