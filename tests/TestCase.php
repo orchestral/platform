@@ -1,6 +1,6 @@
 <?php
 
-abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
+abstract class TestCase extends Orchestra\Testbench\TestCase
 {
     /**
      * Creates the application.
