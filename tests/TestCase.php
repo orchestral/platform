@@ -3,12 +3,44 @@
 abstract class TestCase extends Orchestra\Testbench\TestCase
 {
     /**
-     * Creates the application.
+     * Get application timezone.
      *
-     * @return \Symfony\Component\HttpKernel\HttpKernelInterface
+     * @return string
      */
-    public function createApplication()
+    protected function getApplicationTimezone($app)
     {
-        return require __DIR__.'/../bootstrap/app.php';
+        return $app['config']['app.timezone'];
+    }
+
+     /**
+     * Get application aliases.
+     *
+     * @param  \Illuminate\Foundation\Application  $app
+     * @return array
+     */
+    protected function getApplicationAliases($app)
+    {
+        return $app['config']['app.aliases'];
+    }
+
+    /**
+     * Get application providers.
+     *
+     * @param  \Illuminate\Foundation\Application  $app
+     * @return array
+     */
+    protected function getApplicationProviders($app)
+    {
+        return $app['config']['app.providers'];
+    }
+
+    /**
+     * Get base path.
+     *
+     * @return string
+     */
+    protected function getBasePath()
+    {
+        return realpath(__DIR__.'/../');
     }
 }
