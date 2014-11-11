@@ -11,10 +11,10 @@ class RouteServiceProvider extends ServiceProvider
      * @var array
      */
     protected $middleware = [
-        'auth' => 'App\Http\Middleware\Authenticated',
-        'auth.basic' => 'App\Http\Middleware\AuthenticatedWithBasicAuth',
+        'auth' => 'App\Http\Middleware\Authenticate',
+        'auth.basic' => 'App\Http\Middleware\AuthenticateWithBasicAuth',
         'backend' => 'Orchestra\Foundation\Middleware\UseBackendTheme',
-        'guest' => 'App\Http\Middleware\IsGuest',
+        'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
     ];
 
     /**
