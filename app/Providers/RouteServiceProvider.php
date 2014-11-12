@@ -1,6 +1,7 @@
 <?php namespace App\Providers;
 
 use Illuminate\Routing\Router;
+use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
@@ -25,9 +26,9 @@ class RouteServiceProvider extends ServiceProvider
      * @param  \Illuminate\Routing\Router  $router
      * @return void
      */
-    public function before(Router $router)
+    public function before(Router $router, UrlGenerator $url)
     {
-        //
+        $url->setRootControllerNamespace('App\Http\Controllers');
     }
 
     /**
