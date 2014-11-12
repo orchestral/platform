@@ -2,8 +2,6 @@
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
 
 class InspireCommand extends Command
 {
@@ -20,14 +18,6 @@ class InspireCommand extends Command
      * @var string
      */
     protected $description = 'Display an inspiring quote';
-
-    /**
-     * Create a new command instance.
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
 
     /**
      * Execute the console command.
