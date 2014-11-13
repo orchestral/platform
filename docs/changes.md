@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 2.2 {#v2-2}
 
+### v2.2.5 {#v2-2-5}
+
+* Convert `csrf` closure filter to be resolved via `Orchestra\Foundation\Filters\VerifyCsrfToken`.
+
 ### v2.2.4 {#v2-2-4}
 
 * New welcome page.
@@ -31,6 +35,10 @@ title: Change Log
 * Add `app.cipher` config to use `MCRYPT_RIJNDAEL_128`.
 
 ## Version 2.1 {#v2-1}
+
+### v2.1.7 {#v2-1-7}
+
+* Convert `csrf` closure filter to be resolved via `Orchestra\Foundation\Filters\VerifyCsrfToken`.
 
 ### v2.1.6 {#v2-1-6}
 
