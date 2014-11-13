@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 2.2 {#v2-2}
 
+### v2.2.5 {#v2-2-5}
+
+* Convert `csrf` closure filter to be resolved via `Orchestra\Foundation\Filters\VerifyCsrfToken`.
+
 ### v2.2.4 {#v2-2-4}
 
 * New welcome page.
