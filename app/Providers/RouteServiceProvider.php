@@ -13,7 +13,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected $middleware = [
         'auth' => 'App\Http\Middleware\Authenticate',
-        'auth.basic' => 'App\Http\Middleware\AuthenticateWithBasicAuth',
+        'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
         'backend' => 'Orchestra\Foundation\Middleware\UseBackendTheme',
         'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
     ];
