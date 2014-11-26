@@ -170,7 +170,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
     {
         messages('success', trans('orchestra/foundation::response.credential.logged-in'));
 
-        return Redirect::intended(handles('app::home'));
+        return redirect()->intended(handles('app::home'));
     }
 
     /**
