@@ -93,7 +93,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function createProfileFailedValidation($errors)
     {
-        return redirect_with_rrrors(handles('app::auth/register'), $errors);
+        return redirect_with_errors(handles('app::auth/register'), $errors);
     }
 
     /**
@@ -104,9 +104,9 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function createProfileFailed(array $errors)
     {
-        $message = trans('orchestra/foundation::response.db-failed', $errors);
+        messages('error', trans('orchestra/foundation::response.db-failed', $errors));
 
-        return redirect_with_message(handles('app::auth/register'), $message, 'error')->withInput();
+        return redirect(handles('app::auth/register'))->withInput();
     }
 
     /**
