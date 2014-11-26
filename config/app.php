@@ -111,14 +111,6 @@ return [
     'providers' => [
 
         /*
-         * Application Service Providers...
-         */
-        'App\Providers\AppServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\ExtensionServiceProvider',
-        'App\Providers\RouteServiceProvider',
-
-        /*
          * Laravel Framework Service Providers...
          */
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
@@ -163,7 +155,18 @@ return [
         'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
+        /**
+         * Orchestra Platform Installer Service Providers...
+         */
         'Orchestra\Installation\InstallerServiceProvider',
+
+        /*
+         * Application Service Providers...
+         */
+        'App\Providers\AppServiceProvider',
+        'App\Providers\EventServiceProvider',
+        'App\Providers\ExtensionServiceProvider',
+        'App\Providers\RouteServiceProvider',
     ],
 
     /*
