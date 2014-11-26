@@ -13,13 +13,20 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
   mix.sass('app.scss')
-  .phpUnit()
-  .publish(
-    'jquery/dist/jquery.min.js',
-    'public/js/vendor/jquery.js'
-  )
-  .publish(
-    'bootstrap-sass-official/assets/javascripts/bootstrap.js',
-    'public/js/vendor/bootstrap.js'
-  );
+    .publish(
+      'jquery/dist/jquery.min.js',
+      'public/js/vendor/jquery.js'
+    )
+    .publish(
+      'bootstrap-sass-official/assets/javascripts/bootstrap.js',
+      'public/js/vendor/bootstrap.js'
+    )
+    .publish(
+      'font-awesome/css/font-awesome.min.css',
+      'public/css/vendor/font-awesome.css'
+    )
+    .publish(
+      'font-awesome/fonts',
+      'public/css/fonts'
+    );
 });
