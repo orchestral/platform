@@ -1,4 +1,4 @@
-# Orchestra Platform 2
+# Orchestra Platform 3
 
 [![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable.png)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads.png)](https://packagist.org/packages/orchestra/platform)
