@@ -15,6 +15,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function __construct()
     {
+        $this->middleware('orchestra.registrable', ['only' => ['getRegister', 'postRegister']]);
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
@@ -116,7 +117,10 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function profileCreatedWithoutNotification()
     {
-        // TODO: Implement profileCreatedWithoutNotification() method.
+        messages('success', trans("orchestra/foundation::response.users.create"));
+        messages('error', trans('orchestra/foundation::response.credential.register.email-fail'));
+
+        return redirect(handles('app::auth/login'));
     }
 
     /**
@@ -126,7 +130,10 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function profileCreated()
     {
-        // TODO: Implement profileCreated() method.
+        messages('success', trans("orchestra/foundation::response.users.create"));
+        messages('success', trans('orchestra/foundation::response.credential.register.email-send'));
+
+        return redirect(handles('app::auth/login'));
     }
 
     /**
@@ -137,7 +144,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function userLoginHasFailedValidation($errors)
     {
-        // TODO: Implement userLoginHasFailedValidation() method.
+        return redirect_with_errors(handles('app::auth/login'), $errors);
     }
 
     /**
@@ -148,7 +155,9 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function userLoginHasFailedAuthentication(array $input)
     {
-        // TODO: Implement userLoginHasFailedAuthentication() method.
+        messages('error', trans('orchestra/foundation::response.credential.invalid-combination'));
+
+        return redirect(handles('app::auth/login'))->withInput();
     }
 
     /**
@@ -159,7 +168,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function userHasLoggedIn(Authenticatable $user)
     {
-        Messages::add('success', trans('orchestra/foundation::response.credential.logged-in'));
+        messages('success', trans('orchestra/foundation::response.credential.logged-in'));
 
         return Redirect::intended(handles('app::home'));
     }
