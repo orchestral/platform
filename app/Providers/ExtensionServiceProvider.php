@@ -1,6 +1,6 @@
 <?php namespace App\Providers;
 
-use Orchestra\Foundation\Providers\ExtensionServiceProvider as ServiceProvider;
+use Orchestra\Foundation\Support\Providers\ExtensionServiceProvider as ServiceProvider;
 
 class ExtensionServiceProvider extends ServiceProvider
 {

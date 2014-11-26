@@ -159,9 +159,9 @@ return [
         'Orchestra\View\ViewServiceProvider',
         'Orchestra\Widget\WidgetServiceProvider',
 
-        'Orchestra\Foundation\ConsoleSupportServiceProvider',
-        'Orchestra\Foundation\FilterServiceProvider',
-        'Orchestra\Foundation\FoundationServiceProvider',
+        'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
+        'Orchestra\Foundation\Providers\FilterServiceProvider',
+        'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
         'Orchestra\Installation\InstallerServiceProvider',
     ],
