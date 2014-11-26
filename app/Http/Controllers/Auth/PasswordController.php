@@ -93,7 +93,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      */
     public function resetLinkFailedValidation($errors)
     {
-        return redirect_with_errors(handles('app::forgot/email'), $errors);
+        return redirect_with_errors(handles('app::password/email'), $errors);
     }
 
     /**
@@ -106,7 +106,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
     {
         messages('error', trans($response));
 
-        return redirect(handles('app::forgot/email'));
+        return redirect(handles('app::password/email'));
     }
 
     /**
@@ -119,7 +119,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
     {
         messages('success', trans($response));
 
-        return redirect(handles('app::forgot/email'));
+        return redirect(handles('app::password/email'));
     }
 
     /**
@@ -134,7 +134,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
 
         messages('error', trans($response));
 
-        return redirect(handles("app::forgot/reset/{$token}"));
+        return redirect(handles("app::password/reset/{$token}"));
     }
 
     /**
