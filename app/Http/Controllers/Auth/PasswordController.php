@@ -16,6 +16,11 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      */
     protected $processor;
 
+    /**
+     * The request.
+     *
+     * @var \Illuminate\Http\Request
+     */
     protected $request;
 
     /**
