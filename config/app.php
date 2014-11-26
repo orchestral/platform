@@ -154,7 +154,7 @@ return [
         'Orchestra\Auth\Passwords\PasswordResetServiceProvider',
         'Orchestra\Publisher\PublisherServiceProvider',
         'Orchestra\Resources\ResourcesServiceProvider',
-        'Orchestra\Foundation\SupportServiceProvider',
+        'Orchestra\Foundation\Providers\SupportServiceProvider',
         'Orchestra\Translation\TranslationServiceProvider',
         'Orchestra\View\ViewServiceProvider',
         'Orchestra\Widget\WidgetServiceProvider',
