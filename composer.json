@@ -7,6 +7,7 @@
 	"type": "project",
 	"require": {
 		"orchestra/foundation": "3.0.*",
+		"orchestra/avatar": "3.0.*",
 		"orchestra/installer": "3.0.*",
 		"orchestra/control": "3.0.*",
 		"orchestra/story": "3.0.*"

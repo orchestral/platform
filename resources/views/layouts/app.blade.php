@@ -46,8 +46,8 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								<img src="https://www.gravatar.com/avatar/{{{ md5(strtolower(Auth::user()->email)) }}}?s=35" height="35" width="35" class="navbar-avatar">
-								{{ Auth::user()->name }} <b class="caret"></b>
+								<img src="{{ Avatar::user(Auth::user())->setSize(35) }}" height="35" width="35" class="navbar-avatar">
+								{{ Auth::user()->fullname }} <b class="caret"></b>
 							</a>
 							<ul class="dropdown-menu">
 								<li><a href="{!! handles('app::auth/logout') !!}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
