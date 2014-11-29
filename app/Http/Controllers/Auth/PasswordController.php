@@ -2,10 +2,10 @@
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Orchestra\Contracts\Auth\Listener\PasswordReset;
+use Orchestra\Contracts\Auth\Listener\PasswordResetLink;
 use Orchestra\Foundation\Processor\Account\PasswordBroker;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Orchestra\Foundation\Contracts\Listener\Account\PasswordReset;
-use Orchestra\Foundation\Contracts\Listener\Account\PasswordResetLink;
 
 class PasswordController extends Controller implements PasswordReset, PasswordResetLink
 {
