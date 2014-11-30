@@ -6,7 +6,7 @@ use Illuminate\Contracts\Auth\Authenticatable;
 use Orchestra\Foundation\Processor\AuthenticateUser;
 use Orchestra\Foundation\Processor\Account\ProfileCreator;
 use Orchestra\Contracts\Auth\Listener\AuthenticateUser as AuthenticateUserListener;
-use Orchestra\Foundation\Contracts\Listener\Account\ProfileCreator as ProfileCreatorListener;
+use Orchestra\Contracts\Foundation\Listener\Account\ProfileCreator as ProfileCreatorListener;
 
 class AuthController extends Controller implements AuthenticateUserListener, ProfileCreatorListener
 {
