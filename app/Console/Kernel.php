@@ -1,6 +1,5 @@
 <?php namespace App\Console;
 
-use Exception;
 use Illuminate\Console\Scheduling\Schedule;
 use Orchestra\Foundation\Console\Kernel as ConsoleKernel;
 
