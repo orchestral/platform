@@ -35,7 +35,7 @@ class RedirectIfAuthenticated implements Middleware
     public function handle($request, Closure $next)
     {
         if ($this->auth->check()) {
-            return new RedirectResponse(handles('app::/'));
+            return new RedirectResponse(handles('app::home'));
         }
 
         return $next($request);
