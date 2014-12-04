@@ -1,7 +1,9 @@
 # Orchestra Platform 3
 
-[![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable.png)](https://packagist.org/packages/orchestra/platform)
-[![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads.png)](https://packagist.org/packages/orchestra/platform)
+[![Latest Stable Version](https://img.shields.io/github/release/orchestral/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
+[![Total Downloads](https://img.shields.io/packagist/dt/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
+[![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
+[![Build Status](https://img.shields.io/travis/orchestral/platform/master.svg?style=flat)](https://travis-ci.org/orchestral/platform)
 
 ## Quick Installation
 
