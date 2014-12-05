@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
+		"laravel/framework": "dev-master#846c935194a036901ba6b4397c8897fa51e19111",
 		"orchestra/foundation": "3.0.*",
 		"orchestra/installer": "3.0.*",
 		"orchestra/control": "3.0.*",
