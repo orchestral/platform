@@ -1,5 +1,7 @@
 <?php
 
+use Orchestra\Foundation\Application;
+
 abstract class TestCase extends Orchestra\Testbench\TestCase
 {
     /**
@@ -42,6 +44,20 @@ abstract class TestCase extends Orchestra\Testbench\TestCase
     protected function getBasePath()
     {
         return realpath(__DIR__.'/../');
+    }
+
+    /**
+     * Resolve application implementation.
+     *
+     * @return \Illuminate\Foundation\Application
+     */
+    protected function resolveApplication()
+    {
+        $app = new Application($this->getBasePath());
+
+        $app->bind('Illuminate\Foundation\Bootstrap\LoadConfiguration', 'Orchestra\Config\Bootstrap\LoadConfiguration');
+
+        return $app;
     }
 
     /**
