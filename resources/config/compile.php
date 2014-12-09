@@ -15,10 +15,10 @@ return [
 
     'files' => [
 
-                __DIR__.'/../app/Providers/AppServiceProvider.php',
-                __DIR__.'/../app/Providers/EventServiceProvider.php',
-                __DIR__.'/../app/Providers/ExtensionServiceProvider.php',
-                __DIR__.'/../app/Providers/RouteServiceProvider.php',
+        app_path('Providers/AppServiceProvider.php'),
+        app_path('Providers/EventServiceProvider.php'),
+        app_path('Providers/ExtensionServiceProvider.php'),
+        app_path('Providers/RouteServiceProvider.php'),
 
     ],
 
