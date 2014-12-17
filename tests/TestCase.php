@@ -1,6 +1,6 @@
 <?php
 
-use Orchestra\Foundation\Testing\ApplicationTestCase;
+use Orchestra\Testing\ApplicationTestCase;
 
 abstract class TestCase extends ApplicationTestCase
 {
