@@ -12,17 +12,22 @@
 		"orchestra/story": "3.0.*"
 	},
 	"require-dev": {
+		"orchestra/testbench": "3.0.*",
 		"phpunit/phpunit": "~4.0",
-		"orchestra/testbench": "3.0.*"
+		"phpspec/phpspec": "~2.1"
 	},
 	"autoload": {
 		"classmap": [
-			"resources/database",
-			"tests/TestCase.php"
+			"resources/database"
 		],
 		"psr-4": {
 			"App\\": "app/"
 		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/TestCase.php"
+		],
 	},
 	"scripts": {
 		"post-install-cmd": [
