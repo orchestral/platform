@@ -1,7 +1,24 @@
 # Orchestra Platform 2
 
-[![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable.png)](https://packagist.org/packages/orchestra/platform) 
-[![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads.png)](https://packagist.org/packages/orchestra/platform)
+[![Latest Stable Version](https://img.shields.io/github/release/orchestral/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
+[![Total Downloads](https://img.shields.io/packagist/dt/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
+[![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
+[![Build Status](https://img.shields.io/travis/orchestral/platform/2.1.svg?style=flat)](https://travis-ci.org/orchestral/platform)
+
+
+## Table of Content
+
+* [Version Compatibility](#version-compatibility)
+* [Quick Installation](#quick-installation)
+* [Resources](#resources)
+* [Contributing to the Orchestra Platform](#contributing-to-the-orchestra-platform)
+* [License](#license)
+
+## Version Compatibility
+
+Laravel    | Platform
+:----------|:----------
+ 4.0.x     | 2.0.x
 
 ## Quick Installation
 
