@@ -15,10 +15,10 @@ return [
 
     'files' => [
 
-        app_path('Providers/AppServiceProvider.php'),
-        app_path('Providers/EventServiceProvider.php'),
-        app_path('Providers/ExtensionServiceProvider.php'),
-        app_path('Providers/RouteServiceProvider.php'),
+        realpath(app_path('Providers/AppServiceProvider.php')),
+        realpath(app_path('Providers/EventServiceProvider.php')),
+        realpath(app_path('Providers/ExtensionServiceProvider.php')),
+        realpath(app_path('Providers/RouteServiceProvider.php')),
 
     ],
 
