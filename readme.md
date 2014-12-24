@@ -5,6 +5,23 @@
 [![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
 [![Build Status](https://img.shields.io/travis/orchestral/platform/master.svg?style=flat)](https://travis-ci.org/orchestral/platform)
 
+## Table of Content
+
+* [Version Compatibility](#version-compatibility)
+* [Quick Installation](#quick-installation)
+* [Resources](#resources)
+* [Contributing to the Orchestra Platform](#contributing-to-the-orchestra-platform)
+* [License](#license)
+
+## Version Compatibility
+
+Laravel    | Platform
+:----------|:----------
+ 4.0.x     | 2.0.x
+ 4.1.x     | 2.1.x
+ 4.2.x     | 2.2.x
+ 5.0.x     | 3.0.x@dev
+
 ## Quick Installation
 
 ```bash
