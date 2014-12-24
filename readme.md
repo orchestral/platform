@@ -19,6 +19,7 @@
 Laravel    | Platform
 :----------|:----------
  4.0.x     | 2.0.x
+ 4.1.x     | 2.1.x
 
 ## Quick Installation
 
