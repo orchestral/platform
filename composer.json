@@ -33,8 +33,6 @@
 		"post-install-cmd": [
 			"php artisan clear-compiled",
 			"php artisan publish:assets orchestra/foundation",
-			"php artisan route:scan",
-			"php artisan event:scan",
 			"php artisan orchestra:optimize"
 		],
 		"post-update-cmd": [
