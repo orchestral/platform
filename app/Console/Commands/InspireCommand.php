@@ -24,7 +24,7 @@ class InspireCommand extends Command
      *
      * @return mixed
      */
-    public function fire()
+    public function handle()
     {
         $this->comment(PHP_EOL.Inspiring::quote().PHP_EOL);
     }
