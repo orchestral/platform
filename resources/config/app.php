@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG') ?: false,
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL') ?: 'http://localhost',
+    'url' => env('APP_URL', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY') ?: 'YourSecretKey!!!',
+    'key' => env('APP_KEY', 'YourSecretKey!!!'),
 
     'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -166,6 +166,7 @@ return [
          */
         'App\Providers\AppServiceProvider',
         'App\Providers\BusServiceProvider',
+        'App\Providers\ConfigServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
         'App\Providers\RouteServiceProvider',
