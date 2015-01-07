@@ -8,8 +8,7 @@
 	"require": {
 		"orchestra/foundation": "3.0.*",
 		"orchestra/installer": "3.0.*",
-		"orchestra/control": "3.0.*",
-		"orchestra/story": "3.0.*"
+		"orchestra/control": "3.0.*"
 	},
 	"require-dev": {
 		"orchestra/testing": "3.0.*",
