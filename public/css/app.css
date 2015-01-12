@@ -2131,7 +2131,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 300;
   text-align: center;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -4604,69 +4604,3 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-
-.fa-btn {
-  margin-right: 10px; }
-
-.navbar-avatar {
-  border-radius: 999px;
-  margin: -11px 10px -10px 0;
-  padding: 0; }
-
-#forgot-password-link {
-  padding-top: 7px;
-  vertical-align: middle; }
-
-#welcome .jumbotron {
-  background: #030303;
-  color: #5c5c5c;
-  margin-top: -20px; }
-
-#welcome .jumbotron__header, .jumbotron h1 {
-  font-weight: bold;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 25px; }
-
-#welcome .jumbotron__body {
-  max-width: 80%;
-  margin-bottom: 0;
-  line-height: 1.6em; }
-
-#welcome .jumbotron__header, .jumbotron h1 {
-  font-weight: lighter; }
-
-#welcome h2 {
-  margin-bottom: 20px; }
-
-#welcome .steps {
-  max-width: 80%;
-  padding-left: 0;
-  list-style: none;
-  counter-reset: welcome-steps; }
-
-#welcome .steps > .steps__item {
-  margin-bottom: 2.5em;
-  padding: 19px;
-  border: 1px solid #eeeeee;
-  border-radius: 4px;
-  overflow: hidden; }
-  #welcome .steps > .steps__item:before {
-    content: counter(welcome-steps);
-    counter-increment: welcome-steps;
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin-right: 1em;
-    background: #eeeeee;
-    border-radius: 50%;
-    font: bold 2em monospace;
-    text-align: center;
-    line-height: 49px; }
-  #welcome .steps > .steps__item .body {
-    float: left; }
-  #welcome .steps > .steps__item h2 {
-    font-weight: bold;
-    margin-top: 0; }
-  #welcome .steps > .steps__item p:last-child {
-    margin-bottom: 0; }
