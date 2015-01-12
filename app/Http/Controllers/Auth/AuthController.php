@@ -15,7 +15,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      */
     public function __construct()
     {
-        $this->middleware('orchestra.registrable', ['only' => ['getRegister', 'postRegister']]);
+        $this->beforeFilter('orchestra.registrable', ['only' => ['getRegister', 'postRegister']]);
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
