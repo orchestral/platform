@@ -136,7 +136,6 @@ return [
         'Orchestra\Asset\AssetServiceProvider',
         'Orchestra\Auth\AuthServiceProvider',
         'Orchestra\Authorization\AuthorizationServiceProvider',
-        'Orchestra\Avatar\AvatarServiceProvider',
         'Orchestra\Routing\ControllerServiceProvider',
         'Orchestra\View\DecoratorServiceProvider',
         'Orchestra\Extension\ExtensionServiceProvider',
