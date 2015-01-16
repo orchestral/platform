@@ -1,4 +1,4 @@
-var elixir = require('laravel-elixir');
+var dir, elixir = require('laravel-elixir');
 
 /*
  |--------------------------------------------------------------------------
@@ -10,6 +10,15 @@ var elixir = require('laravel-elixir');
  | file for our application, as well as publishing vendor resources.
  |
  */
+
+dir = {
+  asset: {
+    css: 'public/css',
+    img: 'public/img',
+    js: 'public/js'
+  },
+  vendor: 'vendor/bower_components'
+};
 
 elixir(function(mix) {
   mix.sass('app.scss');
