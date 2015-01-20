@@ -40,7 +40,7 @@
 			"php artisan orchestra:optimize"
 		],
 		"post-create-project-cmd": [
-			"php -r \"copy('.env.sample', '.env');\"",
+			"php -r \"copy('.env.example', '.env');\"",
 			"php artisan key:generate"
 		]
 	},
