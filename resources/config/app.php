@@ -208,7 +208,6 @@ return [
         'Log'        => 'Illuminate\Support\Facades\Log',
         'Mail'       => 'Illuminate\Support\Facades\Mail',
         'Meta'       => 'Orchestra\Support\Facades\Meta',
-        'Paginator'  => 'Illuminate\Support\Facades\Paginator',
         'Password'   => 'Illuminate\Support\Facades\Password',
         'Queue'      => 'Illuminate\Support\Facades\Queue',
         'Redirect'   => 'Illuminate\Support\Facades\Redirect',
