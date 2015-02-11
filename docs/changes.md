@@ -3,6 +3,16 @@ title: Change Log
 
 ---
 
+## Version 3.0 {#v3-0}
+
+### v3.0.0 {#v3-0-0}
+
+* Update support to Laravel Framework v5.0.
+* Add `App\Providers\ExtensionServiceProvider`.
+* Include `orchestra/installer` and `orchestra/testing` by default.
+* Remove `orchestra/story` from default installation (optional extension).
+* Improves default page.
+
 ## Version 2.2 {#v2-2}
 
 ### v2.2.5 {#v2-2-5}
