@@ -1,4 +1,6 @@
 * text=auto
+*.css linguist-vendored=false
+*.js linguist-vendored=false
 
 # Ignore following folder/file.
 /docs               export-ignore
