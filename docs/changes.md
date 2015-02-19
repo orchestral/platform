@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 3.0 {#v3-0}
 
+### v3.0.1 {#v3-0-1}
+
+* Add `Memory`, `Messages`, `Notifier` and `Table` to app aliases.
+
 ### v3.0.0 {#v3-0-0}
 
 * Update support to Laravel Framework v5.0.
