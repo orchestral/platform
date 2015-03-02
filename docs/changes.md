@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.0 {#v3-0}
 
+### v3.0.2 {#v3-0-2}
+
+* Allow mail configuration to use environment variables.
+* Remove optional `Avatar` and `Facile` from app aliases.
+* Add Glyphicons for Twitter Bootstrap.
+
 ### v3.0.1 {#v3-0-1}
 
 * `App\Providers\RouteServiceProvider` should extends `Orchestra\Foundation\Support\Providers\RouteServiceProvider`.
