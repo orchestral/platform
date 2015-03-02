@@ -32,7 +32,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
     public function __construct(PasswordBroker $processor, Request $request)
     {
         $this->processor = $processor;
-        $this->request = $request;
+        $this->request   = $request;
 
         $this->middleware('guest');
     }
@@ -61,13 +61,15 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      * Display the password reset view for the given token.
      *
      * @param  string  $token
+     *
      * @return mixed
+     *
      * @throws
      */
     public function getReset($token = null)
     {
         if (is_null($token)) {
-            throw new NotFoundHttpException;
+            throw new NotFoundHttpException();
         }
 
         return view('auth.reset')->with('token', $token);
@@ -89,6 +91,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      * Response when request password failed on validation.
      *
      * @param  \Illuminate\Support\MessageBag|array $errors
+     *
      * @return mixed
      */
     public function resetLinkFailedValidation($errors)
@@ -100,6 +103,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      * Response when request reset password failed.
      *
      * @param  string $response
+     *
      * @return mixed
      */
     public function resetLinkFailed($response)
@@ -113,6 +117,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      * Response when request reset password succeed.
      *
      * @param  string $response
+     *
      * @return mixed
      */
     public function resetLinkSent($response)
@@ -126,6 +131,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      * Response when reset password failed.
      *
      * @param  string $response
+     *
      * @return mixed
      */
     public function passwordResetHasFailed($response)
@@ -141,6 +147,7 @@ class PasswordController extends Controller implements PasswordReset, PasswordRe
      * Response when reset password succeed.
      *
      * @param  string $response
+     *
      * @return mixed
      */
     public function passwordHasReset($response)
