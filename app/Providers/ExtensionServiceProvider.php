@@ -10,6 +10,6 @@ class ExtensionServiceProvider extends ServiceProvider
      * @var array
      */
     protected $extensions = [
-        'app::Extensions/*/*'
+        'app::Extensions/*/*',
     ];
 }

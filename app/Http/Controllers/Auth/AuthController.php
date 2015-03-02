@@ -23,6 +23,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Show the application registration form.
      *
      * @param  \Orchestra\Foundation\Processor\Account\ProfileCreator  $creator
+     *
      * @return mixed
      */
     public function getRegister(ProfileCreator $creator)
@@ -35,6 +36,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      *
      * @param  \Orchestra\Foundation\Processor\Account\ProfileCreator  $creator
      * @param  \Illuminate\Http\Request  $request
+     *
      * @return mixed
      */
     public function postRegister(ProfileCreator $creator, Request $request)
@@ -57,6 +59,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      *
      * @param  \Orchestra\Foundation\Processor\AuthenticateUser  $authenticator
      * @param  \Illuminate\Http\Request  $request
+     *
      * @return mixed
      */
     public function postLogin(AuthenticateUser $authenticator, Request $request)
@@ -68,6 +71,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Log the user out of the application.
      *
      * @param  \Orchestra\Foundation\Processor\AuthenticateUser  $authenticator
+     *
      * @return mixed
      */
     public function getLogout(AuthenticateUser $authenticator)
@@ -79,6 +83,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Response when show registration page succeed.
      *
      * @param  array  $data
+     *
      * @return mixed
      */
     public function showProfileCreator(array $data)
@@ -90,6 +95,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Response when create a user failed validation.
      *
      * @param  \Illuminate\Support\MessageBag|array  $errors
+     *
      * @return mixed
      */
     public function createProfileFailedValidation($errors)
@@ -101,6 +107,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Response when create a user failed.
      *
      * @param  array  $errors
+     *
      * @return mixed
      */
     public function createProfileFailed(array $errors)
@@ -140,6 +147,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Response to user log-in trigger failed validation .
      *
      * @param  \Illuminate\Support\MessageBag|array  $errors
+     *
      * @return mixed
      */
     public function userLoginHasFailedValidation($errors)
@@ -151,6 +159,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Response to user log-in trigger has failed authentication.
      *
      * @param  array  $input
+     *
      * @return mixed
      */
     public function userLoginHasFailedAuthentication(array $input)
@@ -164,6 +173,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
      * Response to user has logged in successfully.
      *
      * @param  \Illuminate\Contracts\Auth\Authenticatable  $user
+     *
      * @return mixed
      */
     public function userHasLoggedIn(Authenticatable $user)

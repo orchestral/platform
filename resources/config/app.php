@@ -155,8 +155,8 @@ return [
         'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
-        /**
-         * Orchestra Platform Installer Service Providers...
+        /*
+         * Orchestra Platform Optional Service Providers...
          */
         'Orchestra\Installation\InstallerServiceProvider',
 
