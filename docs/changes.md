@@ -5,6 +5,11 @@ title: Change Log
 
 ## Version 3.0 {#v3-0}
 
+### v3.0.3@dev {#v3-0-3}
+
+* Rename `Orchestra\Foundation\Middleware\UseBackendTheme` to `Orchestra\Foundation\Http\Middleware\UseBackendTheme`.
+* Add new `storage/vendor` folder.
+
 ### v3.0.2 {#v3-0-2}
 
 * Allow mail configuration to use environment variables.
