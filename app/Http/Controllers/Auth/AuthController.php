@@ -199,7 +199,7 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
 
     /**
      * Add password validation for user registration.
-     * 
+     *
      * @param  \Illuminate\Contracts\Events\Dispatcher $events
      *
      * @return void
