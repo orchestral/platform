@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.0 {#v3-0}
 
+### v3.0.4 {#v3-0-4}
+
+* Fixes infinite redirect when accessing a folder for Apache HTTP Web Server.
+* Update `services.stripe.model` to use `App\User` by default.
+* Fixes missing `fullname` field for frontend user registration.
+
 ### v3.0.3 {#v3-0-3}
 
 * Rename `Orchestra\Foundation\Middleware\UseBackendTheme` to `Orchestra\Foundation\Http\Middleware\UseBackendTheme`.
