@@ -2,7 +2,6 @@
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Orchestra\Foundation\Processor\AuthenticateUser;
 use Orchestra\Foundation\Processor\Account\ProfileCreator;
@@ -35,16 +34,13 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
     /**
      * Handle a registration request for the application.
      *
-     * @param  \Orchestra\Foundation\Processor\Account\ProfileCreator $creator
-     * @param  \Illuminate\Http\Request $request
-     * @param  \Illuminate\Contracts\Events\Dispatcher $events
+     * @param  \Orchestra\Foundation\Processor\Account\ProfileCreator  $creator
+     * @param  \Illuminate\Http\Request  $request
      *
      * @return mixed
      */
-    public function postRegister(ProfileCreator $creator, Request $request, Dispatcher $events)
+    public function postRegister(ProfileCreator $creator, Request $request)
     {
-        $this->addPasswordValidationForUserRegistration($events);
-
         return $creator->store($this, $request->all());
     }
 
@@ -195,20 +191,5 @@ class AuthController extends Controller implements AuthenticateUserListener, Pro
     public function userHasLoggedOut()
     {
         return redirect(handles('app::/'));
-    }
-
-    /**
-     * Add password validation for user registration.
-     *
-     * @param  \Illuminate\Contracts\Events\Dispatcher $events
-     *
-     * @return void
-     */
-    protected function addPasswordValidationForUserRegistration(Dispatcher $events)
-    {
-        $events->listen('orchestra.validate: user.account.register', function ($rules) {
-            $rules['password'] = ['required'];
-            $rules['password_confirmation'] = ['same:password'];
-        });
     }
 }
