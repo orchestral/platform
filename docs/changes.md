@@ -24,7 +24,7 @@ title: Change Log
 
 ### v3.0.1 {#v3-0-1}
 
-* `App\Providers\RouteServiceProvider` should extends `Orchestra\Foundation\Support\Providers\RouteServiceProvider`.
+* `App\Providers\RouteServiceProvider` should extend `Orchestra\Foundation\Support\Providers\RouteServiceProvider`.
 * Add `Memory`, `Messages`, `Notifier` and `Table` to app aliases.
 
 ### v3.0.0 {#v3-0-0}
