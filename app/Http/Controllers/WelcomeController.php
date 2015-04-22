@@ -24,7 +24,7 @@ class WelcomeController extends Controller
     /**
      * Show the application welcome screen to the user.
      *
-     * @return Response
+     * @return mixed
      */
     public function index()
     {
