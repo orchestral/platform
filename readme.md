@@ -82,6 +82,10 @@ Contributions for the website and documentation can be made here:
 * [Website](https://github.com/orchestral/orchestraplatform.com)
 * [Documentation](https://github.com/orchestral/docs)
 
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Orchestra Platform, please send an e-mail to security@orchestraplatform.com. All security vulnerabilities will be promptly addressed.
+
 ## License
 
 * The Laravel PHP Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT) by [Taylor Otwell](https://github.com/taylorotwell)
