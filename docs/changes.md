@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.0 {#v3-0}
 
+### v3.0.5 {#v3-0-5}
+
+* Add fallback location for `compiled.php` include path.
+* Tweak location where you should put your code if you want to customize `App\Providers\RouteServiceProvider::boot()`.
+* Multiple code standard fixes.
+
 ### v3.0.4 {#v3-0-4}
 
 * Fixes infinite redirect when accessing a folder for Apache HTTP Web Server.
