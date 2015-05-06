@@ -1,6 +1,5 @@
 <?php namespace App\Http\Middleware;
 
-use Closure;
 use Orchestra\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
 class VerifyCsrfToken extends BaseVerifier
