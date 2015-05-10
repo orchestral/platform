@@ -8,6 +8,7 @@ abstract class Job
      * @var string
      */
     public $queue;
+
     /**
      * The seconds before the job should be made available.
      *
