@@ -34,8 +34,10 @@
 			"php artisan publish:assets orchestra/foundation",
 			"php artisan orchestra:optimize"
 		],
+		"pre-update-cmd": [
+			"php artisan clear-compiled"
+		],
 		"post-update-cmd": [
-			"php artisan clear-compiled",
 			"php artisan publish:assets orchestra/foundation",
 			"php artisan orchestra:optimize"
 		],
