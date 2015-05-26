@@ -33,7 +33,7 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next)
     {
         if ($this->auth->check()) {
-            return redirect(handles('app::home'));
+            return redirect(handles('app::/'));
         }
 
         return $next($request);
