@@ -153,7 +153,6 @@ return [
         'Orchestra\Widget\WidgetServiceProvider',
 
         'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
-        'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
         /*
