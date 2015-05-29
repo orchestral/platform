@@ -30,15 +30,13 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
-			"php artisan publish:assets orchestra/foundation",
-			"php artisan orchestra:optimize"
+			"php artisan orchestra:assemble"
 		],
 		"pre-update-cmd": [
 			"php artisan clear-compiled"
 		],
 		"post-update-cmd": [
-			"php artisan publish:assets orchestra/foundation",
-			"php artisan orchestra:optimize"
+			"php artisan orchestra:assemble"
 		],
 		"post-create-project-cmd": [
 			"php -r \"copy('.env.example', '.env');\"",
