@@ -5,6 +5,11 @@ title: Change Log
 
 ## Version 3.0 {#v3-0}
 
+### v3.0.6 {#v3-0-6}
+
+* Update `composer.json` commands.
+* Update language string based on Laravel changes.
+
 ### v3.0.5 {#v3-0-5}
 
 * Add fallback location for `compiled.php` include path.
