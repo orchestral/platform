@@ -12,3 +12,4 @@
 */
 
 $router->get('/', 'WelcomeController@index');
+$router->get('home', 'WelcomeController@index');
