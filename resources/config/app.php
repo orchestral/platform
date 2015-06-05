@@ -113,61 +113,61 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        'Illuminate\Broadcasting\BroadcastServiceProvider',
-        'Illuminate\Bus\BusServiceProvider',
-        'Illuminate\Cache\CacheServiceProvider',
-        'Illuminate\Cookie\CookieServiceProvider',
-        'Illuminate\Database\DatabaseServiceProvider',
-        'Illuminate\Encryption\EncryptionServiceProvider',
-        'Illuminate\Filesystem\FilesystemServiceProvider',
-        'Illuminate\Foundation\Providers\FoundationServiceProvider',
-        'Illuminate\Hashing\HashServiceProvider',
-        'Illuminate\Mail\MailServiceProvider',
-        'Illuminate\Pagination\PaginationServiceProvider',
-        'Illuminate\Pipeline\PipelineServiceProvider',
-        'Illuminate\Queue\QueueServiceProvider',
-        'Illuminate\Redis\RedisServiceProvider',
-        'Illuminate\Session\SessionServiceProvider',
-        'Illuminate\Validation\ValidationServiceProvider',
+        Illuminate\Broadcasting\BroadcastServiceProvider::class,
+        Illuminate\Bus\BusServiceProvider::class,
+        Illuminate\Cache\CacheServiceProvider::class,
+        Illuminate\Cookie\CookieServiceProvider::class,
+        Illuminate\Database\DatabaseServiceProvider::class,
+        Illuminate\Encryption\EncryptionServiceProvider::class,
+        Illuminate\Filesystem\FilesystemServiceProvider::class,
+        Illuminate\Foundation\Providers\FoundationServiceProvider::class,
+        Illuminate\Hashing\HashServiceProvider::class,
+        Illuminate\Mail\MailServiceProvider::class,
+        Illuminate\Pagination\PaginationServiceProvider::class,
+        Illuminate\Pipeline\PipelineServiceProvider::class,
+        Illuminate\Queue\QueueServiceProvider::class,
+        Illuminate\Redis\RedisServiceProvider::class,
+        Illuminate\Session\SessionServiceProvider::class,
+        Illuminate\Validation\ValidationServiceProvider::class,
 
         /*
          * Orchestra Platform Service Providers...
          */
-        'Orchestra\Foundation\Providers\ArtisanServiceProvider',
-        'Orchestra\Asset\AssetServiceProvider',
-        'Orchestra\Auth\AuthServiceProvider',
-        'Orchestra\Authorization\AuthorizationServiceProvider',
-        'Orchestra\Routing\ControllerServiceProvider',
-        'Orchestra\View\DecoratorServiceProvider',
-        'Orchestra\Extension\ExtensionServiceProvider',
-        'Orchestra\Html\HtmlServiceProvider',
-        'Orchestra\Memory\MemoryServiceProvider',
-        'Orchestra\Messages\MessagesServiceProvider',
-        'Orchestra\Notifier\NotifierServiceProvider',
-        'Orchestra\Optimize\OptimizeServiceProvider',
-        'Orchestra\Auth\Passwords\PasswordResetServiceProvider',
-        'Orchestra\Publisher\PublisherServiceProvider',
-        'Orchestra\Foundation\Providers\SupportServiceProvider',
-        'Orchestra\Translation\TranslationServiceProvider',
-        'Orchestra\View\ViewServiceProvider',
-        'Orchestra\Widget\WidgetServiceProvider',
+        Orchestra\Foundation\Providers\ArtisanServiceProvider::class,
+        Orchestra\Asset\AssetServiceProvider::class,
+        Orchestra\Auth\AuthServiceProvider::class,
+        Orchestra\Authorization\AuthorizationServiceProvider::class,
+        Orchestra\Routing\ControllerServiceProvider::class,
+        Orchestra\View\DecoratorServiceProvider::class,
+        Orchestra\Extension\ExtensionServiceProvider::class,
+        Orchestra\Html\HtmlServiceProvider::class,
+        Orchestra\Memory\MemoryServiceProvider::class,
+        Orchestra\Messages\MessagesServiceProvider::class,
+        Orchestra\Notifier\NotifierServiceProvider::class,
+        Orchestra\Optimize\OptimizeServiceProvider::class,
+        Orchestra\Auth\Passwords\PasswordResetServiceProvider::class,
+        Orchestra\Publisher\PublisherServiceProvider::class,
+        Orchestra\Foundation\Providers\SupportServiceProvider::class,
+        Orchestra\Translation\TranslationServiceProvider::class,
+        Orchestra\View\ViewServiceProvider::class,
+        Orchestra\Widget\WidgetServiceProvider::class,
 
-        'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
-        'Orchestra\Foundation\Providers\FoundationServiceProvider',
-        'Orchestra\Foundation\Providers\RouteServiceProvider',
+        Orchestra\Foundation\Providers\ConsoleSupportServiceProvider::class,
+        Orchestra\Foundation\Providers\FoundationServiceProvider::class,
+        Orchestra\Foundation\Providers\RouteServiceProvider::class,
 
         /*
          * Orchestra Platform Optional Service Providers...
          */
-        'Orchestra\Installation\InstallerServiceProvider',
+        Orchestra\Installation\InstallerServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        'App\Providers\AppServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\ExtensionServiceProvider',
-        'App\Providers\RouteServiceProvider',
+        App\Providers\AppServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\ExtensionServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
     ],
 
     /*
@@ -183,48 +183,48 @@ return [
 
     'aliases' => [
 
-        'App'        => 'Illuminate\Support\Facades\App',
-        'ACL'        => 'Orchestra\Support\Facades\ACL',
-        'Artisan'    => 'Illuminate\Support\Facades\Artisan',
-        'Asset'      => 'Orchestra\Support\Facades\Asset',
-        'Auth'       => 'Illuminate\Support\Facades\Auth',
-        'Blade'      => 'Illuminate\Support\Facades\Blade',
-        'Bus'        => 'Illuminate\Support\Facades\Bus',
-        'Cache'      => 'Illuminate\Support\Facades\Cache',
-        'Config'     => 'Illuminate\Support\Facades\Config',
-        'Cookie'     => 'Illuminate\Support\Facades\Cookie',
-        'Crypt'      => 'Illuminate\Support\Facades\Crypt',
-        'DB'         => 'Illuminate\Support\Facades\DB',
-        'Eloquent'   => 'Illuminate\Database\Eloquent\Model',
-        'Event'      => 'Illuminate\Support\Facades\Event',
-        'File'       => 'Illuminate\Support\Facades\File',
-        'Form'       => 'Orchestra\Support\Facades\Form',
-        'Foundation' => 'Orchestra\Support\Facades\Foundation',
-        'Hash'       => 'Illuminate\Support\Facades\Hash',
-        'HTML'       => 'Orchestra\Support\Facades\HTML',
-        'Input'      => 'Illuminate\Support\Facades\Input',
-        'Lang'       => 'Illuminate\Support\Facades\Lang',
-        'Log'        => 'Illuminate\Support\Facades\Log',
-        'Mail'       => 'Illuminate\Support\Facades\Mail',
-        'Memory'     => 'Orchestra\Support\Facades\Memory',
-        'Messages'   => 'Orchestra\Support\Facades\Messages',
-        'Meta'       => 'Orchestra\Support\Facades\Meta',
-        'Notifier'   => 'Orchestra\Support\Facades\Notifier',
-        'Password'   => 'Illuminate\Support\Facades\Password',
-        'Queue'      => 'Illuminate\Support\Facades\Queue',
-        'Redirect'   => 'Illuminate\Support\Facades\Redirect',
-        'Redis'      => 'Illuminate\Support\Facades\Redis',
-        'Request'    => 'Illuminate\Support\Facades\Request',
-        'Response'   => 'Illuminate\Support\Facades\Response',
-        'Route'      => 'Illuminate\Support\Facades\Route',
-        'Schema'     => 'Illuminate\Support\Facades\Schema',
-        'Session'    => 'Illuminate\Support\Facades\Session',
-        'Storage'    => 'Illuminate\Support\Facades\Storage',
-        'Table'      => 'Orchestra\Support\Facades\Table',
-        'Theme'      => 'Orchestra\Support\Facades\Theme',
-        'URL'        => 'Illuminate\Support\Facades\URL',
-        'Validator'  => 'Illuminate\Support\Facades\Validator',
-        'View'       => 'Illuminate\Support\Facades\View',
+        'App'        => Illuminate\Support\Facades\App::class
+        'ACL'        => Orchestra\Support\Facades\ACL::class
+        'Artisan'    => Illuminate\Support\Facades\Artisan::class
+        'Asset'      => Orchestra\Support\Facades\Asset::class
+        'Auth'       => Illuminate\Support\Facades\Auth::class
+        'Blade'      => Illuminate\Support\Facades\Blade::class
+        'Bus'        => Illuminate\Support\Facades\Bus::class
+        'Cache'      => Illuminate\Support\Facades\Cache::class
+        'Config'     => Illuminate\Support\Facades\Config::class
+        'Cookie'     => Illuminate\Support\Facades\Cookie::class
+        'Crypt'      => Illuminate\Support\Facades\Crypt::class
+        'DB'         => Illuminate\Support\Facades\DB::class
+        'Eloquent'   => Illuminate\Database\Eloquent\Model::class
+        'Event'      => Illuminate\Support\Facades\Event::class
+        'File'       => Illuminate\Support\Facades\File::class
+        'Form'       => Orchestra\Support\Facades\Form::class
+        'Foundation' => Orchestra\Support\Facades\Foundation::class
+        'Hash'       => Illuminate\Support\Facades\Hash::class
+        'HTML'       => Orchestra\Support\Facades\HTML::class
+        'Input'      => Illuminate\Support\Facades\Input::class
+        'Lang'       => Illuminate\Support\Facades\Lang::class
+        'Log'        => Illuminate\Support\Facades\Log::class
+        'Mail'       => Illuminate\Support\Facades\Mail::class
+        'Memory'     => Orchestra\Support\Facades\Memory::class
+        'Messages'   => Orchestra\Support\Facades\Messages::class
+        'Meta'       => Orchestra\Support\Facades\Meta::class
+        'Notifier'   => Orchestra\Support\Facades\Notifier::class
+        'Password'   => Illuminate\Support\Facades\Password::class
+        'Queue'      => Illuminate\Support\Facades\Queue::class
+        'Redirect'   => Illuminate\Support\Facades\Redirect::class
+        'Redis'      => Illuminate\Support\Facades\Redis::class
+        'Request'    => Illuminate\Support\Facades\Request::class
+        'Response'   => Illuminate\Support\Facades\Response::class
+        'Route'      => Illuminate\Support\Facades\Route::class
+        'Schema'     => Illuminate\Support\Facades\Schema::class
+        'Session'    => Illuminate\Support\Facades\Session::class
+        'Storage'    => Illuminate\Support\Facades\Storage::class
+        'Table'      => Orchestra\Support\Facades\Table::class
+        'Theme'      => Orchestra\Support\Facades\Theme::class
+        'URL'        => Illuminate\Support\Facades\URL::class
+        'Validator'  => Illuminate\Support\Facades\Validator::class
+        'View'       => Illuminate\Support\Facades\View::class
 
     ],
 

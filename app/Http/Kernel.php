@@ -10,12 +10,12 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
-        'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode',
-        'Illuminate\Cookie\Middleware\EncryptCookies',
-        'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
-        'Illuminate\Session\Middleware\StartSession',
-        'Illuminate\View\Middleware\ShareErrorsFromSession',
-        'App\Http\Middleware\VerifyCsrfToken',
+        \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+        \Illuminate\Cookie\Middleware\EncryptCookies::class,
+        \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \App\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => 'App\Http\Middleware\Authenticate',
-        'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-        'backend' => 'Orchestra\Foundation\Http\Middleware\UseBackendTheme',
-        'can' => 'Orchestra\Foundation\Http\Middleware\Can',
-        'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
-        'manage' => 'Orchestra\Foundation\Http\Middleware\CanManage',
+        'auth' => \App\Http\Middleware\Authenticate::class,
+        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'backend' => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
+        'can' => \Orchestra\Foundation\Http\Middleware\Can::class,
+        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'manage' => \Orchestra\Foundation\Http\Middleware\CanManage::class,
     ];
 }
