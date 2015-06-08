@@ -206,6 +206,7 @@ return [
         'Lang'       => Illuminate\Support\Facades\Lang::class,
         'Log'        => Illuminate\Support\Facades\Log::class,
         'Mail'       => Illuminate\Support\Facades\Mail::class,
+        'Mailer'     => Orchestra\Support\Facades\Mail::class,
         'Memory'     => Orchestra\Support\Facades\Memory::class,
         'Messages'   => Orchestra\Support\Facades\Messages::class,
         'Meta'       => Orchestra\Support\Facades\Meta::class,
