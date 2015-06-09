@@ -3,6 +3,17 @@ title: Change Log
 
 ---
 
+## Version 3.1 {#v3-1}
+
+### v3.1.0 {#v3-1-0}
+
+* Update support to Laravel Framework v5.1.
+* Remove `App\Commands\Command` abstract class.
+* Remove `App\Http\Controllers\Auth\AuthController`, `App\Http\Controllers\Auth\PasswordController` and `App\Http\Controllers\HomeController` boilerplate routes.
+* Improves available middlewares.
+* Add `App\Http\Middleware\EncryptCookies` middleware.
+* Add `App\Jobs\Job` abstract class.
+* Remove `App\Providers\BusServiceProvider` and `App\Providers\ConfigServiceProvider`.
 ## Version 3.0 {#v3-0}
 
 ### v3.0.6 {#v3-0-6}
