@@ -14,6 +14,7 @@ title: Change Log
 * Add `App\Http\Middleware\EncryptCookies` middleware.
 * Add `App\Jobs\Job` abstract class.
 * Remove `App\Providers\BusServiceProvider` and `App\Providers\ConfigServiceProvider`.
+
 ## Version 3.0 {#v3-0}
 
 ### v3.0.6 {#v3-0-6}
