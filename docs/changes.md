@@ -5,6 +5,15 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.1 {#v3-1-1}
+
+* use `Orchestra\Extension\Traits\DomainAwareTrait` on `App\Providers\AppServiceProvider`.
+* Bump elixir requirement to `^2.0.0`.
+* Added whitelist to remove warning for upcoming PHPUnit v4.8.
+* Fixes doctype declarations.
+* Fixes CSS.
+* Set default charset for sqlsrv driver to `utf8`.
+
 ### v3.1.0 {#v3-1-0}
 
 * Update support to Laravel Framework v5.1.
