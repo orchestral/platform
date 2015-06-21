@@ -1,5 +1,7 @@
 # Orchestra Platform 3
 
+[![Join the chat at https://gitter.im/orchestral/platform](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/orchestral/platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Latest Stable Version](https://img.shields.io/github/release/orchestral/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://img.shields.io/packagist/dt/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
 [![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
