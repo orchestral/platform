@@ -1,10 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Orchestra Platform</title>
 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+		html, body {
+			height: 100%;
+		}
 
 		body {
 			margin:0;
