@@ -21,5 +21,7 @@ dir = {
 };
 
 elixir(function(mix) {
-  mix.sass('app.scss');
+  mix.sass('app.scss', null, {
+    includePaths: [dir.vendor]
+  });
 });
