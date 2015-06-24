@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.2 {#v3-1-2}
+
+* Include `bootstrap-sass` by default in `bower.json`.
+* Update `gulpfile.js` to include bower installed path.
+* Include `bower` as `npm` installable dependencies.
+
 ### v3.1.1 {#v3-1-1}
 
 * use `Orchestra\Extension\Traits\DomainAwareTrait` on `App\Providers\AppServiceProvider`.
