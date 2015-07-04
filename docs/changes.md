@@ -5,6 +5,11 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.3 {#v3-1-3}
+
+* Add new `resources/lang/en/auth.php` language file.
+* Add `storage/artifact/.gitignore` for zip file based composer install.
+
 ### v3.1.2 {#v3-1-2}
 
 * Include `bootstrap-sass` by default in `bower.json`.
