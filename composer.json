@@ -48,11 +48,8 @@
     },
     "config": {
         "preferred-install": "dist"
-<<<<<<< HEAD
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
-=======
     }
->>>>>>> 3.1
 }
