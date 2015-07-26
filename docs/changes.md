@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.4 {#v3-1-4}
+
+* Use environment variables for `resources/config/services.php`.
+* Typehint `Faker\Generator` on factories.
+* Order key by alphabetical order on `resources/lang/en/validation.php`.
+
 ### v3.1.3 {#v3-1-3}
 
 * Add new `resources/lang/en/auth.php` language file.
