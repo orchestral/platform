@@ -2,4 +2,5 @@
 /public/packages/*
 /vendor/*
 Homestead.yaml
+Homestead.json
 .env

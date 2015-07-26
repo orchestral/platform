@@ -11,7 +11,7 @@
 |
 */
 
-$factory[App\User::class] = function ($faker) {
+$factory[App\User::class] = function (Faker\Generator $faker) {
     return [
         'email' => $faker->email,
         'password' => str_random(10),

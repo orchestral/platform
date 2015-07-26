@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://img.shields.io/github/release/orchestral/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://img.shields.io/packagist/dt/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
 [![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat)](https://packagist.org/packages/orchestra/platform)
-[![Build Status](https://img.shields.io/travis/orchestral/platform/master.svg?style=flat)](https://travis-ci.org/orchestral/platform)
+[![Build Status](https://img.shields.io/travis/orchestral/platform/3.1.svg?style=flat)](https://travis-ci.org/orchestral/platform)
 
 ## Table of Content
 
