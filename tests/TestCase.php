@@ -5,6 +5,13 @@ use Orchestra\Testing\ApplicationTestCase;
 abstract class TestCase extends ApplicationTestCase
 {
     /**
+     * Base application namespace.
+     *
+     * @var string
+     */
+    protected $baseNamespace = 'App';
+
+    /**
      * The base URL to use while testing the application.
      *
      * @var string
