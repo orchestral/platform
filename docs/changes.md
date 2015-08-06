@@ -5,6 +5,13 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.5 {#v3-1-5}
+
+* Bump elixir requirement to `^3.0.0`.
+* Convert `Illuminate\Database\Eloquent\ModelNotFoundException` to 404 exceptions.
+* Improves the built-in `DatabaseSeeder` class.
+* Add base namespace to the default `TestCase` class.
+
 ### v3.1.4 {#v3-1-4}
 
 * Use environment variables for `resources/config/services.php`.
