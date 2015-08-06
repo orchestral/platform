@@ -7,13 +7,12 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "orchestra/foundation": "3.1.*",
-        "orchestra/installer": "~3.1",
-        "orchestra/control": "~3.1"
+        "orchestra/foundation": "3.2.*",
+        "orchestra/installer": "~3.2",
+        "orchestra/control": "~3.2"
     },
     "require-dev": {
-        "orchestra/testing": "~3.1",
-        "phpspec/phpspec": "~2.1"
+        "orchestra/testing": "~3.2"
     },
     "autoload": {
         "classmap": [
