@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.6 {#v3-1-6}
+
+* Readd `App\Http\Controllers\HomeController`.
+* Update `validation` language file.
+* Update base application layout.
+
 ### v3.1.5 {#v3-1-5}
 
 * Bump elixir requirement to `^3.0.0`.
