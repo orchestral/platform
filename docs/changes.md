@@ -5,6 +5,11 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.7 {#v3-1-7}
+
+* Add support for Laravel new Authorization feature.
+* Add `App\Provider\AuthServiceProvider`.
+
 ### v3.1.6 {#v3-1-6}
 
 * Readd `App\Http\Controllers\HomeController`.
