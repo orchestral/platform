@@ -64,4 +64,17 @@ return [
         'expire' => 60,
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | User Register Settings
+    |--------------------------------------------------------------------------
+    |
+    | Here you may set the options for registering user including the view
+    | that is your welcome e-mail.
+    */
+
+    'register' => [
+        'email' => 'emails.auth.register',
+    ],
+
 ];
