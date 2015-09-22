@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.8 {#v3-1-8}
+
+* Add `auth.register` configuration.
+* Use `database_path()` instead of `storage_path()` when defining SQLite database file.
+* Use `$this` instead of `parent` when registering policies under `App\Providers\AuthServiceProvider`.
+
 ### v3.1.7 {#v3-1-7}
 
 * Add support for Laravel new Authorization feature.
