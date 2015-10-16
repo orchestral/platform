@@ -79,9 +79,10 @@ We also have some independence packages that would work well with Orchestra Plat
 * [Installer](https://github.com/orchestral/installer)
 * [OneAuth](https://github.com/orchestral/oneauth)
 * [Parser](https://github.com/orchestral/parser)
-* [Resources](https://github.com/orchestral/resources)
+* [Studio](https://github.com/orchestral/studio)
 * [Tenanti](https://github.com/orchestral/tenanti)
 * [Testbench](https://github.com/orchestral/testbench)
+* [Transporter](https://github.com/orchestral/transporter)
 
 Contributions for the website and documentation can be made here:
 
