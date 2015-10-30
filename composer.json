@@ -12,6 +12,7 @@
         "orchestra/control": "~3.1"
     },
     "require-dev": {
+        "orchestra/studio": "~3.1",
         "orchestra/testing": "~3.1",
         "phpspec/phpspec": "~2.1"
     },
