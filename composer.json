@@ -12,6 +12,7 @@
         "orchestra/control": "~3.2"
     },
     "require-dev": {
+        "orchestra/studio": "~3.2",
         "orchestra/testing": "~3.2"
     },
     "autoload": {
