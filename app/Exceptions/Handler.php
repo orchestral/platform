@@ -1,7 +1,6 @@
 <?php namespace App\Exceptions;
 
 use Exception;
-use Illuminate\Session\TokenMismatchException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
@@ -17,7 +16,6 @@ class Handler extends ExceptionHandler
     protected $dontReport = [
         HttpException::class,
         ModelNotFoundException::class,
-        TokenMismatchException::class,
     ];
 
     /**
