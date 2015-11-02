@@ -5,6 +5,14 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.9 {#v3-1-9}
+
+* Convert `App\Requests\Request` to extends `Orchestra\Http\FormRequest`.
+* Update `broadcasting.pusher` configuration.
+* Update `database.redis.default` configuration to use environment variables.
+* Update `mail.pretend` configuration to use environment variables.
+* Add new `required_unless` language string under `validation`.
+
 ### v3.1.8 {#v3-1-8}
 
 * Add `auth.register` configuration.
