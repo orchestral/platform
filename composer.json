@@ -13,9 +13,7 @@
     },
     "require-dev": {
         "orchestra/studio": "~3.2",
-        "orchestra/testing": "~3.2",
-        "symfony/css-selector": "2.8.*|3.0.*",
-        "symfony/dom-crawler": "2.8.*|3.0.*"
+        "orchestra/testing": "~3.2"
     },
     "autoload": {
         "classmap": [
