@@ -66,7 +66,6 @@ Contributions can be made to the Orchestra Platform's respective component repos
   - [Core](https://github.com/orchestral/support-core)
   - [Facades](https://github.com/orchestral/support-facades)
   - [Providers](https://github.com/orchestral/support-providers)
-* [Testing](https://github.com/orchestral/testing)
 * [Translation](https://github.com/orchestral/translation)
 * [View](https://github.com/orchestral/view)
 * [Widget](https://github.com/orchestral/widget)
@@ -83,6 +82,7 @@ We also have some independence packages that would work well with Orchestra Plat
 * [Studio](https://github.com/orchestral/studio)
 * [Tenanti](https://github.com/orchestral/tenanti)
 * [Testbench](https://github.com/orchestral/testbench)
+* [Testing](https://github.com/orchestral/testing)
 * [Transporter](https://github.com/orchestral/transporter)
 
 Contributions for the website and documentation can be made here:
