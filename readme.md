@@ -53,6 +53,7 @@ Contributions can be made to the Orchestra Platform's respective component repos
 * [Html](https://github.com/orchestral/html)
 * [Kernel](https://github.com/orchestral/kernel)
   - [Config](https://github.com/orchestral/config)
+  - [Database](https://github.com/orchestral/database)
   - [Http](https://github.com/orchestral/http)
   - [Routing](https://github.com/orchestral/routing)
 * [Memory](https://github.com/orchestral/memory)
