@@ -13,7 +13,7 @@ class Authenticate
     protected $auth;
 
     /**
-     * Create a new filter instance.
+     * Create a new middleware instance.
      *
      * @param  \Illuminate\Contracts\Auth\Guard  $auth
      */
