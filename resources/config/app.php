@@ -133,7 +133,6 @@ return [
         /*
          * Orchestra Platform Service Providers...
          */
-        Orchestra\Foundation\Providers\ArtisanServiceProvider::class,
         Orchestra\Asset\AssetServiceProvider::class,
         Orchestra\Auth\AuthServiceProvider::class,
         Orchestra\Authorization\AuthorizationServiceProvider::class,
@@ -190,7 +189,6 @@ return [
         'Asset'      => Orchestra\Support\Facades\Asset::class,
         'Auth'       => Illuminate\Support\Facades\Auth::class,
         'Blade'      => Illuminate\Support\Facades\Blade::class,
-        'Bus'        => Illuminate\Support\Facades\Bus::class,
         'Cache'      => Illuminate\Support\Facades\Cache::class,
         'Config'     => Illuminate\Support\Facades\Config::class,
         'Cookie'     => Illuminate\Support\Facades\Cookie::class,
