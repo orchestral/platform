@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.10 {#v3-1-10}
+
+* Add `orchestra/studio` as dev dependencies.
+* Update configurations.
+* Bump elixir requirement to `^4.0.0`.
+
 ### v3.1.9 {#v3-1-9}
 
 * Convert `App\Requests\Request` to extends `Orchestra\Http\FormRequest`.
