@@ -136,7 +136,6 @@ return [
         Orchestra\Asset\AssetServiceProvider::class,
         Orchestra\Auth\AuthServiceProvider::class,
         Orchestra\Authorization\AuthorizationServiceProvider::class,
-        Orchestra\Routing\ControllerServiceProvider::class,
         Orchestra\View\DecoratorServiceProvider::class,
         Orchestra\Extension\ExtensionServiceProvider::class,
         Orchestra\Html\HtmlServiceProvider::class,
