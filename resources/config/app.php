@@ -4,6 +4,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Environment
+    |--------------------------------------------------------------------------
+    |
+    | This value determines the "environment" your application is currently
+    | running in. This may determine how you prefer to configure various
+    | services your application utilizes. Set this in your ".env" file.
+    |
+    */
+
+    'env' => env('APP_ENV', 'production'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Debug Mode
     |--------------------------------------------------------------------------
     |
@@ -78,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -136,7 +149,6 @@ return [
         Orchestra\Asset\AssetServiceProvider::class,
         Orchestra\Auth\AuthServiceProvider::class,
         Orchestra\Authorization\AuthorizationServiceProvider::class,
-        Orchestra\Routing\ControllerServiceProvider::class,
         Orchestra\View\DecoratorServiceProvider::class,
         Orchestra\Extension\ExtensionServiceProvider::class,
         Orchestra\Html\HtmlServiceProvider::class,
