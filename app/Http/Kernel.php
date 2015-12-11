@@ -26,6 +26,10 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             Middleware\VerifyCsrfToken::class,
         ],
+
+        'api' => [
+            'throttle:60,1',
+        ],
     ];
 
     /**
