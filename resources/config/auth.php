@@ -67,12 +67,12 @@ return [
     'sources' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model'  => App\User::class,
         ],
 
         // 'users' => [
         //     'driver' => 'database',
-        //     'table' => 'users',
+        //     'table'  => 'users',
         // ],
     ],
 
@@ -98,8 +98,8 @@ return [
     'passwords' => [
         'users' => [
             'source' => 'users',
-            'email' => 'emails.auth.password',
-            'table' => 'password_resets',
+            'email'  => 'emails.auth.password',
+            'table'  => 'password_resets',
             'expire' => 60,
         ],
     ],
