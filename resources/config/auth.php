@@ -104,4 +104,17 @@ return [
         ],
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | User Register Settings
+    |--------------------------------------------------------------------------
+    |
+    | Here you may set the options for registering user including the view
+    | that is your welcome e-mail.
+    */
+
+    'registers' => [
+        'email' => 'emails.auth.register',
+    ],
+
 ];
