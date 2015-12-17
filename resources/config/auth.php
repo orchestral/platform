@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'web',
+        'guard'     => 'web',
         'passwords' => 'users',
     ],
 
@@ -25,33 +25,34 @@ return [
     |
     | Next, you may define every authentication guard for your application.
     | Of course, a great default configuration has been defined for you
-    | here which uses "session" storage and the Eloquent user source.
+    | here which uses session storage and the Eloquent user provider.
     |
-    | All authentication drivers have a user "source". This defines how the
+    | All authentication drivers have a user provider. This defines how the
     | users are actually retrieved out of your database or other storage
     | mechanisms used by this application to persist your user's data.
     |
-    | Supported: "session"
+    | Supported: "session", "token"
     |
     */
 
     'guards' => [
         'web' => [
-            'driver' => 'session',
-            'source' => 'users',
+            'driver'   => 'session',
+            'provider' => 'users',
         ],
 
-        // 'api' => [
-
-        // ],
+        'api' => [
+            'driver'   => 'token',
+            'provider' => 'users',
+        ],
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | User Sources
+    | User Providers
     |--------------------------------------------------------------------------
     |
-    | All authentication drivers have a user "source". This defines how the
+    | All authentication drivers have a user provider. This defines how the
     | users are actually retrieved out of your database or other storage
     | mechanisms used by this application to persist your user's data.
     |
@@ -63,15 +64,15 @@ return [
     |
     */
 
-    'sources' => [
+    'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model'  => App\User::class,
         ],
 
         // 'users' => [
         //     'driver' => 'database',
-        //     'table' => 'users',
+        //     'table'  => 'users',
         // ],
     ],
 
@@ -96,11 +97,24 @@ return [
 
     'passwords' => [
         'users' => [
-            'source' => 'users',
-            'email' => 'emails.auth.password',
-            'table' => 'password_resets',
-            'expire' => 60,
+            'provider' => 'users',
+            'email'    => 'emails.auth.password',
+            'table'    => 'password_resets',
+            'expire'   => 60,
         ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | User Register Settings
+    |--------------------------------------------------------------------------
+    |
+    | Here you may set the options for registering user including the view
+    | that is your welcome e-mail.
+    */
+
+    'registers' => [
+        'email' => 'emails.auth.register',
     ],
 
 ];
