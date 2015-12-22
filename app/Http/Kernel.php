@@ -29,6 +29,11 @@ class Kernel extends HttpKernel
             Middleware\VerifyCsrfToken::class,
         ],
 
+        'orchestra' => [
+            'web',
+            \Orchestra\Foundation\Http\Middleware\LoginAs::class,
+        ],
+
         'api' => [
             'throttle:60,1',
         ],
