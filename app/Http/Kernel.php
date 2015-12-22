@@ -32,6 +32,7 @@ class Kernel extends HttpKernel
         'orchestra' => [
             'web',
             \Orchestra\Foundation\Http\Middleware\LoginAs::class,
+            \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
         ],
 
         'api' => [
