@@ -3,6 +3,6 @@
 *.js linguist-vendored
 
 # Ignore following folder/file.
-/docs               export-ignore
-/.travis.yml        export-ignore
-/readme.md          export-ignore
+/docs export-ignore
+/.travis.yml export-ignore
+/readme.md export-ignore
