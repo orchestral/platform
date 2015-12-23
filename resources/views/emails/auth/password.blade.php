@@ -21,7 +21,7 @@
     </tr>
     <tr>
         <td class="content-block">
-            This link will expire in {{ config('auth.reminder.expire', 60) }} minutes.
+            This link will expire in {{ config('auth.passwords.'.config('auth.defaults.password', 'users').'.expire', 60) }} minutes.
         </td>
     </tr>
     <tr>
