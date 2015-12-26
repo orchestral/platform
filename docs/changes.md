@@ -5,7 +5,7 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
-### v3.2.0@dev {#v3-2-0}
+### v3.2.0 {#v3-2-0}
 
 * Update support to Laravel Framework v5.2.
 * Add HTML based e-mail templates and use it as default.
