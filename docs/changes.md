@@ -3,6 +3,21 @@ title: Change Log
 
 ---
 
+## Version 3.2 {#v3-2}
+
+### v3.2.0 {#v3-2-0}
+
+* Update support to Laravel Framework v5.2.
+* Add HTML based e-mail templates and use it as default.
+* Add `orchestra` middleware group.
+* Add `orchestra/studio` as dev dependencies.
+* Convert `App\Requests\Request` to extends `Orchestra\Http\FormRequest`.
+* Update configuration files:
+  - `app`
+  - `auth`
+  - `mail`
+  - `queue`
+
 ## Version 3.1 {#v3-1}
 
 ### v3.1.10 {#v3-1-10}
