@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
+### v3.2.1 {#v3-2-1}
+
+* Replace `Illuminate\Mail\MailServiceProvider` with `Orchestra\Notifier\MailServiceProvider`.
+* Remove deprecated `manage` route middleware.
+* Use available `backend` route middleware under `orchestra` middleware group.
+
 ### v3.2.0 {#v3-2-0}
 
 * Update support to Laravel Framework v5.2.
