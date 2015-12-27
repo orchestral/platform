@@ -54,6 +54,5 @@ class Kernel extends HttpKernel
         'backend' => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
         'can' => \Orchestra\Foundation\Http\Middleware\Can::class,
         'guest' => Middleware\RedirectIfAuthenticated::class,
-        'manage' => \Orchestra\Foundation\Http\Middleware\CanManage::class,
     ];
 }
