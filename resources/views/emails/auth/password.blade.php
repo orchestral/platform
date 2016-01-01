@@ -16,7 +16,7 @@
     </tr>
     <tr>
         <td class="content-block" itemprop="handler" itemscope itemtype="http://schema.org/HttpActionHandler">
-            <a href="{{ handles("orchestra::forgot/reset/{$token}") }}" class="btn-primary" itemprop="url">Reset Your Password</a>
+            <a href="{{ handles("orchestra::forgot/reset/{$token}?email={$email}") }}" class="btn-primary" itemprop="url">Reset Your Password</a>
         </td>
     </tr>
     <tr>
