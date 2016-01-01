@@ -5,6 +5,10 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
+### v3.2.2 {#v3-2-2}
+
+* Appends e-mail address on password reset token link.
+
 ### v3.2.1 {#v3-2-1}
 
 * Replace `Illuminate\Mail\MailServiceProvider` with `Orchestra\Notifier\MailServiceProvider`.
