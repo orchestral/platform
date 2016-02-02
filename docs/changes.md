@@ -5,6 +5,11 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
+### v3.2.3 {#v3-2-3}
+
+* Add `jwt` Auth Guard.
+* Replace deprecated `Illuminate\Foundation\Validation\ValidationException` with `Illuminate\Validation\ValidationException`.
+
 ### v3.2.2 {#v3-2-2}
 
 * Appends e-mail address on password reset token link.
