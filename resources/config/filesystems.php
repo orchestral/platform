@@ -48,7 +48,7 @@ return [
             'root'   => storage_path('app'),
         ],
 
-         'public' => [
+        'public' => [
             'driver'     => 'local',
             'root'       => storage_path('app/public'),
             'visibility' => 'public',
@@ -61,6 +61,7 @@ return [
             'region' => 'your-region',
             'bucket' => 'your-bucket',
         ],
+
     ],
 
 ];
