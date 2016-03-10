@@ -96,5 +96,5 @@ If you discover a security vulnerability within Orchestra Platform, please send 
 
 ## License
 
-* The Laravel PHP Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT) by [Taylor Otwell](https://github.com/taylorotwell)
-* The Orchestra Platform is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+* The Laravel PHP Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT) by [Taylor Otwell](https://github.com/taylorotwell).
+* The Orchestra Platform is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

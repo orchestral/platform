@@ -5,6 +5,12 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
+### v3.2.4 {#v3-2-4}
+
+* Handle authorization header via `.htaccess`. ([@paulvl](https://github.com/paulvl))
+* Don't return a login page to a JSON request from `App\Http\Middleware\Authenticate` ([@JacobBennett](https://github.com/JacobBennett))
+* Update configuration and language files. ([@martinbean](https://github.com/martinbean), [@jspringe](https://github.com/jspringe), [@david-ridgeonnet](https://github.com/david-ridgeonnet), [@themsaid](https://github.com/themsaid), [@billmn](https://github.com/billmn), [@taylorotwell](https://github.com/taylorotwell))
+
 ### v3.2.3 {#v3-2-3}
 
 * Add `jwt` Auth Guard.
