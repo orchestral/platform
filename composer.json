@@ -34,10 +34,8 @@
             "php artisan clear-compiled",
             "php artisan orchestra:assemble"
         ],
-        "pre-update-cmd": [
-            "php artisan clear-compiled"
-        ],
         "post-update-cmd": [
+            "php artisan clear-compiled",
             "php artisan orchestra:assemble"
         ],
         "post-root-package-install": [
