@@ -1,11 +1,11 @@
 <?php namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Orchestra\Extension\Traits\DomainAwareTrait;
+use Orchestra\Extension\Traits\DomainAware;
 
 class AppServiceProvider extends ServiceProvider
 {
-    use DomainAwareTrait;
+    use DomainAware;
 
     /**
      * Bootstrap any application services.
