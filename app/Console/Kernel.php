@@ -1,4 +1,6 @@
-<?php namespace App\Console;
+<?php
+
+namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Orchestra\Foundation\Console\Kernel as ConsoleKernel;

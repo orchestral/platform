@@ -1,4 +1,6 @@
-<?php namespace App;
+<?php
+
+namespace App;
 
 use Orchestra\Model\User as Eloquent;
 use Illuminate\Foundation\Auth\Access\Authorizable;
