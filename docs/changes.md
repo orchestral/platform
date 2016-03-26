@@ -5,6 +5,13 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
+### v3.2.5 {#v3-2-5}
+
+* Update default routes file. ([@taylorotwell](https://github.com/taylorotwell))
+* Allow for setting sqlite database via env. ([@dakira](https://github.com/dakira))
+* Use Laravel standard on opening tag/namespace. 
+* Ignore schedule files. ([@kevinsimard](https://github.com/kevinsimard))
+
 ### v3.2.4 {#v3-2-4}
 
 * Handle authorization header via `.htaccess`. ([@paulvl](https://github.com/paulvl))

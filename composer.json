@@ -36,11 +36,11 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
-            "Orchestra\\Foundation\\Composer\\Command::postInstall",
+            "Orchestra\\Foundation\\ComposerScripts::postInstall",
             "php artisan orchestra:assemble"
         ],
         "post-update-cmd": [
-            "Orchestra\\Foundation\\Composer\\Command::postUpdate",
+            "Orchestra\\Foundation\\ComposerScripts::postUpdate",
             "php artisan orchestra:assemble"
         ]
     },
