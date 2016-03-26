@@ -7,7 +7,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "orchestra/foundation": "~3.2.6",
+        "orchestra/foundation": "~3.2.7",
         "orchestra/installer": "~3.2",
         "orchestra/control": "~3.2"
     },
@@ -36,11 +36,11 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
-            "Orchestra\\Foundation\\Composer\\Command::postInstall",
+            "Orchestra\\Foundation\\ComposerScripts::postInstall",
             "php artisan orchestra:assemble"
         ],
         "post-update-cmd": [
-            "Orchestra\\Foundation\\Composer\\Command::postUpdate",
+            "Orchestra\\Foundation\\ComposerScripts::postUpdate",
             "php artisan orchestra:assemble"
         ]
     },
@@ -48,5 +48,5 @@
         "preferred-install": "dist"
     },
     "prefer-stable": true,
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
