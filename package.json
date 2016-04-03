@@ -1,10 +1,10 @@
 {
   "devDependencies": {
     "bower": "^1.6.0",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.1"
   },
   "dependencies": {
-    "laravel-elixir": "^4.0.0"
+    "laravel-elixir": "^5.0.0"
   },
   "private": true
 }
