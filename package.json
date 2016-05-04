@@ -6,5 +6,9 @@
   "dependencies": {
     "laravel-elixir": "^5.0.0"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  }
 }
