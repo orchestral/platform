@@ -3,7 +3,9 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Auth\AuthenticationException;
 
 class Authenticate
 {
@@ -13,41 +15,39 @@ class Authenticate
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
      * @param  string  ...$guards
-     *
      * @return mixed
+     *
+     * @throws \Illuminate\Auth\AuthenticationException
      */
     public function handle($request, Closure $next, ...$guards)
     {
-        if ($this->check($guards)) {
-            return $next($request);
-        }
+        $this->authenticate($guards);
 
-        if ($request->ajax() || $request->wantsJson()) {
-            return response('Unauthorized.', 401);
-        } else {
-            return redirect()->guest(handles('orchestra::login'));
-        }
+        return $next($request);
     }
 
     /**
      * Determine if the user is logged in to any of the given guards.
      *
      * @param  array  $guards
+     * @return void
      *
-     * @return bool
+     * @throws \Illuminate\Auth\AuthenticationException
      */
-    protected function check(array $guards)
+    protected function authenticate(array $guards)
     {
-        if (empty($guards)) {
-            return Auth::check();
+        if (count($guards) <= 1) {
+            Auth::guard(Arr::first($guards))->authenticate();
+
+            return Auth::shouldUse($guard);
         }
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
-                return true;
+                return Auth::shouldUse($guard);
             }
         }
 
-        return false;
+        throw new AuthenticationException;
     }
 }
