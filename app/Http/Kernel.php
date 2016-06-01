@@ -52,7 +52,7 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => Middleware\Authenticate::class,
+        'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'backend' => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
