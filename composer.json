@@ -30,19 +30,19 @@
         ]
     },
     "scripts": {
-        "post-install-cmd": [
-            "php artisan clear-compiled",
-            "php artisan orchestra:assemble"
-        ],
-        "post-update-cmd": [
-            "php artisan clear-compiled",
-            "php artisan orchestra:assemble"
-        ],
         "post-root-package-install": [
             "php -r \"copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
             "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Orchestra\\Foundation\\ComposerScripts::postInstall",
+            "php artisan orchestra:assemble"
+        ],
+        "post-update-cmd": [
+            "Orchestra\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan orchestra:assemble"
         ]
     },
     "config": {
