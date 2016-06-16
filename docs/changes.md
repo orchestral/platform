@@ -48,6 +48,10 @@ title: Change Log
 
 ## Version 3.1 {#v3-1}
 
+### v3.1.11 {#v3-1-11}
+
+* Add support for stable composer via `Orchestra\Foundation\ComposerScripts`.
+
 ### v3.1.10 {#v3-1-10}
 
 * Add `orchestra/studio` as dev dependencies.
