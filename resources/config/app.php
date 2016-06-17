@@ -173,6 +173,7 @@ return [
          * Orchestra Platform Optional Service Providers...
          */
         Orchestra\Installation\InstallerServiceProvider::class,
+        // Orchestra\Avatar\AvatarServiceProvider::class,
 
         /*
          * Application Service Providers...

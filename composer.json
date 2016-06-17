@@ -8,6 +8,7 @@
     "require": {
         "php": ">=5.6.4",
         "orchestra/foundation": "~3.3.0",
+        "orchestra/avatar": "~3.3",
         "orchestra/installer": "~3.3",
         "orchestra/control": "~3.3"
     },
