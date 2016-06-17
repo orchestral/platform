@@ -172,7 +172,6 @@ return [
         /*
          * Orchestra Platform Optional Service Providers...
          */
-        Orchestra\Installation\InstallerServiceProvider::class,
         // Orchestra\Avatar\AvatarServiceProvider::class,
 
         /*
@@ -183,6 +182,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\ExtensionServiceProvider::class,
+        App\Providers\InstallerServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
     ],
 
