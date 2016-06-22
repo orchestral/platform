@@ -11,7 +11,9 @@
 |
 */
 
-$app = new Orchestra\Foundation\Application(realpath(__DIR__.'/..'));
+$app = new Orchestra\Foundation\Application(
+    realpath(__DIR__.'/..')
+);
 
 /*
 |--------------------------------------------------------------------------
