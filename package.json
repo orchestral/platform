@@ -8,7 +8,7 @@
   },
   "private": true,
   "scripts": {
-    "prod": "gulp --production",
+    "build": "NODE_ENV=production gulp --production",
     "dev": "gulp watch"
   }
 }
