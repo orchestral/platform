@@ -5,6 +5,15 @@ title: Change Log
 
 ## Version 3.2 {#v3-2}
 
+### v3.2.6 {#v3-2-6}
+
+* Fixes PHPUnit configuration. ([@GrahamCampbell](https://github.com/GrahamCampbell))
+* Add language line for image dimensions validation rule. ([@themsaid](https://github.com/themsaid))
+* Add application log level configuration. ([@michaeldyrynda](https://github.com/michaeldyrynda))
+* Add missing Mandrill secret keys in `services` config. ([@luqmanrom](https://github.com/luqmanrom))
+* Always use the same password for testing. Which is "secret".
+* Use `Orchestra\Foundation\ComposerScripts` during composer install and update.
+
 ### v3.2.5 {#v3-2-5}
 
 * Update default routes file. ([@taylorotwell](https://github.com/taylorotwell))
