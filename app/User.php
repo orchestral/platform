@@ -2,11 +2,9 @@
 
 namespace App;
 
-use Orchestra\Model\User as Eloquent;
-use Illuminate\Foundation\Auth\Access\Authorizable;
-use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
+use Orchestra\Foundation\Auth\User as Authenticatable;
 
-class User extends Eloquent implements AuthorizableContract
+class User extends Authenticatable
 {
-    use Authorizable;
+    //
 }
