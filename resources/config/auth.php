@@ -102,7 +102,7 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
-            'email'    => 'emails.auth.password',
+            'email'    => 'emails.notification',
             'table'    => 'password_resets',
             'expire'   => 60,
         ],
@@ -118,7 +118,7 @@ return [
     */
 
     'registers' => [
-        'email' => 'emails.auth.register',
+        'email' => 'emails.notification',
     ],
 
 ];
