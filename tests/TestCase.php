@@ -1,5 +1,6 @@
 <?php
 
+use App\User;
 use Orchestra\Testing\ApplicationTestCase;
 
 abstract class TestCase extends ApplicationTestCase
@@ -26,5 +27,15 @@ abstract class TestCase extends ApplicationTestCase
     protected function getBasePath()
     {
         return realpath(__DIR__.'/../');
+    }
+
+    /**
+     * Create admin user.
+     *
+     * @return \App\User
+     */
+    protected function createAdminUser()
+    {
+        return factory(User::class)->create();
     }
 }
