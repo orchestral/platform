@@ -11,9 +11,9 @@
         }
 
         body {
-            margin:0;
-            font-family:'Lato', sans-serif;
-            text-align:center;
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
             background: #030303;
             color: #999;
         }
@@ -29,22 +29,22 @@
         }
 
         a, a:visited {
-            color:#FF5949;
-            text-decoration:none;
+            color: #FF5949;
+            text-decoration: none;
         }
 
         a:hover {
-            text-decoration:underline;
+            text-decoration: underline;
         }
 
         ul li {
-            display:inline;
-            margin:0 1.2em;
+            display: inline;
+            margin: 0 1.2em;
         }
 
         p {
-            margin:2em 0;
-            color:#555;
+            margin: 2em 0;
+            color: #555;
         }
     </style>
 </head>
