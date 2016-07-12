@@ -37,6 +37,22 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map(Router $router)
     {
+        $this->mapWebRoutes($router);
+
+        //
+    }
+
+    /**
+     * Define the "web" routes for the application.
+     *
+     * These routes all receive session state, CSRF protection, etc.
+     *
+     * @param  \Illuminate\Routing\Router  $router
+     *
+     * @return void
+     */
+    protected function mapWebRoutes(Router $router)
+    {
         $this->loadFrontendRoutesFrom(app_path('Http/routes.php'));
     }
 }
