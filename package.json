@@ -4,7 +4,8 @@
     "gulp": "^3.9.1"
   },
   "dependencies": {
-    "laravel-elixir": "^5.0.0"
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-webpack-official": "^1.0.2"
   },
   "private": true,
   "scripts": {
