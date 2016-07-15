@@ -4,7 +4,7 @@ use Illuminate\Routing\Router;
 
 /*
 |--------------------------------------------------------------------------
-| Application Routes
+| Application Frontend Routes
 |--------------------------------------------------------------------------
 |
 | This file is where you may define all of the routes that are handled
