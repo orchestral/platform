@@ -17,5 +17,7 @@ class InstallerServiceProvider extends ServiceProvider
     protected function addDefaultSpecifications(RequirementContract $requirement)
     {
         parent::addDefaultSpecifications($requirement);
+
+        //
     }
 }

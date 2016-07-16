@@ -185,7 +185,7 @@ return [
         /*
          * Orchestra Platform Optional Service Providers...
          */
-        // Orchestra\Avatar\AvatarServiceProvider::class,
+        Orchestra\Avatar\AvatarServiceProvider::class,
 
         /*
          * Application Service Providers...
