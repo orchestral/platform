@@ -240,7 +240,7 @@ return [
         'Memory' => Orchestra\Support\Facades\Memory::class,
         'Messages' => Orchestra\Support\Facades\Messages::class,
         'Meta' => Orchestra\Support\Facades\Meta::class,
-        'Notifier' => Orchestra\Support\Facades\Notifier::class,
+        'Notification' => Illuminate\Support\Facades\Notification::class,
         'Password' => Illuminate\Support\Facades\Password::class,
         'Queue' => Illuminate\Support\Facades\Queue::class,
         'Redirect' => Illuminate\Support\Facades\Redirect::class,
