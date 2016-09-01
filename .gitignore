@@ -2,6 +2,6 @@
 /public/storage/*
 /public/packages/*
 /vendor/*
-Homestead.yaml
 Homestead.json
+Homestead.yaml
 .env
