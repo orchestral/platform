@@ -12,9 +12,11 @@
 */
 
 $factory[App\User::class] = function (Faker\Generator $faker) {
+    static $password;
+
     return [
         'email' => $faker->safeEmail,
-        'password' => '$2y$10$m71Wj3Rv/05R2Pt1roDVGeHA2VeNluTqjTj2g8q61F4wGqbHvK9z.',
+        'password' => $password ?: $password = bcrypt('secret'),
         'remember_token' => str_random(10),
         'status' => App\User::VERIFIED,
     ];
