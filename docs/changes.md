@@ -3,6 +3,18 @@ title: Change Log
 
 ---
 
+## Version 3.3 {#v3-3}
+
+### v3.3.0 {#v3-3-0}
+
+* Update support to Laravel Framework v5.3.
+* Add `App\Providers\BroadcastServiceProvider`.
+* Add `App\Providers\InstallerServiceProvider`.
+* Remove `App\Console\Commands\Inspire`.
+* Remove `App\Events\Event`.
+* Remove `App\Http\Middleware\Authenticate`.
+* Remove `App\Jobs\Job`.
+
 ## Version 3.2 {#v3-2}
 
 ### v3.2.6 {#v3-2-6}
