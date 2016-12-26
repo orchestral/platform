@@ -10,7 +10,7 @@
         "orchestra/avatar": "~3.3.0",
         "orchestra/control": "~3.3.0",
         "orchestra/foundation": "~3.3.0",
-        "orchestra/installer": "~3.3.0",
+        "orchestra/installer": "~3.3.0"
     },
     "require-dev": {
         "orchestra/studio": "~3.3.0",
