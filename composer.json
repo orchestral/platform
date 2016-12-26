@@ -7,14 +7,14 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "orchestra/avatar": "~3.3.0",
+        "orchestra/control": "~3.3.0",
         "orchestra/foundation": "~3.3.0",
-        "orchestra/avatar": "~3.3",
-        "orchestra/installer": "~3.3",
-        "orchestra/control": "~3.3"
+        "orchestra/installer": "~3.3.0",
     },
     "require-dev": {
-        "orchestra/studio": "~3.3",
-        "orchestra/testing": "~3.3"
+        "orchestra/studio": "~3.3.0",
+        "orchestra/testing": "~3.3.0"
     },
     "autoload": {
         "classmap": [
@@ -46,7 +46,8 @@
         ]
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
