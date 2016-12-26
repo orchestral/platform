@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests;
+
 use App\User;
 use Orchestra\Testing\ApplicationTestCase;
 
