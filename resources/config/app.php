@@ -172,7 +172,6 @@ return [
         Orchestra\Messages\MessagesServiceProvider::class,
         Orchestra\Notifications\NotificationServiceProvider::class,
         Orchestra\Notifier\NotifierServiceProvider::class,
-        Orchestra\Optimize\OptimizeServiceProvider::class,
         Orchestra\Auth\Passwords\PasswordResetServiceProvider::class,
         Orchestra\Publisher\PublisherServiceProvider::class,
         Orchestra\Foundation\Providers\SupportServiceProvider::class,
