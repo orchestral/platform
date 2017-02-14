@@ -1,8 +1,9 @@
 /node_modules
-/public/storage/*
-/public/packages/*
+/public/hot
+/public/packages
+/public/storage
 /storage/*.key
-/vendor/*
+/vendor
 Homestead.json
 Homestead.yaml
 .env

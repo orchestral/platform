@@ -186,6 +186,7 @@ return [
         /*
          * Orchestra Platform Optional Service Providers...
          */
+        Laravel\Tinker\TinkerServiceProvider::class,
         Orchestra\Avatar\AvatarServiceProvider::class,
 
         /*

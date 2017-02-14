@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ config('app.locale') }}">
 <head>
     <meta charset="UTF-8">
     @title()
     <style>
-        @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+        @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
         html, body {
             height: 100%;

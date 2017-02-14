@@ -7,6 +7,7 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "laravel/tinker": "~1.0",
         "orchestra/avatar": "~3.4.0",
         "orchestra/control": "~3.4.0",
         "orchestra/foundation": "~3.4.0",
@@ -14,7 +15,8 @@
     },
     "require-dev": {
         "orchestra/studio": "~3.4.0",
-        "orchestra/testing": "~3.4.0"
+        "orchestra/testing": "~3.4.0",
+        "phpunit/phpunit": "~5.7"
     },
     "autoload": {
         "classmap": [
