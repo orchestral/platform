@@ -87,7 +87,7 @@ We also have some independence packages that would work well with Orchestra Plat
 
 Contributions for the website and documentation can be made here:
 
-* [Website](https://github.com/orchestral/orchestraplatform.com)
+* [Website](http:///orchestraplatform.com)
 * [Documentation](https://github.com/orchestral/docs)
 
 ## Security Vulnerabilities
