@@ -10,12 +10,11 @@
         "laravel/tinker": "~1.0",
         "orchestra/avatar": "~3.4.0",
         "orchestra/control": "~3.4.0",
-        "orchestra/foundation": "~3.4.0",
+        "orchestra/foundation": "~3.4.3",
         "orchestra/installer": "~3.4.0"
     },
     "require-dev": {
-        "orchestra/studio": "~3.4.0",
-        "orchestra/testing": "~3.4.0",
+        "orchestra/testing": "~3.4.1",
         "phpunit/phpunit": "~5.7"
     },
     "autoload": {
@@ -48,6 +47,7 @@
         ]
     },
     "config": {
+        "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
     },
