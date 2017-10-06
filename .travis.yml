@@ -5,6 +5,7 @@ sudo: false
 php:
   - 5.6
   - 7.0
+  - 7.1
 
 before_script:
   - travis_retry composer install --prefer-dist --no-interaction

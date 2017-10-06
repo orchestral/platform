@@ -4,10 +4,11 @@
 
 Orchestra Platform is an admin panel that handles Laravel extensions and user management. Our curation of Laravel extensions provide the boilerplate for any web application development to ensure a speedy deployment using the best tools available on Laravel.
 
-[![Latest Stable Version](https://img.shields.io/github/release/orchestral/platform.svg?style=flat-square)](https://packagist.org/packages/orchestra/platform)
-[![Total Downloads](https://img.shields.io/packagist/dt/orchestra/platform.svg?style=flat-square)](https://packagist.org/packages/orchestra/platform)
-[![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat-square)](https://packagist.org/packages/orchestra/platform)
-[![Build Status](https://img.shields.io/travis/orchestral/platform/3.2.svg?style=flat-square)](https://travis-ci.org/orchestral/platform)
+[![Build Status](https://travis-ci.org/orchestral/platform.svg?branch=3.5)](https://travis-ci.org/orchestral/platform)
+[![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable)](https://packagist.org/packages/orchestra/platform)
+[![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads)](https://packagist.org/packages/orchestra/platform)
+[![Latest Unstable Version](https://poser.pugx.org/orchestra/platform/v/unstable)](https://packagist.org/packages/orchestra/platform)
+[![License](https://poser.pugx.org/orchestra/platform/license)](https://packagist.org/packages/orchestra/platform)
 
 ## Table of Content
 
@@ -27,7 +28,8 @@ Laravel    | Platform
  5.0.x     | 3.0.x
  5.1.x     | 3.1.x
  5.2.x     | 3.2.x
- 5.3.x     | 3.3.x@dev
+ 5.3.x     | 3.3.x
+ 5.4.x     | 3.4.x
 
 ## Quick Installation
 
