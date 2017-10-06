@@ -22,14 +22,13 @@ Orchestra Platform is an admin panel that handles Laravel extensions and user ma
 
 Laravel    | Platform
 :----------|:----------
- 4.0.x     | 2.0.x
- 4.1.x     | 2.1.x
- 4.2.x     | 2.2.x
+ 4.x.x     | 2.x.x
  5.0.x     | 3.0.x
  5.1.x     | 3.1.x
  5.2.x     | 3.2.x
  5.3.x     | 3.3.x
  5.4.x     | 3.4.x
+ 5.5.x     | 3.5.x@dev
 
 ## Quick Installation
 
