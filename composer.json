@@ -10,7 +10,7 @@
         "laravel/tinker": "~1.0",
         "orchestra/avatar": "~3.4.0",
         "orchestra/control": "~3.4.0",
-        "orchestra/foundation": "~3.4.3",
+        "orchestra/foundation": "~3.4.4",
         "orchestra/installer": "~3.4.0"
     },
     "require-dev": {
