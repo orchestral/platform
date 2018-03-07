@@ -62,6 +62,7 @@ class Kernel extends HttpKernel
         'authorize' => \Illuminate\Auth\Middleware\Authorize::class,
         'backend' => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Orchestra\Foundation\Http\Middleware\Can::class,
         'guest' => Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,

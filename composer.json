@@ -6,17 +6,19 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.0.0",
-        "fideloper/proxy": "~3.3",
+        "php": ">=7.1.0",
+        "fideloper/proxy": "~4.0",
         "laravel/tinker": "~1.0",
-        "orchestra/avatar": "~3.5.0",
-        "orchestra/control": "~3.5.0",
-        "orchestra/foundation": "~3.5.0",
-        "orchestra/installer": "~3.5.0"
+        "orchestra/avatar": "~3.6.0",
+        "orchestra/control": "~3.6.0",
+        "orchestra/foundation": "~3.6.0",
+        "orchestra/installer": "~3.6.0"
     },
     "require-dev": {
-        "orchestra/testing": "~3.5.0",
-        "phpunit/phpunit": "~6.0"
+        "filp/whoops": "~2.0",
+        "nunomaduro/collision": "~2.0",
+        "orchestra/testing": "~3.6.0",
+        "phpunit/phpunit": "~7.0"
     },
     "autoload": {
         "classmap": [
