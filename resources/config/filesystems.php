@@ -11,6 +11,8 @@ return [
     | by the framework. The "local" disk, as well as a variety of cloud
     | based disks are available to your application. Just store away!
     |
+    | Supported: "local", "ftp", "sftp", "s3", "rackspace"
+    |
     */
 
     'default' => env('FILESYSTEM_DRIVER', 'local'),
