@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Orchestra\Extension\Traits\DomainAware;
+use Orchestra\Extension\Concerns\DomainAware;
 
 class AppServiceProvider extends ServiceProvider
 {
