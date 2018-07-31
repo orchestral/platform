@@ -9,15 +9,15 @@
         "php": ">=7.1.0",
         "fideloper/proxy": "^4.0",
         "laravel/tinker": "^1.0",
-        "orchestra/avatar": "~3.6.0",
-        "orchestra/control": "~3.6.0",
-        "orchestra/foundation": "~3.6.0",
-        "orchestra/installer": "~3.6.0"
+        "orchestra/avatar": "~3.7.0",
+        "orchestra/control": "~3.7.0",
+        "orchestra/foundation": "~3.7.0",
+        "orchestra/installer": "~3.7.0"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
         "nunomaduro/collision": "^2.0",
-        "orchestra/testing": "~3.6.0",
+        "orchestra/testing": "~3.7.0",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
