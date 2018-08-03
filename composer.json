@@ -15,6 +15,7 @@
         "orchestra/installer": "~3.7.0"
     },
     "require-dev": {
+        "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "nunomaduro/collision": "^2.0",
         "orchestra/testing": "~3.7.0",
