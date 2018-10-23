@@ -12,7 +12,7 @@
 */
 
 $app = new Orchestra\Foundation\Application(
-    realpath(__DIR__.'/..')
+    dirname(__DIR__)
 );
 
 /*
