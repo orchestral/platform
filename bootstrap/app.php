@@ -12,7 +12,7 @@
 */
 
 $app = new Orchestra\Foundation\Application(
-    dirname(__DIR__)
+    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
 
 /*
