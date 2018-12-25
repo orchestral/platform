@@ -9,16 +9,16 @@
         "php": ">=7.1.0",
         "fideloper/proxy": "^4.0",
         "laravel/tinker": "^1.0",
-        "orchestra/avatar": "~3.7.0",
-        "orchestra/control": "~3.7.0",
-        "orchestra/foundation": "~3.7.0",
-        "orchestra/installer": "~3.7.0"
+        "orchestra/avatar": "~3.8.0",
+        "orchestra/control": "~3.8.0",
+        "orchestra/foundation": "~3.8.0",
+        "orchestra/installer": "~3.8.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "nunomaduro/collision": "^2.0",
-        "orchestra/testing": "~3.7.0",
+        "orchestra/testing": "~3.8.0",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
