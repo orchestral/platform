@@ -17,6 +17,7 @@
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
+        "mockery/mockery": "^1.1",
         "nunomaduro/collision": "^2.0",
         "orchestra/testing": "~3.7.0",
         "phpunit/phpunit": "^7.0"
