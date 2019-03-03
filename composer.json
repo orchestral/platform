@@ -6,7 +6,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.2.0",
         "fideloper/proxy": "^4.0",
         "laravel/tinker": "^1.0",
         "orchestra/avatar": "~3.9.0",
