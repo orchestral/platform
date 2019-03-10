@@ -35,7 +35,7 @@ return [
 
         'testing' => [
             'driver' => 'sqlite',
-            'datebase' => ':memory:',
+            'database' => ':memory:',
         ],
 
         'sqlite' => [
