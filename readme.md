@@ -57,8 +57,6 @@ Contributions can be made to the Orchestra Platform's respective component repos
 * [Messages](https://github.com/orchestral/messages)
 * [Model](https://github.com/orchestral/model)
 * [Notifier](https://github.com/orchestral/notifier)
-* [Optimize](https://github.com/orchestral/optimize)
-* [Publisher](https://github.com/orchestral/publisher)
 * [Support](https://github.com/orchestral/support)
   - [Core](https://github.com/orchestral/support-core)
   - [Facades](https://github.com/orchestral/support-facades)
@@ -70,17 +68,13 @@ Contributions can be made to the Orchestra Platform's respective component repos
 We also have some independence packages that would work well with Orchestra Platform, including:
 
 * [Avatar](https://github.com/orchestral/avatar)
-* [Debug](https://github.com/orchestral/debug)
 * [Facile](https://github.com/orchestral/facile)
 * [Imagine](https://github.com/orchestral/imagine)
 * [Installer](https://github.com/orchestral/installer)
-* [OneAuth](https://github.com/orchestral/oneauth)
 * [Parser](https://github.com/orchestral/parser)
-* [Studio](https://github.com/orchestral/studio)
 * [Tenanti](https://github.com/orchestral/tenanti)
 * [Testbench](https://github.com/orchestral/testbench)
 * [Testing](https://github.com/orchestral/testing)
-* [Transporter](https://github.com/orchestral/transporter)
 
 Contributions for the website and documentation can be made here:
 
