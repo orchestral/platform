@@ -39,7 +39,8 @@
     "extra": {
         "laravel": {
             "dont-discover": []
-        }
+        },
+        "config-cache": [],
     },
     "scripts": {
         "post-root-package-install": [
