@@ -40,7 +40,7 @@
         "laravel": {
             "dont-discover": []
         },
-        "config-cache": [],
+        "config-cache": []
     },
     "scripts": {
         "post-root-package-install": [
