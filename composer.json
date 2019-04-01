@@ -12,7 +12,7 @@
         "orchestra/avatar": "~3.8.0",
         "orchestra/control": "~3.8.0",
         "orchestra/foundation": "~3.8.0",
-        "orchestra/installer": "~3.8.0"
+        "orchestra/installer": "~3.8.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
