@@ -17,7 +17,7 @@
     "require-dev": {
         "filp/whoops": "^2.0",
         "mockery/mockery": "^1.1",
-        "nunomaduro/collision": "^2.0",
+        "nunomaduro/collision": "^3.0",
         "orchestra/testing": "~3.9.0",
         "phpunit/phpunit": "^8.0"
     },
@@ -38,7 +38,8 @@
     "extra": {
         "laravel": {
             "dont-discover": []
-        }
+        },
+        "config-cache": []
     },
     "scripts": {
         "post-root-package-install": [
