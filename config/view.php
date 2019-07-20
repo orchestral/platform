@@ -14,7 +14,7 @@ return [
     */
 
     'paths' => [
-        realpath(resource_path('views'))
+        realpath(resource_path('views')),
     ],
 
     /*
