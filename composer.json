@@ -9,16 +9,16 @@
         "php": ">=7.2.0",
         "fideloper/proxy": "^4.0",
         "laravel/tinker": "^1.0",
-        "orchestra/avatar": "~3.9.0",
-        "orchestra/control": "~3.9.0",
-        "orchestra/foundation": "~3.9.0",
-        "orchestra/installer": "~3.9.0"
+        "orchestra/avatar": "^4.0",
+        "orchestra/control": "~4.0.0",
+        "orchestra/foundation": "~4.0.0",
+        "orchestra/installer": "~4.0.0"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
         "mockery/mockery": "^1.1",
         "nunomaduro/collision": "^3.0",
-        "orchestra/testing": "~3.9.0",
+        "orchestra/testing": "~4.0.0",
         "phpunit/phpunit": "^8.0"
     },
     "autoload": {
