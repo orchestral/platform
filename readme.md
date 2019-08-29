@@ -2,7 +2,7 @@
 
 Orchestra Platform is an admin panel that handles Laravel extensions and user management. Our curation of Laravel extensions provide the boilerplate for any web application development to ensure a speedy deployment using the best tools available on Laravel.
 
-[![Build Status](https://travis-ci.org/orchestral/platform.svg?branch=3.8)](https://travis-ci.org/orchestral/platform)
+[![Build Status](https://travis-ci.org/orchestral/platform.svg?branch=4.x)](https://travis-ci.org/orchestral/platform)
 [![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads)](https://packagist.org/packages/orchestra/platform)
 [![Latest Unstable Version](https://poser.pugx.org/orchestra/platform/v/unstable)](https://packagist.org/packages/orchestra/platform)
@@ -24,6 +24,7 @@ Laravel    | Platform
  5.6.x     | 3.6.x
  5.7.x     | 3.7.x
  5.8.x     | 3.8.x
+ 6.x       | 4.x
 
 ## Quick Installation
 
