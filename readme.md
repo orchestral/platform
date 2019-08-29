@@ -1,10 +1,8 @@
 # Orchestra Platform 3
 
-[![Join the chat at https://gitter.im/orchestral/platform](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/orchestral/platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Orchestra Platform is an admin panel that handles Laravel extensions and user management. Our curation of Laravel extensions provide the boilerplate for any web application development to ensure a speedy deployment using the best tools available on Laravel.
 
-[![Build Status](https://travis-ci.org/orchestral/platform.svg?branch=3.5)](https://travis-ci.org/orchestral/platform)
+[![Build Status](https://travis-ci.org/orchestral/platform.svg?branch=3.8)](https://travis-ci.org/orchestral/platform)
 [![Latest Stable Version](https://poser.pugx.org/orchestra/platform/v/stable)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://poser.pugx.org/orchestra/platform/downloads)](https://packagist.org/packages/orchestra/platform)
 [![Latest Unstable Version](https://poser.pugx.org/orchestra/platform/v/unstable)](https://packagist.org/packages/orchestra/platform)
@@ -25,6 +23,7 @@ Laravel    | Platform
  5.5.x     | 3.5.x
  5.6.x     | 3.6.x
  5.7.x     | 3.7.x
+ 5.8.x     | 3.8.x
 
 ## Quick Installation
 
@@ -83,7 +82,7 @@ Contributions for the website and documentation can be made here:
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Orchestra Platform, please send an e-mail to security@orchestraplatform.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Orchestra Platform, please send an e-mail to crynobone+opsecurity@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
