@@ -22,6 +22,9 @@
             <directory suffix=".php">./app</directory>
         </whitelist>
     </filter>
+    <extensions>
+        <extension class="Tests\Bootstrap"/>
+    </extensions>
     <php>
         <server name="APP_ENV" value="testing"/>
         <server name="BCRYPT_ROUNDS" value="4"/>
