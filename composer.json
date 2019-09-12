@@ -15,11 +15,10 @@
         "orchestra/installer": "^5.0"
     },
     "require-dev": {
-        "filp/whoops": "^2.0",
-        "mockery/mockery": "^1.1",
+        "mockery/mockery": "^1.2.3",
         "nunomaduro/collision": "^3.0",
         "orchestra/testing": "^5.0",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^8.3"
     },
     "autoload": {
         "classmap": [
