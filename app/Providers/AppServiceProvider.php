@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Orchestra\Model\HS;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Concerns\DomainAware;
 
@@ -20,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // HS::override('User', 'App\User');
     }
 
     /**
