@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
@@ -121,5 +120,4 @@ return [
     'registers' => [
         'email' => 'emails.notification',
     ],
-
 ];
