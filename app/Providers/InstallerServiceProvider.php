@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Orchestra\Installation\InstallerServiceProvider as ServiceProvider;
 use Orchestra\Contracts\Installation\Requirement as RequirementContract;
+use Orchestra\Installation\InstallerServiceProvider as ServiceProvider;
 
 class InstallerServiceProvider extends ServiceProvider
 {

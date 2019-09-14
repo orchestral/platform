@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use Orchestra\Model\HS;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Concerns\DomainAware;
+use Orchestra\Model\HS;
 
 class AppServiceProvider extends ServiceProvider
 {

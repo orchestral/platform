@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
+use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Orchestra\Installation\Events\InstallationCompleted;
 use Orchestra\Installation\Listeners\MigrateDatabaseSchema;
-use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider
 {

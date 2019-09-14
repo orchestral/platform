@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -137,7 +136,6 @@ return [
     */
 
     'providers' => [
-
         /*
          * Laravel Framework Service Providers...
          */
@@ -197,7 +195,6 @@ return [
         App\Providers\ExtensionServiceProvider::class,
         App\Providers\InstallerServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
     ],
 
     /*
@@ -212,10 +209,9 @@ return [
     */
 
     'aliases' => [
-
         'App' => Illuminate\Support\Facades\App::class,
         'ACL' => Orchestra\Support\Facades\ACL::class,
-        'Arr' => Illuminate\Support\Arr::class,
+        'Arr' => Orchestra\Support\Arr::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Asset' => Orchestra\Support\Facades\Asset::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
@@ -253,13 +249,11 @@ return [
         'Schema' => Illuminate\Support\Facades\Schema::class,
         'Session' => Illuminate\Support\Facades\Session::class,
         'Storage' => Illuminate\Support\Facades\Storage::class,
-        'Str' => Illuminate\Support\Str::class,
+        'Str' => Orchestra\Support\Str::class,
         'Table' => Orchestra\Support\Facades\Table::class,
         'Theme' => Orchestra\Support\Facades\Theme::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
     ],
-
 ];

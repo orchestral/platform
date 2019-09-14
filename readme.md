@@ -1,4 +1,4 @@
-# Orchestra Platform 3
+# Orchestra Platform 4
 
 Orchestra Platform is an admin panel that handles Laravel extensions and user management. Our curation of Laravel extensions provide the boilerplate for any web application development to ensure a speedy deployment using the best tools available on Laravel.
 
