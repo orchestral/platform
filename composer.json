@@ -11,14 +11,14 @@
         "laravel/tinker": "^1.0",
         "orchestra/avatar": "^4.0",
         "orchestra/control": "^4.0",
-        "orchestra/foundation": "^4.0",
+        "orchestra/foundation": "^4.1",
         "orchestra/installer": "^4.0"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
         "mockery/mockery": "^1.2",
         "nunomaduro/collision": "^3.0",
-        "orchestra/testing": "^4.0",
+        "orchestra/testing": "^4.1",
         "phpunit/phpunit": "^8.3"
     },
     "autoload": {
