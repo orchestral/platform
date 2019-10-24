@@ -105,6 +105,7 @@ return [
             'email' => 'emails.notification',
             'table' => 'password_resets',
             'expire' => 60,
+            'throttle' => 60,
         ],
     ],
 
