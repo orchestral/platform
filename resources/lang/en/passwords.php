@@ -14,7 +14,7 @@ return [
 
     'reset' => 'Password has been reset!',
     'sent' => 'Password reminder sent!',
+    'throttled' => 'Please wait before retrying.',,
     'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that e-mail address.",
-    'throttled' => 'Please wait before retrying.',
+    'user' => "We can't find a user with that e-mail address."
 ];
