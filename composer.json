@@ -12,7 +12,7 @@
         "orchestra/avatar": "^4.0",
         "orchestra/control": "^4.0",
         "orchestra/foundation": "^4.1",
-        "orchestra/installer": "^4.0"
+        "orchestra/installer": "^4.2"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
