@@ -31,4 +31,17 @@ return [
         'VIEW_COMPILED_PATH',
         realpath(storage_path('framework/views'))
     ),
+
+    /*
+     |--------------------------------------------------------------------------
+     | Blade View Modification Checking
+     |--------------------------------------------------------------------------
+     |
+     | On every request the framework will check to see if a view has expired
+     | to determine if it needs to be recompiled. If you are in production
+     | and precompiling views this feature may be disabled to save time.
+     |
+     */
+
+    'expires' => env('VIEW_CHECK_EXPIRATION', true),
 ];
