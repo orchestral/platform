@@ -2,9 +2,10 @@
 
 namespace App\Providers;
 
+use App\User;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Concerns\DomainAware;
-use Orchestra\Model\HS;
+use Laravie\Dhosa\HotSwap;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -21,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // HS::override('User', 'App\User');
+        HotSwap::override(User::class);
     }
 
     /**
