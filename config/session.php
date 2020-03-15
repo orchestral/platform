@@ -165,7 +165,7 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE', null),
+    'secure' => env('SESSION_SECURE_COOKIE'),
 
     /*
     |--------------------------------------------------------------------------
@@ -189,7 +189,7 @@ return [
     | take place, and can be used to mitigate CSRF attacks. By default, we
     | do not enable this as other CSRF protection services are in place.
     |
-    | Supported: "lax", "strict", "none"
+    | Supported: "lax", "strict", "none", null
     |
     */
 
