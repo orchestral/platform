@@ -30,14 +30,4 @@ abstract class TestCase extends ApplicationTestCase
     {
         return realpath(__DIR__.'/../');
     }
-
-    /**
-     * Create admin user.
-     *
-     * @return \App\User
-     */
-    protected function createAdminUser()
-    {
-        return factory(User::class)->create();
-    }
 }
