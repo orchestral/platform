@@ -27,3 +27,11 @@ $factory->define(User::class, function (Faker $faker) {
         'status' => User::VERIFIED,
     ];
 });
+
+$factory->afterCreatingState(User::class, 'member', function (User $user, Faker $faker) {
+    $user->roles()->sync([2]);
+});
+
+$factory->afterCreatingState(User::class, 'admin', function (User $user, Faker $faker) {
+    $user->roles()->sync([1]);
+});
