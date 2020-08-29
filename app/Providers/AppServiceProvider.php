@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Concerns\DomainAware;
 use Laravie\Dhosa\HotSwap;
