@@ -17,7 +17,7 @@ class Kernel extends HttpKernel
         // \App\Http\Middleware\TrustHosts::class,
         Middleware\TrustProxies::class,
         \Fruitcake\Cors\HandleCors::class,
-        Middleware\CheckForMaintenanceMode::class,
+        Middleware\PreventRequestsDuringMaintenance::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
@@ -46,7 +46,7 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
-            'throttle:60,1',
+            'throttle:api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
     ];
@@ -63,7 +63,6 @@ class Kernel extends HttpKernel
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'authorize' => \Illuminate\Auth\Middleware\Authorize::class,
         'backend' => \Orchestra\Foundation\Http\Middleware\UseBackendTheme::class,
-        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Orchestra\Foundation\Http\Middleware\Can::class,
         'guest' => Middleware\RedirectIfAuthenticated::class,
